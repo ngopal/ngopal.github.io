@@ -1,0 +1,79 @@
+---
+layout: post
+title: Network Visualization Library Round-Up
+date: 2015-05-12 19:09:37.000000000 -07:00
+categories: []
+tags: []
+status: draft
+type: post
+published: false
+meta:
+  _edit_last: '1'
+  disable_featured_image: disable_featured_image-no
+  single_format_link_url: ''
+  single_format_video: ''
+  single_format_audio: ''
+  single_format_audio_oga: ''
+  single_format_quote: ''
+  single_format_quote_url: ''
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Over the years I've tried quite a few javascript-based visualization libraries. This page is meant to be a small round-up of what I've used or found. All of these libraries are awesome and are in no particular order! Although, there are differences between them.</p>
+<p>D3.js - This is probably the obvious choice. However, there is a steep learning curve for this library, even for experienced programmers. Although, the D3 gallery is absolutely amazing and has a plethora of graph visualization examples. If you can get the hang of the basics of D3 (data-binding loaded data to SVG elements), then the force-directed graph function that comes with the library takes care of the hard part (the layout algorithm). It's possible to tweak the layout algorithm as well. Needless to say, the selling point for D3.js is its highly customizable (and expressive) nature. Cola.js is cool.</p>
+<p>P5.js - If I'm not mistaken, this is the newest of the libraries on this list. It amounts to being the javascript version of Processing. If you are just trying to get your feet wet with visualization and are not an experienced programmer, this is the library to try. This library is very forgiving. If you've been playing with the intro to coding page at the Kahn Academy and want to move to the next step, this is your best bet.</p>
+<p>Arbor.js - This isn't really a network visualization library per se, but it certainly enables you to make one! Arbor is a force-directed layout engine. Those who have programmed one before know how involved layout engines can be. The layout engine is highly customizable. An experienced programmer shouldn't have too many false starts before being able to substitute Arbor.js into their application if desired.</p>
+<p>Sigma.js - This is the HTML5/Canvas option. D3 (and most other libraries I've found) typically use SVG to render graphs. However, Sigma.js uses the competing technology. For sparse graphs, it probably won't make much of a difference in terms of user experience. However, there are certainly trade-offs as graphs grow larger in size. If using SVG, the DOM starts to crumble at a certain point. By my own testing on my laptop, D3 can support about 10,000 nodes in a graph before slowing to a halt. Sigma.js can support many more nodes in this scenario. However, SVG is enables a higher level of interactivity and can be refreshed/updated quickly, where as Canvas is much slower in this scenario because the entire network must be refreshed instead of individual components.</p>
+<p>Cytoscape.js - The javascript version of the popular Java-based tool.</p>
+<p>Vis.js - Last but not least, Vis.js. This is my favorite graph visualization library. It seems designed to be customizable through user set options (in JSON). This interface makes it really easy to keep the code base simple while enabling high customization. As users, we can set visual properties of the graphs as well as tweak the layout engine properties or loading properties.</p>
+<p>Table (Javascript Experience, Visualization Experience):</p>
+<p>D3 (High, High)</p>
+<p>P5 (Low, Low-High)</p>
+<p>Arbor (Medium-High, High)</p>
+<p>Sigma.js (Low-Medium,Medium)</p>
+<p>Cytoscape.js (Medium-High, Low-Medium)</p>
+<p>Vis.js (Low-Medium, High)</p>
+<p>&nbsp;</p>
+<ul>
+<li>D3.js
+<ul>
+<li>SVG-based option</li>
+<li>High-level of customization</li>
+</ul>
+</li>
+<li>P5.js</li>
+<li>Arbor.js
+<ul>
+<li>Really just a force-directed engine</li>
+</ul>
+</li>
+<li>Sigma.js
+<ul>
+<li>Canvas-based option for network visualization</li>
+</ul>
+</li>
+<li>Vis.js
+<ul>
+<li>Probably my favorite network visualization library.</li>
+<li>Allows for high customizability without hampering</li>
+</ul>
+</li>
+<li>Dracula (raphael)</li>
+<li>Plumbjs</li>
+</ul>
+<p>Of course, there are other options, although not browser-based:<br />
+Python + graph-tool - I really wanted to get this to work, but installation is a nightmare! I was never able to get going with this, but I'm sure it would have been an awesome tool if I had.</p>
+<p>GUI-Based:<br />
+Cytoscape - The mother of all network visualization tools. This tool is more prominently used in my scientific community (biomedical sciences) over Gephi.<br />
+Gephi - The general-purpose network tool. The advantage of most Java-based visualization tools is that they can support exploration of large networks.</p>
+<p>Database:<br />
+-Neo4J<br />
+-Abstracting a graph store over another DB</p>
+<p>Analysis:</p>
+<p>SNAP.py</p>

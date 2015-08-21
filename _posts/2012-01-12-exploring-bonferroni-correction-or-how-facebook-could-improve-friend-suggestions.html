@@ -1,0 +1,101 @@
+---
+layout: post
+title: Exploring Bonferroni Correction (or How Facebook Could Improve Friend Suggestions)
+date: 2012-01-12 23:26:00.000000000 -08:00
+categories:
+- statistics
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  blogger_blog: www.nikhilgopal.com
+  blogger_author: Nikhil Gopal
+  blogger_permalink: /2012/01/using-bonferroni-on-big-data-and_12.html
+  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/9047825676379530103
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>
+<div>
+<span><b><u><br />What is Bonferroni?</u></b></span></div>
+<div>
+<span><br /></span></div>
+<div>
+<span>A statistical function used to find out how often a certain condition would be met just by chance alone. This is very helpful for putting things in perspective when analyzing large data sets (which often have a number of false positive significant results).</span></div>
+<div>
+<span><br /></span><br /><span><br /></span></div>
+<div>
+<span><b><u>Potential Applications:</u></b></span></div>
+<div>
+</div>
+<ul>
+<li><b><span>I've always wondered if Facebook cross-references the events people attend to suggest whether or not they should be friends. If this was the only metric they used to suggest friendship, how many friend suggestions would be false positives?</span></b></li>
+<li><span>How often could potential matches on large dating websites could happen by chance?</span></li>
+<li><span>And of course, from my field, how many single-nucleotide polymorphisms (SNPs) could appear significant in a genome-wide association study by chance alone?</span></li>
+</ul>
+<p><span><br /></span>
+<div>
+<span><br /></span></div>
+<div>
+<span>Let’s use the Facebook example and make the following assumptions:</span></div>
+<div>
+</div>
+<ul>
+<li><span><span>T</span><span>here are 1 billion active users</span></span></li>
+<li><span>Everyone attends an event 1 day in 60</span></li>
+<li><span>There are 500,000 registered events within our scope, which is enough to account for 1 million people who attend an event on a given day.</span></li>
+<li><span>We wade through 1000 days worth of event attendance records</span></li>
+</ul>
+<p><span><br /></span>
+<div>
+<span><br /></span></div>
+<div>
+<p><span>What is the probability that two people were at the same event on two different days?</span></p>
+</div>
+<div>
+<p><span><br /></span></p>
+</div>
+<div>
+<p><span>Assuming everyone randomly attends an event, the probability that someone attends an event on any given day is 0.01 (1/100). And when they do choose an event to attend, they choose one of the 2e+05 registered events at random. Just to be clear on notation, </span></p>
+<p><span>2e+05 = 2 x 10^5.</span></div>
+<div>
+<span><br /></span></div>
+<div>
+
+<ul>
+<li><span>The probability of any two people both deciding to attend an event on the same day is 0.0001 (1/100*1/100).</span></li>
+<li><span>The probability that they will attend the same event is 0.0001/2e+05 (number of registered events) = 5e-10.</span></li>
+<li><span>The chance that they will attend the same event on two different days is ( 5e-10 )*( 5e-10 )=2.5e-19 (note that the events can be on two different days).</span></li>
+</ul>
+</div>
+<div>
+<span><br /></span></div>
+<div>
+<span>How many of these event attendance coincidences will indicate potential friendship? Let's just say a potential friendship is a pair of people and a pair of days, such that two people were at the same event on each of the two days.</span></div>
+<div>
+<span><br /></span></div>
+<div>
+<ul>
+<li><span>The number of pairs of people is (10^9 choose 2) = 5e+17. </span></li>
+<li><span>The number of pairs of days is (1000 choose 2) = 5e+05.</span></li>
+</ul>
+</div>
+<div>
+<span><br /></span></div>
+<div>
+<span>So, the expected number of attendance coincidences that look like potential friendships = (the numbers of pairs of people)*(the number of pairs of days)*(the probability that any one pair of people and pair of days is an indication of potential friendship).</span></div>
+<div>
+<span><br /></span></div>
+<div>
+<span>(5e+17)*(5e+05)*(2.5e-19) = 62,500</span></div>
+<div>
+<span><br /></span></div>
+<div>
+<span>This means there will be 62,500 people who look like they will be friends even though they aren't. However, considering that this is on the scale of a billion folks, a 0.00625% false positive rate doesn't seem terrible. </span><br /><span><br /></span><br /><span>In my own experience, I know I've seen a number of suggested friends who I have nothing in common with except similar mutual friends. Maybe friend suggestions can be improved by incorporating this information. </span><br /><span><br /></span><br /><span>Of course, I deactivated my facebook in 2009 and haven't been back since. Perhaps they already leverage this information...</span></div>

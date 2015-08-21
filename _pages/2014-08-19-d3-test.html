@@ -1,0 +1,75 @@
+---
+layout: page
+title: D3 Test
+date: 2014-08-19 23:44:57.000000000 -07:00
+categories: []
+tags: []
+status: draft
+type: page
+published: false
+meta:
+  _edit_last: '1'
+  _wp_page_template: default
+  sidebar_on: sidebar_on-no
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>[d3-link]<br />
+<a href="http://jsbin.com/woxuv/14.js">data</a><br />
+[/d3-link]</p>
+<p>[d3-source canvas="header"]<br />
+var color, force, height, svg, width, customcolorscale;</p>
+<p>width = window.outerWidth || document.body.clientWidth;</p>
+<p>height = 400;</p>
+<p>//color = d3.scale.category10();</p>
+<p>color = d3.scale.ordinal()<br />
+  .domain([1,2,3,4])<br />
+  .range(["#1193CC", "#3D7D99", "#00FFC2", "#FF5340", "#CC1431"]);<br />
+// Compound colors generated via Adobe Kuler</p>
+<p>force = d3.layout.force()<br />
+  .charge(-200)<br />
+  .linkDistance(50)<br />
+  .size([width, height]);</p>
+<p>svg = d3.select("header")<br />
+  .append("svg")<br />
+  .attr("width", width)<br />
+  .attr("height", height);</p>
+<p>d3.json("http://jsbin.com/woxuv/14.js", function(error, graph) {<br />
+  var link, node;<br />
+  console.log(graph);<br />
+  force.nodes(graph.nodes).links(graph.links).start();<br />
+  link = svg.selectAll(".link").data(graph.links).enter().append("line").attr("class", "link").style("stroke-width", function(d) {<br />
+    return Math.sqrt(d.value);<br />
+  });<br />
+  node = svg.selectAll(".node").data(graph.nodes).enter().append("circle").attr("class", "node").attr("r", function(d) {<br />
+    return d.size;<br />
+  }).style("fill", function(d) {<br />
+    return color(d.group);<br />
+  }).call(force.drag);<br />
+  node.append("title").text(function(d) {<br />
+    return d.name;<br />
+  });<br />
+  return force.on("tick", function() {<br />
+    link.attr("x1", function(d) {<br />
+      return d.source.x;<br />
+    }).attr("y1", function(d) {<br />
+      return d.source.y;<br />
+    }).attr("x2", function(d) {<br />
+      return d.target.x;<br />
+    }).attr("y2", function(d) {<br />
+      return d.target.y;<br />
+    });<br />
+    return node.attr("cx", function(d) {<br />
+      return d.x;<br />
+    }).attr("cy", function(d) {<br />
+      return d.y;<br />
+    });<br />
+  });<br />
+});</p>
+<p>[/d3-source]</p>

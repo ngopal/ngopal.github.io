@@ -1,0 +1,60 @@
+---
+layout: post
+title: Efficiently Reading in and Iterating Through Large Files with Python
+date: 2010-12-23 21:40:00.000000000 -08:00
+categories:
+- bioinformatics
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  blogger_blog: www.nikhilgopal.com
+  blogger_author: Nikhil Gopal
+  blogger_permalink: /2010/12/dealing-with-large-files-in-python.html
+  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/2627146628413538481
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<div><span>One of the challenges of being a bioinformatician is efficiently dealing with large files. Imagine parsing through a text file that is a couple of terabytes--not a feat as simple as one would think. Usually, even though we get mass amounts of data in a text file, we can avoid worrying about the size of the file since we have powerful computing clusters. I know, we are all so spoiled. However, every now and then we have to bite the bullet and not rely on ample resources to make up for our blissful ignorance.</p>
+<p>I wrote a python script that does some plotting for me. However, it takes about a week to run since it has to parse through about 500 gigabytes of data and process them.</p>
+<p>There are two programming amendments that are easy to implement and very helpful in keeping a low memory footprint (and also speeding up the program):</p>
+<p>(1) <b>range</b><br />
+In python, using the range function actually creates a list which it stores in memory. However, using xrange just iterates through the numbers.</p>
+<p>range(0,5000) takes up more memory than xrange(0,5000)</p>
+<p>Here is a quick example of what I mean:</p>
+<p><u>range.py:</u><br /><i>import sys</p>
+<p>for i in range(0,int(sys.argv[1])):<br />
+        pass</p>
+<p>print " "</i></p>
+<p><u>xrange.py:</u><br /><i>import sys</p>
+<p>for i in xrange(0,int(sys.argv[1])):<br />
+        pass</p>
+<p>print " "</i></p>
+<p><span>[$] time python range.py 10000000</span></p>
+<p><span>real    0m1.139s</span><br /><span>user    0m0.911s</span><br /><span>sys     0m0.228s</span></p>
+<p><span>[$] time python xrange.py 10000000</span></p>
+<p><span>real    0m0.506s</span><br /><span>user    0m0.502s</span><br /><span>sys     0m0.004s</span></p>
+<p>
+(2) <b>readlines</b><br />
+when reading in a file, I usually write something along the lines of:</p>
+<p><i>file = open('somefile.txt', 'r')<br />
+for i in file.readlines():<br />
+    # operation<br />
+file.close()</i></p>
+<p>This is great. It is clear, concise, and elegant. However, the file being read in is stored into memory. If the text file is gigantic, this may not be a very good idea. Luckily, there are several ways around this:</p>
+<p><u>Method 1:</u><br /><i>with open('somefile.txt', 'r') as FILE:<br />
+    for i in FILE:<br />
+        # operation</i></p>
+<p>Please note that the "with" construct is only available from Python 2.6 onwards.</p>
+<p><u>Method 2:</u><br /><i><span>import fileinput</span><br /><span>for i in fileinput.input('somefile.txt'):</span><br /><span>    # operation</span></i></p>
+<p>The fileinput module is great for folks who like to use as many pre-built modules as possible rather than re-inventing the wheel.</p>
+<p><u>Method 3:</u><br /><i><span>BUFFER = int(10E6) #10 megabyte buffer</span><br /><span>file = open('somefile.txt', 'r')</span><br /><span>text = file.readlines(BUFFER)</span><br /><span>while text != []:</span><br /><span>    for t in text:</span><br /><span>        # operation</span><br /><span>    text = file.readlines(BUFFER)</span></i></p>
+<p>Although this method is the messiest of the three, it also provides the most control over how much memory the program can suck up.</p>
+<p>Even though it might be more memory efficient to not load the entire text file into memory, the program may end up being slower if one is not careful. It is a balancing act and there is no single correct way to go about something like this. One just needs to weigh out the options and do what seems best. From my experience, the three methods have a minimal variance is execution time (no matter how large the file), so it really comes down to a matter of personal preference. </span><span> I've used all three of the suggested methods at one time or another. My personal preferences are either methods one or three. </span></div>

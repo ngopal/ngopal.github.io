@@ -1,0 +1,25 @@
+---
+layout: post
+title: Bioinformatics Programming Like Experts
+date: 2011-05-17 03:42:00.000000000 -07:00
+categories:
+- bioinformatics
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  blogger_blog: www.nikhilgopal.com
+  blogger_author: Nikhil Gopal
+  blogger_permalink: /2011/05/bioinformatics-programming-like-experts.html
+  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/577495175573465602
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><span>When I (formally) learned how to program at university, I was taught a number of "rules." One of these rules was to pick one language of implementation for the program I am working on and stick with it! If you start programming in C#, then you'd better stick with C# all the way through!</span><br /><span><br /></span><br /><span>Recently, I've asked myself if this rule is worth breaking (and when it is appropriate to do so). This rule is just something I originally took as a tenet and didn't bother to question.</span><br /><span><br /></span><br /><span>It occurred to me the other day that every language has its strengths and weaknesses. For example, I find R is probably the best language to use when it comes to matrix operations and statistical tests (or Matlab). Python is very quick to program and easy to understand. C/C++ is great to program in if speed is important (or Java if one is so inclined). Bash is great for file manipulations, parsing, and match operations. MySQL is the standard for databases.</span><br /><span><br /></span><br /><span>Picking a language and sticking with it for the implementation of a program will likely make it efficient for one type of function and much less so for the others. With all of the great languages out there, it would be a shame to not leverage them and their strengths. </span><br /><span><br /></span><br /><span>On the other hand, it will also be easier to share the program if it is written in one language and does not have a slew of dependencies. </span><br /><span><br /></span><br /><span>Essentially, we're trading ease-of-use for high efficiency.</span><br /><span><br /></span><br /><u><span>How I use programming languages for modern bioinformatics:</span></u><br /><span><b>Python</b> - application development, proof-of-concepts, complicated scripts</span><br /><span><b>C/C++/Java</b> - programming (slow) functions to port to my python code, speeding up the code in the big picture</span><br /><span><b>Bash</b> - parsing and file manipulation operations, simple scripts, one-offs</span><br /><span><b>R</b> - data visualization and statistical tests</span><br /><span><b>MySQL</b> - filtering and manipulating data in a database</span><br /><span><br /></span><br /><span>It is important to have a handle on a language in each category. Many of my heavier pipelines contain at least three or more of the languages above (and sometimes more than once).</span><br /><span><br /></span><br /><span>Just for the record, I don't have anything against perl. I've just found myself drifting farther and farther away from it over the years.</span></p>

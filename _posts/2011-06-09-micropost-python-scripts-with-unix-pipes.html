@@ -1,0 +1,26 @@
+---
+layout: post
+title: 'Micropost: Python Scripts with Unix Pipes'
+date: 2011-06-09 18:54:00.000000000 -07:00
+categories:
+- bioinformatics
+- micropost
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  blogger_blog: www.nikhilgopal.com
+  blogger_author: Nikhil Gopal
+  blogger_permalink: /2011/06/python-scripts-with-unix-pipes.html
+  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/7147988431963821016
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><span>It is possible to write a python script that can take standard-in as an input. This is very useful for quick and dirty bioinformatics pipelines. </span><br /><span><br /></span><br /><span>Here's an example: Pretend I have a genotype file with chromsomes in the first column, and genotypes in the second column. I would like to find the complement of the genotypes (perhaps to get the data in the opposite orientation). Furthermore, say I am only interested in data that has to do with chromosome 1.</span><br /><span><br /></span><br /><span><b>cat genotypefile.txt | awk '{if ($1="chr1"){print $0}}' | python complement.py</b></span><br /><span><b><br /></b></span><br /><span><b>This would do it.</b></span><br /><span><br /></span><br /><span>The python script (complement.py) would look something like this:</span><br /><span><br /></span><br /><span><i>import sys</i></span><br /><span><i><br /></i></span><br /><span><i>def reverseBase(base):</i></span><br /><span><i>        if base == "A":</i></span><br /><span><i>                return "T"</i></span><br /><span><i>        elif base == "T":</i></span><br /><span><i>                return "A"</i></span><br /><span><i>        elif base == "G":</i></span><br /><span><i>                return "C"</i></span><br /><span><i>        elif base == "C":</i></span><br /><span><i>                return "G"</i></span><br /><span><i>        else:</i></span><br /><span><i>                return "N"</i></span><br /><span><i><br /></i></span><br /><span><i>def complement(genotype):</i></span><br /><span><i>        newgeno=''</i></span><br /><span><i>        for i in genotype:</i></span><br /><span><i>                newgeno=newgeno+reverseBase(i)</i></span><br /><span><i>        return newgeno</i></span><br /><span><i><br /></i></span><br /><span><i><br /></i></span><br /><span><i>for i in sys.stdin.readlines():</i></span><br /><span><i>        line = i.strip('\n').split('\t')</i></span><br /><span><i><span>        </span>print complement(line[1])</i></span><br /><span><br /></span><br /><span>The function names could be better in the example script, but the key is that we loop through "sys.stdin.readlines()". "sys.stdin" allows us to pipe in standard input.</span></p>

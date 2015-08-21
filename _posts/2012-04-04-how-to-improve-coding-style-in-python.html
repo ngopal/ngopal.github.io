@@ -1,0 +1,84 @@
+---
+layout: post
+title: How to Improve Coding Style (In Python)
+date: 2012-04-04 17:54:00.000000000 -07:00
+categories:
+- python
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  blogger_blog: www.nikhilgopal.com
+  blogger_author: Nikhil Gopal
+  blogger_permalink: /2012/04/how-to-improve-coding-style-in-python.html
+  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/528595057729364247
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><span>I'm finally cracking open the <a href="http://www.python.org/dev/peps/pep-0008/">Python Style Guide</a>. I've been programming python for years now so I thought I'd join the club.</span><br /><span><br /></span><br /><span>In addition to all of the nifty tools available to speed up and optimize python code, there are a few utilities out there to help with coding style. <a href="http://www.logilab.org/857">PyLint</a> is a program which analyzes source code and reports lines which do not follow the PEP 8 coding convention. There is another program called <a href="http://clonedigger.sourceforge.net/">CloneDigger</a> which looks through source code and points out duplicate code.</span><br /><span><br /></span><br /><span><b><u>Summary of Guidelines to Improve Python Coding Style:</u></b></span></p>
+<ul>
+<li><span>Variables</span></li>
+<ul>
+<li><span>Global variables should be ALL_CAPS_WITH_UNDERSCORES</span></li>
+<li><span>Non-public variables within classes should be prefixed with an underscore and lowercase (_private_list = [])</span></li>
+<li><span>Public variables should be lowercase</span></li>
+<li><span>Boolean variables should be have "is" or "has" (is_full = True)</span></li>
+<li><span>Avoid generic names</span></li>
+</ul>
+<li><span>Classes</span></li>
+<ul>
+<li><span>Should be named using the CamelCase convention</span></li>
+<li><span>If a class will be a base class, prefix the classname with "Base"</span></li>
+</ul>
+<li><span>Functions</span></li>
+<ul>
+<li><span>Names of functions and methods should be lowercase and underscore separated (do_something_with_this)</span></li>
+<li><span>Watch out for custom functions which share names with built-in functions</span></li>
+<ul>
+<li><span>If this does happen and one can't find a better name, then add a trailing underscore to the custom function</span></li>
+</ul>
+<li><span>Arguments names and contents should be decided through an iterative design process</span></li>
+<ul>
+<li><span>Also, do not use spaces around the "=" sign used to assign the default parameter for keyword arguments</span></li>
+</ul>
+<li><span>Be careful with *args and **kw. These can cause problems if abused.</span></li>
+<li><span>Don't implement "type" checking using the assert command</span></li>
+</ul>
+<li><span>Conditionals</span></li>
+<ul>
+<li><span>When check to see if an object is true, use "if object:" rather than "if object == True" or "if object is True"</span></li>
+<li><span>When checking to see if an object is of a certain "type" (integer, string, etc), do not use "if type(obj) == type(int):", use "if isinstance(obj, int):"</span></li>
+<li><span>What's "False" in Python?:</span></li>
+<ul>
+<li><span>None</span></li>
+<li><span>False</span></li>
+<li><span>Zero (of any numeric type)</span></li>
+<li><span>Any empty sequence or mapping ({},'', [], ())</span></li>
+<li><span><span>instances of user-defined classes, if the class defines a </span><tt><span>__nonzero__()</span></tt><span> or </span><tt><span>__len__()</span></tt><span> method, when that method returns the integer zero or </span><tt><span>bool</span></tt><span> value </span><code><span>False</span></code></span></li>
+</ul>
+</ul>
+<li><span>Modules and Packages</span></li>
+<ul>
+<li><span>Usually has a lib suffix (mathlib)</span></li>
+<li><span>Be careful to ensure that any process requiring the use of several functions strung together are consolidated into an independent "pipeline" function</span></li>
+</ul>
+<li><span>General Coding</span></li>
+<ul>
+<li><span>Clarity over cleverness</span></li>
+<li><span>Try to keep code as short as possible--short enough to fit on the screen without having to scroll rampantly</span></li>
+<li><span>When a class start to have about 10 or more methods, it is time to re-evaluate the contents of the class and possibly split that larger class into a number of smaller classes</span></li>
+<li><span>Use lambda functions for functions that will only be run once or twice. Otherwise, create a defined function</span></li>
+<li><span>Use spaces around arithmetic operators</span></li>
+<li><span>Import statements should always be on separate lines</span></li>
+<li><span>Avoid extraneous whitespace immediately inside parentheses, brackets, or braces. Also before colons</span></li>
+</ul>
+</ul>
+<div>
+</div>

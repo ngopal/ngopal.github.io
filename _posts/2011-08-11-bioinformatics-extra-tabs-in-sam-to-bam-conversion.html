@@ -1,0 +1,36 @@
+---
+layout: post
+title: 'Bioinformatics: Extra Tabs in Sam to Bam conversion'
+date: 2011-08-11 02:15:00.000000000 -07:00
+categories:
+- bioinformatics
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  blogger_blog: www.nikhilgopal.com
+  blogger_author: Nikhil Gopal
+  blogger_permalink: /2011/08/bioinformatics-extra-tabs-in-sam-to-bam.html
+  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/1261483164977769174
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><span>Sam files cannot have any trailing tabs at the end of each sam file entry. If you do, the sam-to-bam conversion (<b>samtools view -Sb file.sam > file.bam</b>) will not work.</span><br /><span><br /></span><br /><span>This has actually been documented here: <a href="http://groups.google.com/group/bedtools-discuss/browse_thread/thread/b0535d6769540fe0?pli=1">http://groups.google.com/group/bedtools-discuss/browse_thread/thread/b0535d6769540fe0?pli=1</a></span><br /><span><br /></span><br /><span>I was able to get around this however, with a simple sed command:</span><br /><span><br /></span><br /><span><span></span></span>
+<pre><span><b>sed 's/[ \t]*$//' file.sam > file.notrailingtabs.sam</b></span></pre>
+<pre><span>
+</span></pre>
+<pre><span>Now, the sam-to-bam conversion will work:</span></pre>
+<pre><span>
+</span></pre>
+<pre><span><b>samtools view -Sb <span>file.notrailingtabs.sam > </span><span>file.notrailingtabs.bam</span></b></span></pre>
+<pre><span><span>
+</span></span></pre>
+<pre><span><span>
+</span></span></pre>

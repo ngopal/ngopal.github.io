@@ -1,0 +1,41 @@
+---
+layout: post
+title: 'Code Optimization Technique: You Need Memoization!'
+date: 2011-12-19 22:14:00.000000000 -08:00
+categories:
+- code optimization
+- python
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  blogger_blog: www.nikhilgopal.com
+  blogger_author: Nikhil Gopal
+  blogger_permalink: /2011/12/code-optimization-technique-you-need.html
+  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/698629663420196632
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><span>Memoization is a pretty slick trick--a must know for those using interpreted languages and working with large datasets. My definition of <a href="http://en.wikipedia.org/wiki/Memoization">memoization</a> is basically when one uses a data structure to save the output of a function to memory using the inputs as a key. </span><br /><span><br /></span><br /><span>Imagine the case where recursive function must be used. Using memoization, the program won't need recalculate values in each recursion at run-time. Appropriate use can substantially speed up one's code.</span><br /><span><br /></span><br /><span><b>Before Code:</b></span><br /><span></span><br /><span>$ cat fib.py</span><br /><span>def fib(n):</span><br /><span>        if n==1 or n==0:</span><br /><span>                return 1</span><br /><span>        return fib(n-2) + fib(n-1)</span><br /><span><br /></span><br /><span>print fib(35)</span>
+<div>
+<span><br /></span></div>
+<p><span><b>Before Code (using 35 as the input value):</b></span><br /><span>$ time python fib.py</span><br /><span>14930352</span><br /><span><br /></span><br /><span>real    0m5.718s</span><br /><span>user    0m5.714s</span><br /><span>sys     0m0.002s</span><br /><span><br /></span><br /><span><b><br /></b></span><br /><span><b>After Code:</b></span><br /><span></span><br /><span>$ cat fib-memo.py</span><br /><span>def memoize(f):</span><br /><span>    cache= {}</span><br /><span>    def memf(*x):</span><br /><span>        if x not in cache:</span><br /><span>            cache[x] = f(*x)</span><br /><span>        return cache[x]</span><br /><span>    return memf</span><br /><span><br /></span><br /><span>@memoize #this is a decorator</span><br /><span>def fib(n):</span><br /><span>    if n==1 or n==0:</span><br /><span>        return 1</span><br /><span>    return fib(n-2) + fib(n-1)</span><br /><span><br /></span><br /><span>#fib = memoize(fib) #an alternative to the decorator</span><br /><span>print fib(300)</span>
+<div>
+<span><br /></span></div>
+<p><span><br /></span><br /><span><b>After Code (using 300 as the input value):</b></span><br /><span>$ time python fib-memo.py</span><br /><span>359579325206583560961765665172189099052367214309267232255589801</span><br /><span><br /></span><br /><span>real    0m0.008s</span><br /><span>user    0m0.004s</span><br /><span>sys     0m0.004s</span>
+<div>
+<span><br /></span></div>
+<div>
+<span><b><br /></b></span></div>
+<p><span><br /></span><br /><span><b>Python resources:</b></span></p>
+<ul>
+<li><a href="http://www.stanford.edu/~pgbovine/incpy.html">IncPy</a><span> - This software is an actual python interpreter written to automatically memoize code. It can be faster or slower than a normal python interpreter depending on what is being run.</span></li>
+<li><a href="http://code.activestate.com/recipes/577219-minimalistic-memoization/">code.activestate.com</a></li>
+</ul>

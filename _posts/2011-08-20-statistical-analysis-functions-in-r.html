@@ -1,0 +1,36 @@
+---
+layout: post
+title: Statistical Analysis Functions in R
+date: 2011-08-20 19:47:00.000000000 -07:00
+categories:
+- bioinformatics
+- R
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  blogger_blog: www.nikhilgopal.com
+  blogger_author: Nikhil Gopal
+  blogger_permalink: /2011/08/statistical-analysis-functions-in-r.html
+  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/2096641369698734683
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><span>Lately, I've been using statistical tests on a daily basis. I've noticed that I have to format my data the same way in order to get it into R (tab-delimited flat file essentially). Every other change in order to prep that data structure for any sort of statistical analysis function require minimal modification to the data structure.</span><br /><span><br /></span><br /><span>Why not kill several birds with the same stone? I've just written a wrapper function around a few smaller, independent R scripts which perform statistical analysis tests.</span><br /><span><br /></span><br /><span>Get the code here:</span><br /><span><br /></span><br /><a href="https://github.com/ngopal/Statistical-Analysis-Functions"><span>https://github.com/ngopal/Statistical-Analysis-Functions</span></a><br /><span><br /></span><br /><span>The input to the wrapper is a single, tab-delimited file (with the first row being the header). The output is a few PDF files, each complete with plots for different statistical analysis tests.</span><br /><span><br /></span><br /><span>The statistical analysis tests which are currently performed are:</span>
+<ul>
+<li><span>Principal Component Analysis (PCA)</span></li>
+<li><span>K-means Clustering</span></li>
+<li><span>Hierarchical Clustering</span></li>
+</ul>
+<div><span>There are a few R scripts in the currently released package which require the user to download external libraries. These R scripts are turned off by default.</span></div>
+<div><span><br /></span></div>
+<div><span>I am considering adding more statistical tests to the package--perhaps a t-test with a few box-and-whisker plots.</span></div>
+<div><span><br /></span></div>
+<div><span>Now I can run one script and output several plots in one slick shot.</span></div>

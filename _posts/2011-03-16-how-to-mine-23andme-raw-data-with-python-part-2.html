@@ -1,0 +1,55 @@
+---
+layout: post
+title: 'How to Mine 23andMe Raw Data with Python: Part 2'
+date: 2011-03-16 05:12:00.000000000 -07:00
+categories:
+- 23andMe
+- bioinformatics
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  blogger_blog: www.nikhilgopal.com
+  blogger_author: Nikhil Gopal
+  blogger_permalink: /2011/03/how-to-mine-23andme-raw-data-with.html
+  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/5618292967961730299
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><span><b><u><br /></u></b></span><br /><span><b><u>Creating A Family Tree With 23andMe Raw Data:</u></b></span><br /><span><br /></span><br /><span>If you missed part one, here is the </span><span><a href="http://www.nikhilgopal.com/2011/02/how-to-mine-23andme-raw-data-with.html">link</a></span><span>. It's probably a good idea to peruse that post before moving onto this one. In this post I am going to see if I can create a family tree using the same 23andMe raw datasets I used in my last post.</span><br /><span><br /></span><br /><span>Again, the module is freely available for download on <a href="https://github.com/ngopal/23andMe">github</a>.</span><br /><span><br /></span><br /><span><u><b>A Note About The Algorithm:</b></u></span><br /><span><br /></span><br /><span>Computer Scientists call this hierarchical clustering. </span><span>Biologists know this as creating a phylogenetic tree. </span><span>These are essentially the same thing. However, I am going to simplify and refine the algorithm to suit my needs. It may even be apt to call this a "quick and dirty," or "pseudo" implementation. Perhaps I will program a full implementation in the future.</span><br /><span><br /></span><br /><span><b><u>Setting Up Metrics And Controls:</u></b></span><br /><span><br /></span><br /><span>In my last post, I used % identity between individuals to determine how closely related one person is to another. Although it is a rather casual measure of similarity, I am going to continue using this metric because it is easy to implement. I encourage you to create and implement your own metrics as this really helps you get a better understanding of your data.</span><br /><span><br /></span><br /><span>Since this is the second time I've used this metric, I went ahead and created a function for it. Continuing from the coding example in my last post:</span><br /><span><br /></span><br /><span>>> Datasets.identity()</span><br /><span>>> len(Datasets.identity(Datasets.intersectionData['Nikhil.txt'],Datasets.intersectionData['Person3.txt']))</span><br /><span>>> 267194</span><br /><span><br /></span><br /><span>I've also added a function to find the genotypes that are not both identical, but only share one identical SNP.</span><br /><span><br /></span><br /><span>>> Datasets.halfIdentity()</span><br /><span></span>
+<div><span><span>>> len(Datasets.halfIdentity(Datasets.intersectionData['Nikhil.txt'],Datasets.intersectionData['Person3.txt']))</span></span></div>
+<div><span><span>>> 394401</span></span></div>
+<div><span><span><br /></span></span></div>
+<div><span><span>Just to be clear, Datasets.intersectionData is a dictionary identical to Datasets.Data. The difference is that Datasets.intersectionData only contains data for the SNPs in common between all of the files (the same SNPs contained in the Datasets.Intersection list).</span></span></div>
+<p><span> </span><br /><span><br /></span><br /><span>Since I am creating a tree, it is probably a good idea to use a few control data -- these controls should be on the outermost branches since they will be the least related to my folks and I. I've decided to use two -- <a href="http://www.snpedia.com/index.php/23andme">Mikolaj Habryn</a> (available on  SNPedia) and <a href="https://github.com/msporny/dna">Manu Sporny</a> (yes, the guy who published his 23andMe data on github). The SNPedia link contains a few more sample datasets (and there are several more scattered across the internet). I chose to use Mikolaj's published data because it has been said that he was the first person to make his 23andMe raw data publicly available. I'd like to ensure handling "old" raw data won't be a problem.</span><br /><span><br /></span><br /><span><b><u>Building The Tree:</u></b></span><br /><span><br /></span><br /><span>I've added the <i>phylogeny</i> function to my <i>ParseToDict</i> class.</span><br /><span><br /></span><br /><span>>> Datasets.phylogeny()</span><br /><span><br /></span><br /><span>The output attempts to simulate a phylogenetic tree. The tree is created by comparing each of the datasets to each other  and counting the number of identical genotypes that are shared between them. These results are organized and printed to a list (as shown below).</span><br /><span><br /></span><br /><span>>> [[[[['Person2.txt', 'Person1.txt'], 'Nikhil.txt'], 'Person3.txt'], 'ManuSporny.txt'], 'MikolajHabryn.txt']</span><br /><span><br /></span><br /><span>The closer the files are coupled together, the higher level of similarity between them. The reason I call this a quick and dirty implementation is that similarity is calculated with respect to the two most similar raw data inputs. Person1 and Person2 are most closely related. I am second most closely related (to Person1 and Person2). Person3 is third most closely related (to Person1, Person2, and I). I'm sure you get the idea. Keeping this in mind, the tree looks exactly as I expect it to.</span><br /><span><br /></span><br /><span><b><u>Cool! What's Next?:</u></b></span><br /><span><br /></span><br /><span>Now we can ask an interesting question. Can we plot the phylogenetic tree with the person's genotype "tupled" with their name -- perhaps revealing a pattern of inheritance?</span><br /><span><br /></span><br /><span>To do this I've added an optional argument for the <i>phylogeny</i> function, <i>rsid</i>. I feel like randomly choosing '</span><span>rs6904200' for analysis today.</span><br /><span><br /></span><br /><span>>> Datasets.phylogeny('rs6904200')</span><br /><span>>> [[[[[('Person2.txt', 'AG'), ('Person1.txt', 'AG')], ('Nikhil.txt', 'AG')], ('Person3.txt', 'AG')], ('ManuSporny.txt', 'GG')], ('MikolajHabryn.txt', 'AA')]</span><br /><span><br /></span><br /><span>It seems all of my family members and I have exactly the same genotype for this SNP (heterozygous 'AG'). The controls are homozygous for 'GG' and 'AA'. Thus far, the pattern of inheritance for this SNP merely illustrates the fact that the controls are not part of my family and that everyone in my family share the same genotype for this SNP. </span><br /><span><br /></span><br /><span><u><b>Not So Fast...:</b></u></span><br /><span><br /></span><br /><span>Please remember that a shared genotype between individuals does not guarantee that the individuals are related -- especially when only viewing one SNP!</span><br /><span><br /></span><br /><span>To illustrate why, let's look at one of the SNPs I mentioned in my last post, <i>rs3754777</i>.</span><br /><span><br /></span><br /><span>>> Datasets.phylogeny('</span><span>rs3754777</span><span>')</span><br /><span></span><span>>> [[[[[('Person2.txt', 'CT'), ('Person1.txt', 'CT')], ('Nikhil.txt', 'CC')], ('Person3.txt', 'CC')], ('ManuSporny.txt', 'CT')], ('MikolajHabryn.txt', 'CC')]</span>
+<div><span><br /></span></div>
+<div><span>Notice how although I am closely related to Person1, Person2, and Person3, we have a variety of genotypes shared between us. In fact, the Mikolaj has the same genotype as Person3 and I even though he has no relation to us. This function may help shed some light on which genotype came from where, but the context really needs to be taken into consideration. </span><span>The point here is to be careful not to trick yourself.</span></div>
+<div><span><br /></span></div>
+<div><span><u><b>JSON - The Other New Feature:</b></u></span></div>
+<div><span><u><br /></u></span></div>
+<div><span>I recently added in functionality to convert 23andMe raw data to JSON format. The input method is exactly the same, but a 23andMe.json file will appear in the current working directory. The implementation isn't fancy. It's really just a convenient wrapper over the built-in JSON module.</span></div>
+<div><span><br /></span></div>
+<div><span>>> import 23andMe as Me</span></div>
+<div><span>>> files = ['Nikhil.txt', 'Person1.txt','Person2.txt','Person3.txt','ManuSporny.txt','MikolajHabryn.txt']</span></div>
+<div><span>>> Me.ParseToJSON(files)</span></div>
+<div><span><br /></span></div>
+<div><span><u><b>Where Can I Find SNPs to Analyze?:</b></u></span></div>
+<div><span><u><b><br /></b></u></span></div>
+<div><span>A few readers asked me this question after my first post. There are many sources available and I'm sure someone in the bioinformatics/genomics community would have made great a post about this subject. However, to get started I would suggest three sources:</span></div>
+<div><span><br /></span></div>
+<div>
+<ul>
+<li><span><a href="http://www.genome.gov/gwastudies/">GWAS Catalog</a></span></li>
+<li><span><a href="http://www.snpedia.com/index.php/SNPedia">SNPedia</a></span></li>
+<li><span><a href="http://www.diygenomics.org/">DIY Genomics</a></span></li>
+</ul>
+<div></div>
+</div>
+<div><span>Really, even one of these sources will provide more than enough SNPs to start playing with.</span></div>

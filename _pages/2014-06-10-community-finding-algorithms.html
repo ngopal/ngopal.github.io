@@ -1,0 +1,32 @@
+---
+layout: page
+title: Community Finding Algorithms
+date: 2014-06-10 13:50:53.000000000 -07:00
+categories: []
+tags: []
+status: draft
+type: page
+published: false
+meta:
+  _edit_last: '1'
+  _wp_page_template: default
+  sidebar_on: sidebar_on-no
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Knowledge from: A fast agglomerative community detection method for protein complex discovery in protein interaction networks by M Rahman et al.</p>
+<p>Modules = dense sub-graphs </p>
+<p>Three classes of module detection:<br />
+1. finding cliques (clique = fully connected sub-network)<br />
+2. finding subnetworks (not necessarily cliques)<br />
+3. uncovering hierarchical organizations within a network.</p>
+<p>The state of community finding currently mis-classifies proteins or are ignored due to low topological connectivity.</p>
+<p>Community finding is best when the data matrix is sparse. Otherwise, we are clustering.</p>
+<p>Girvan and Newman computes edge-betweenness centrality value (= how many shortest paths travel through this edge) of each edge. They are sorted and edges with large betweenness values are removed in an iterative manner to detect communities.</p>
+<p>So, a community is basically a subnetwork with more connections between in-network nodes than out-network.</p>

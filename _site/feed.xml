@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optinalysis</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://nikhilgopal.com/</link>
+    <atom:link href="http://nikhilgopal.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 21 Aug 2015 14:34:09 -0700</pubDate>
+    <lastBuildDate>Fri, 21 Aug 2015 14:34:09 -0700</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 21 Aug 2015 04:40:22 -0700</pubDate>
+        <link>http://nikhilgopal.com/jekyll/update/2015/08/21/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/jekyll/update/2015/08/21/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Applying A Divergent Color Scale to A Gene Expression Heat Map</title>
+        <description>&lt;p&gt;&lt;em&gt;Estimated Read Time: Under 5 minutes&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This is a quick post about a quick little experiment I tried lately. I saw a &lt;a href=&quot;https://medium.com/matter/the-trouble-with-the-purple-election-map-31e6cb9f1827?source=tw-lo_d2937f3b017d-1415167125872&quot;&gt;recent post&lt;/a&gt; about how red and blue color scales on political heat maps can be misleading--primarily because human perception is not very good at discriminating between shades of purple in the presented scenario. &lt;/p&gt;
+&lt;p&gt;Since gene expression heat maps are virtually a right of passage in bioinformatics, I thought I&#39;d try and rescale the colors on a gene expression heat map to a properly divergent color scale and visualize the results. Results Below:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.nikhilgopal.com/wp-content/uploads/2014/11/old10scale.jpeg&quot;&gt;&lt;img src=&quot;assets/old10scale.jpeg&quot; alt=&quot;old10scale&quot; width=&quot;559&quot; height=&quot;351&quot; class=&quot;alignnone size-full wp-image-371&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.nikhilgopal.com/wp-content/uploads/2014/11/new.jpeg&quot;&gt;&lt;img src=&quot;assets/new.jpeg&quot; alt=&quot;new&quot; width=&quot;559&quot; height=&quot;351&quot; class=&quot;alignnone size-full wp-image-372&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At the top is a plot (green and blue) generated using the &lt;a href=&quot;http://www2.warwick.ac.uk/fac/sci/moac/people/students/peter_cock/r/heatmap/&quot;&gt;code available on Peter Cock&#39;s website&lt;/a&gt; (but modified to only use 10 colors on the scale). Below that is the plot (red and blue) generated with my modified version.&lt;/p&gt;
+&lt;p&gt;And of course, code for your consumption:&lt;/p&gt;
+&lt;p&gt;&lt;script src=&quot;https://gist.github.com/ngopal/2b25477d21632fe41045.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;Thanks to &lt;a href=&quot;http://www.sandia.gov/~kmorel/documents/ColorMaps/&quot;&gt;Kenneth Moreland&#39;s research on color scales, and José Gama&#39;s implementation in R&lt;/a&gt; (now part of Rgnuplot), all it took was a one line modification of Peter&#39;s code to switch to the new divergent color scale!&lt;/p&gt;
+&lt;p&gt;The new scale does seem to help us visually discriminate between the elements in the &quot;muddy&quot; area of the left plot. However, since the use of the heat map in bioinformatics is more aesthetic than functional, I&#39;m afraid the fruits seem to stop there. Although this is paints a prettier picture, the hierarchical clustering results remain unchanged. Fun to try though! And now we know a divergent color scale function implementation exists in R!&lt;/p&gt;
+&lt;p&gt;It always takes a while to write a blog post. In return, all I ask is that you share. Also, if you are a Python or R coder and would like to learn to use D3.js, please check out my O&#39;Reilly Media product, &lt;a href=&quot;http://bit.ly/d3coffeescript&quot;&gt;D3 and Coffeescript: A Python Programmer&#39;s Introduction to Web Visualizations&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;!-- Begin MailChimp Signup Form --&gt;&lt;/p&gt;
+&lt;link href=&quot;//cdn-images.mailchimp.com/embedcode/slim-081711.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }&lt;br /&gt;
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.&lt;br /&gt;
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */&lt;br /&gt;
+&lt;/style&gt;
+&lt;div id=&quot;mc_embed_signup&quot;&gt;
+&lt;form action=&quot;//nikhilgopal.us3.list-manage.com/subscribe/post?u=247178139134c0616342e1953&amp;amp;id=88361a83c7&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate&gt;
+&lt;div id=&quot;mc_embed_signup_scroll&quot;&gt;
+	&lt;label for=&quot;mce-EMAIL&quot;&gt;Subscribe for more visualization and code posts&lt;/label&gt;&lt;br /&gt;
+	&lt;input type=&quot;email&quot; value=&quot;Oh man! I can&#39;t type in my email fast enough..&quot; name=&quot;EMAIL&quot; class=&quot;email&quot; id=&quot;mce-EMAIL&quot; placeholder=&quot;email address&quot; required /&gt;&lt;br /&gt;
+    &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;&lt;/p&gt;
+&lt;div style=&quot;position: absolute; left: -5000px;&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;b_247178139134c0616342e1953_88361a83c7&quot; tabindex=&quot;-1&quot; value=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;clear&quot;&gt;&lt;input type=&quot;submit&quot; value=&quot;Update Me&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot; /&gt;&lt;/div&gt;
+&lt;/p&gt;&lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!--End mc_embed_signup--&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 13 Nov 2014 22:35:12 -0800</pubDate>
+        <link>http://nikhilgopal.com/r/visualization/2014/11/13/applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/r/visualization/2014/11/13/applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html</guid>
+        
+        <category>R</category>
+        
+        <category>visualization</category>
+        
+        
+        <category>r</category>
+        
+        <category>visualization</category>
+        
+      </item>
+    
+      <item>
+        <title>Javascript Masterclass On How To Be An Expert And Introduction to Angular</title>
+        <description>&lt;p&gt;I found these resources useful. I don&#39;t know Kung Fu yet, but I&#39;m getting closer.&lt;/p&gt;
+&lt;p&gt;Javascript Masterclass On How To Be An Expert:&lt;br /&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/v0TFmdO4ZP0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Intro to Angular:&lt;br /&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;//www.youtube.com/embed/M4spK4QeUKY&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Jun 2014 12:37:09 -0700</pubDate>
+        <link>http://nikhilgopal.com/2014/06/09/javascript-masterclass-on-how-to-be-an-expert-and-introduction-to-angular.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/2014/06/09/javascript-masterclass-on-how-to-be-an-expert-and-introduction-to-angular.html</guid>
+        
+        <category>javascript</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>&quot;How To&quot; &gt; &quot;Learn To&quot;</title>
+        <description>&lt;p&gt;People seem to search for &quot;how to&quot; much more often than they seem to search for &quot;learn to&quot;:&lt;/p&gt;
+&lt;p&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;//www.google.com/trends/embed.js?hl=en-US&amp;q=learn+to+*,+how+to+*,+why+*&amp;cmpt=q&amp;geo=US&amp;content=1&amp;cid=TIMESERIES_GRAPH_AVERAGES_CHART&amp;export=5&amp;w=500&amp;h=330&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Apr 2014 16:02:37 -0700</pubDate>
+        <link>http://nikhilgopal.com/2014/04/09/how-to-learn-to.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/2014/04/09/how-to-learn-to.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Visualizing Look and Say Sequences with D3</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.nikhilgopal.com/wp-content/uploads/2014/03/Screenshot-2014-03-25-21.58.57.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-257&quot; alt=&quot;Screenshot 2014-03-25 21.58.57&quot; src=&quot;assets/Screenshot-2014-03-25-21.58.57.png&quot; width=&quot;950&quot; height=&quot;488&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://oeis.org/A005150&quot; target=&quot;_blank&quot;&gt;Look and Say Sequences&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;The way this works is you look at the first number (which is 1 in this case), you say it out loud (&quot;one 1&quot;), and that becomes the second number in the sequence (11). Then we rinse and repeat--we look at 11, say it out loud (&quot;two 1&#39;s&quot;), and that becomes the next number in the sequence (21).&lt;/p&gt;
+&lt;p&gt;Here are the first ten:&lt;br /&gt;
+1&lt;br /&gt;
+11&lt;br /&gt;
+21&lt;br /&gt;
+1211&lt;br /&gt;
+111221&lt;br /&gt;
+312211&lt;br /&gt;
+13112221&lt;br /&gt;
+1113213211&lt;br /&gt;
+31131211131221&lt;br /&gt;
+13211311123113112211&lt;/p&gt;
+&lt;p&gt;The visualization you are looking at above is sequence number 25. The coordinates start at (0,0). Each number in the sequence is multiplied by (0,1) Up, (-1,0) left, (1,0) right, and (0,-1) down in turn. All of the coordinates are converted to absolute values so they trend from bottom left to top right on the canvas.&lt;/p&gt;
+&lt;p&gt;You can view the block here: &lt;a href=&quot;http://bl.ocks.org/ngopal/9864113&quot; target=&quot;_blank&quot;&gt;http://bl.ocks.org/ngopal/9864113&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 31 Mar 2014 21:29:58 -0700</pubDate>
+        <link>http://nikhilgopal.com/2014/03/31/visualizing-look-and-say-sequences-with-d3.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/2014/03/31/visualizing-look-and-say-sequences-with-d3.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Getting Protein-Protein Interaction Data Into Neo4J With Python</title>
+        <description>&lt;p&gt;I started playing with &lt;a href=&quot;http://www.neo4j.org/&quot; target=&quot;_blank&quot;&gt;Neo4J&lt;/a&gt; (the graph database). It seems like great software, but I found the documentation pretty sparse and opaque. It took me 16 hours to do all of this, so I&#39;m hoping it will save you 15.5 hours of fumbling around the Internet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why is Neo4j powerful?&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&quot;A traditional relational database may tell you the average age of everyone in this pub, but a graph database will tell you who is most likely to buy you a beer.&quot;&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Andreas Kollegger&lt;/i&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Installing&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To install on Mac, use &lt;a href=&quot;http://brew.sh/&quot; target=&quot;_blank&quot;&gt;homebrew&lt;/a&gt; on terminal:&lt;/p&gt;
+&lt;p&gt;&quot;brew install neo4j&quot;&lt;/p&gt;
+&lt;p&gt;Start the server.&lt;/p&gt;
+&lt;p&gt;&quot;neo4j start&quot;&lt;/p&gt;
+&lt;p&gt;Note: stop the server with the &quot;neo4j stop&quot; command&lt;/p&gt;
+&lt;p&gt;The database exists in the &quot;/usr/local/Cellar/neo4j/1.9.4/libexec/data/graph.db/&quot; directory. If you delete the files in here, you&#39;ve deleted your database (and can repopulate it). I&#39;ve nuked by database a few times while debugging. Note that homebrew install Neo4j version 1.9.4 and that the latest version is currently 2.0.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Getting Data In&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I tried using &lt;a href=&quot;http://gephi.org&quot; target=&quot;_blank&quot;&gt;Gephi&lt;/a&gt; and the &lt;a href=&quot;https://gephi.org/2011/gephi-adds-neo4j-graph-database-support-screencast/&quot; target=&quot;_blank&quot;&gt;Neo4j plugin&lt;/a&gt; that is available. I wasn&#39;t quite able to get the data to look the way I wanted. I would have loved to use this plugin, but I just couldn&#39;t figure out how to get everything to play together nicely. Plus, whenever I&#39;d export the neo4j database it would corrupt the files and the server would crash--I&#39;m sure this had more to do with what I was doing and less with the software though.&lt;/p&gt;
+&lt;p&gt;There is a &lt;a href=&quot;http://neo4j-rest-client.readthedocs.org/en/latest/info.html&quot; target=&quot;_blank&quot;&gt;Python wrapper&lt;/a&gt; you can download. Two Javascript wrapper exist, but I haven&#39;t used either of them--maybe in the future if I create a front-end. Install the Python library using the typical commands:&lt;/p&gt;
+&lt;p&gt;&quot;pip install neo4jrestclient&quot; or &quot;easy_install neo4sjrestclient&quot;&lt;/p&gt;
+&lt;p&gt;Here is my code to get the data into the database (Python):&lt;/p&gt;
+&lt;p&gt;[gist]https://gist.github.com/ngopal/9164149[/gist]&lt;/p&gt;
+&lt;p&gt;We can watch the number of nodes and relationships grow.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.nikhilgopal.com/wp-content/uploads/2014/02/Screenshot-2014-02-22-15.45.18.png&quot;&gt;&lt;img class=&quot;size-full wp-image-233 aligncenter&quot; alt=&quot;Screenshot 2014-02-22 15.45.18&quot; src=&quot;assets/Screenshot-2014-02-22-15.45.18.png&quot; width=&quot;1215&quot; height=&quot;768&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now we can run a basic query on the data from node to node using Cypher. Here is the code:&lt;/p&gt;
+&lt;p&gt;[gist]https://gist.github.com/ngopal/9163968[/gist]&lt;/p&gt;
+&lt;p&gt;And here is the output:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.nikhilgopal.com/wp-content/uploads/2014/02/Screenshot-2014-02-22-15.46.28.png&quot;&gt;&lt;img class=&quot;size-full wp-image-232 aligncenter&quot; alt=&quot;Screenshot 2014-02-22 15.46.28&quot; src=&quot;assets/Screenshot-2014-02-22-15.46.28.png&quot; width=&quot;1215&quot; height=&quot;768&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And another example:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.nikhilgopal.com/wp-content/uploads/2014/02/Screenshot-2014-02-22-15.47.04.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-231&quot; alt=&quot;Screenshot 2014-02-22 15.47.04&quot; src=&quot;assets/Screenshot-2014-02-22-15.47.04.png&quot; width=&quot;682&quot; height=&quot;216&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I&#39;m planning on eventually visualizing this data in D3. If you want to stay in the loop, sign up and I&#39;ll keep you updated (your email won&#39;t be shared with anyone else):&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;br /&gt;
+&lt;!-- Begin MailChimp Signup Form --&gt;&lt;/p&gt;
+&lt;link href=&quot;//cdn-images.mailchimp.com/embedcode/slim-081711.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }&lt;br /&gt;
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.&lt;br /&gt;
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */&lt;br /&gt;
+&lt;/style&gt;
+&lt;div id=&quot;mc_embed_signup&quot;&gt;
+&lt;form action=&quot;http://nikhilgopal.us3.list-manage.com/subscribe/post?u=247178139134c0616342e1953&amp;amp;id=a6fef99460&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate&gt;
+	&lt;label for=&quot;mce-EMAIL&quot;&gt;Subscribe for updates!&lt;/label&gt;&lt;br /&gt;
+	&lt;input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;email&quot; id=&quot;mce-EMAIL&quot; placeholder=&quot;email address&quot; required /&gt;&lt;br /&gt;
+    &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;&lt;/p&gt;
+&lt;div style=&quot;position: absolute; left: -5000px;&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;b_247178139134c0616342e1953_a6fef99460&quot; value=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;clear&quot;&gt;&lt;input type=&quot;submit&quot; value=&quot;Subscribe&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot; /&gt;&lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!--End mc_embed_signup--&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 22 Feb 2014 16:06:39 -0800</pubDate>
+        <link>http://nikhilgopal.com/graph/python/2014/02/22/getting-protein-protein-interaction-data-into-neo4j-with-python.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/graph/python/2014/02/22/getting-protein-protein-interaction-data-into-neo4j-with-python.html</guid>
+        
+        
+        <category>graph</category>
+        
+        <category>python</category>
+        
+      </item>
+    
+      <item>
+        <title>Write Better Emails in 3 Minutes</title>
+        <description>&lt;p&gt;I don&#39;t think I know even one person who deals with less than 100 emails a day anymore. I&#39;ve found these two personal rules to be invaluable in making my email communication concise and efficient.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keep It Short&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Email is best used as a short message communication medium. Longer emails tend to get tucked away for &quot;when I have time.&quot; It&#39;s better to have a back and forth through email than it is to write a novel that is never read. We may be able to type faster than we can write, but we can talk even faster than we can type.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Be Assertive&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you are trying to schedule a meeting with someone, please don&#39;t be annoyingly polite and write things like &quot;I was wondering if...&quot; Just schedule a meeting. Instead say, &quot;I&#39;d like to meet. How does Tuesday work?&quot; This will get a conversation going about meeting. If they aren&#39;t interested in meeting, they will let you know in some way (e.g. weaseling out of it and not suggesting an alternative date)!&lt;/p&gt;
+&lt;p&gt;Conversational etiquette is very different from email etiquette. When you send an email with an invitation or meeting suggestion, more politeness equals more words equals more words for people to read equals more pain for everyone. People know email can&#39;t communicate subtleties in conversation like vocal inflections, facial expressions, or body language. Don&#39;t be afraid to be terse!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 24 Jan 2014 14:10:18 -0800</pubDate>
+        <link>http://nikhilgopal.com/2014/01/24/write-better-emails-in-3-minutes.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/2014/01/24/write-better-emails-in-3-minutes.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Defining Poverty</title>
+        <description>&lt;p&gt;I&#39;d always known poverty was more than just a lack of money. But I was never sure what else contributed to poverty. The type of poverty I witness seems to be different in every country I travel to. Although I&#39;m now comfortable defining poverty.&lt;/p&gt;
+&lt;p&gt;Poverty is a lack of purchasing power, opportunity, resources, knowledge and access, political power, and will.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lack of purchasing power:&lt;/strong&gt; This is poverty in the traditional sense. Essentially, a lack of money. Not everyone has the means by which to acquire resources they need. This is only a part of the equation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lack of opportunity:&lt;/strong&gt; many people in developing nations are college-educated, but simply don&#39;t have a job market to work in. This is why &quot;brain drain&quot; occurs. Imagine putting in the time and effort to earn a college degree, only to graduate into a market that doesn&#39;t support the infrastructure for the types of jobs you are looking for. Welcome to poverty.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lack of resources:&lt;/strong&gt; Even in developed nations, resources are not distributed evenly and this causes disparity between different parts of the country. California is the 5th largest economy in the world. The United States is the 4th. Wow.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lack of knowledge and access:&lt;/strong&gt; When working on my project this past August, I realized that many rural citizens just don&#39;t have knowledge we assume people have. This makes sense. Not everyone is forced to attend grade school. Not every grade school has usable and up to date educational material. Not everyone has Google.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lack of political power:&lt;/strong&gt; A small nation with a small army seems to be poor at being able to hold it&#39;s ground against larger nations that bully it. Everyone knows the United States can be a real bully, however other nations can be just as bad. For example, Sweden preaches neutrality and peace, but the country dumps toxic e-waste on the shores of Ghana (along with America and Thailand) because they know the politicians who run the country won&#39;t do anything about it. Even when Ghanaians want to, they just don&#39;t have the backing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lack of will:&lt;/strong&gt; I believe emotional state is important in giving individuals the driving force to pull themselves into change. I would say 99% of people are poor in this area. When someone isn&#39;t in control of their emotions, important aspects of people&#39;s lives like relationships, health, finances, and mental state, fall apart. Even though American GDP is the highest in the world, the stress level associated with jobs are also high As Stanford researchers have shown, Stress is murderous. In this way, America can be poor. Dirt poor.&lt;/p&gt;
+&lt;p&gt;Surprisingly, some of the &quot;poorest&quot; places in the world are also the happiest. Although many developing nations might not be &quot;rich&quot; in purchasing power capabilities, they clearly balance out the equation by making it up in other areas. Where we have high income and stress, they have low income and happiness. Where a developing nation has little resources and an abundance of emotional energy, a developed nation has plenty of resources and a scarcity of energy. Think about people in the media who seem to be very rich (in terms of money) but seem simultaneously poor in other regards--be it character, emotional state, etc.&lt;/p&gt;
+&lt;p&gt;Since I&#39;m positing an equation, the opposite equation would also have to hold true. If wealth is the opposite of poverty, then wealth is an abundance of purchasing power, opportunity, resources, knowledge and access, political power, and will. Make sure to not get greedy with one type of wealth and lose out on another.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Jan 2014 21:28:53 -0800</pubDate>
+        <link>http://nikhilgopal.com/2014/01/15/defining-poverty.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/2014/01/15/defining-poverty.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Improve Your Public Speaking In 5 Minutes</title>
+        <description>&lt;p&gt;Believe it or not, most people are actually great public speakers. They just don&#39;t know it yet. In my opinion, 90% of people could improve their presentations, speeches, and public speaking with ease.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&quot;During the Korean War, the Navy kill ratio was twelve-to-one. We shot down twelve of their jets for every one of ours. In Vietnam, this ratio fell to three-to-one. Our pilots depended on missiles. They lost their dog fighting skills.&quot; --&lt;a href=&quot;http://www.imsdb.com/scripts/Top-Gun.html&quot; target=&quot;_blank&quot;&gt;Viper, Top Gun&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;In the same way Navy dog fighters started depending on missiles, too many presenters depend on PowerPoint. Personally, when I write a talk I try and design it so I could give the talk WITHOUT a PowerPoint presentation. People can focus on me instead of the slides. Plus, if we have technical difficulties, the show can go on!&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Basic Rules:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;1. &lt;strong&gt;Draw long, calm breathes before starting to speak&lt;/strong&gt;. In fact, do this for each sentence. Many people run out of breath because they want to say too much at once. Think of the air in your lungs as &quot;speech fuel.&quot; You need to keep refilling the tank.&lt;/p&gt;
+&lt;p&gt;2. &lt;strong&gt;Project your voice&lt;/strong&gt;. Throw it across the room. Don&#39;t yell, but pick someone across the hall and pretend you are talking to them face to face. You want your voice to &quot;project&quot; from you, to that spot a few feet in front of that special person you picked. Speak in a way so that your special person can hear you at normal volume. Speak from your chest, not your throat. Speaking from your throat not only makes you sound more high-pitched, but your voice will also give out faster.&lt;/p&gt;
+&lt;p&gt;3. &lt;strong&gt;Slow down&lt;/strong&gt;. Most people tend to talk way too fast when under the spotlight. Even when you calm down and speak at what may seem like a slow pace, you are actually speaking at a normal pace to listeners. Speak any faster and they can&#39;t understand. Or you come off as nervous.&lt;/p&gt;
+&lt;p&gt;4. &lt;strong&gt;Use your body&lt;/strong&gt;. Use your hands to animate your descriptions. People like energy! Don&#39;t overdo it, just make sure you don&#39;t come off like you are petrified on stage. Balance is the name of the game. Your poker face won&#39;t help you in a presentation.&lt;/p&gt;
+&lt;p&gt;Focus on improving just these 4 things and you will find that your skills are at the next level. Seriously.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;On Getting Over Your Fear:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Amy Cuddy, a psychologist from Princeton, gave a &lt;a href=&quot;http://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are.html&quot; target=&quot;_blank&quot;&gt;TED talk&lt;/a&gt; mentioning how strongly body language and emotions are tied to each other.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.hbs.edu/faculty/Pages/profile.aspx?facId=491042&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;aligncenter&quot; alt=&quot;&quot; src=&quot;assets/cuddy%20tedglobal_0ac9cc7f-59e9-428f-bf75-5b0142c71bb6.jpg&quot; width=&quot;595&quot; height=&quot;396&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;David Lee Roth, one of my favorite performers, mentioned in an &lt;a href=&quot;http://www.youtube.com/watch?v=ffxkY3fd5BY&quot; target=&quot;_blank&quot;&gt;interview&lt;/a&gt; that he would try all kinds of crazy things on stage. He would fail half of the time, but it didn&#39;t matter--the audience would cheer just because he was so energetic and daring.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.theguardian.com/music/2011/jun/12/van-halen-invent-hair-metal&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;aligncenter&quot; alt=&quot;&quot; src=&quot;assets/David-Lee-Roth-of-Van-Hal-007.jpg&quot; width=&quot;460&quot; height=&quot;276&quot; /&gt;&lt;/a&gt; Learn from Amy Cuddy! Channel David Lee Roth&#39;s energy! Use these tips and avoid being awkward in front of large groups of people. As a closing note, videotape yourself. It&#39;s painful to watch yourself stumble, but you will identify your weak areas and know exactly how to get better. Good luck!&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Jan 2014 20:34:38 -0800</pubDate>
+        <link>http://nikhilgopal.com/2014/01/15/improve-your-public-speaking-in-5-minutes.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/2014/01/15/improve-your-public-speaking-in-5-minutes.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Ghana: Day 4-9</title>
+        <description>&lt;p&gt;&lt;span&gt;This is going to be a combined post. I&#39;ve been pretty busy for the&lt;br /&gt;
+past few days and my access to the internet has been intermittent:&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;&lt;a href=&quot;http://www.flickr.com/photos/44579186@N08/sets/72157635246859994&quot; target=&quot;_blank&quot;&gt;http://www.&lt;span&gt;flickr&lt;/span&gt;.com/&lt;wbr&gt;&lt;/wbr&gt;photos/44579186@N08/sets/&lt;wbr&gt;&lt;/wbr&gt;72157635246859994&lt;/a&gt;&lt;/span&gt; &lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;Day 4:&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;We&lt;br /&gt;
+ went to a restaurant on campus called Tasty Treats. The food was&lt;br /&gt;
+awesome, but there were some interesting options none of us had ever&lt;br /&gt;
+tried before. We drew straws and someone in our group ended up eating a&lt;br /&gt;
+snail (which apparently tastes like chicken and has the consistency of&lt;br /&gt;
+octopus)!&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;People really are excited to see an &quot;obruni&quot; (Twi word&lt;br /&gt;
+ for foreigner) speaking the local language. I almost immediately get&lt;br /&gt;
+better treatment. When I bargain in Twi, I almost definitely get WAY&lt;br /&gt;
+better deals. At the same time, people are so happy to see it that they&lt;br /&gt;
+shake my hand and invite me to hang out with them.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;We had a very&lt;br /&gt;
+ interesting conversation about what actually defines poverty and&lt;br /&gt;
+western paternalism. We unanimously agreed that a lack of money does not&lt;br /&gt;
+ equal poverty. However, we weren&#39;t sure that it was completely&lt;br /&gt;
+independent either. We ended up deciding that the primary measuring&lt;br /&gt;
+stick of poverty is a lack of opportunity.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span&gt;Day 5:&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt; The&lt;br /&gt;
+ judgement on the election results went smoothly. There were no riots&lt;br /&gt;
+and no one died (unlike what happened in Kenya). Everyone is counting&lt;br /&gt;
+their blessings. There was certainly tension in the air. Every white&lt;br /&gt;
+person in our group was getting shooed away when taking photographs for&lt;br /&gt;
+fear of being manipulated or misrepresented. This phenomenon seems to be&lt;br /&gt;
+ more prevalent in much poorer areas--our theory is that people are&lt;br /&gt;
+embarrassed to be on camera or that they think we are going to profit&lt;br /&gt;
+off of their poverty and want to be compensated).&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;The&lt;br /&gt;
+community here is surprisingly small. It&#39;s starting to get to the point&lt;br /&gt;
+where I can go to the mall, walk around on campus, or go downtown and&lt;br /&gt;
+see someone I&#39;ve met before. What&#39;s even more amazing is that people&lt;br /&gt;
+remember me, when I dropped by, and what I bought or did!&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;I now&lt;br /&gt;
+have a fruit guy. I buy fruit exclusively from a 20-something year old&lt;br /&gt;
+guy from Togo. I tried to speak the local language with him and he said&lt;br /&gt;
+he didn&#39;t speak it! I tried Spanish but he didn&#39;t know that. His English&lt;br /&gt;
+ wasn&#39;t bad, but it wasn&#39;t his preferred language. We settled on French&lt;br /&gt;
+(which is surprisingly rare around here). The joke is that everyone&lt;br /&gt;
+around Ghana speaks French except for Ghanians, even the fish.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;I&lt;br /&gt;
+ also learned about Ghanaian marriages. There is definitely a sense of&lt;br /&gt;
+tradition. Although people seem to go through the motions in a contrived&lt;br /&gt;
+ sort of way, it is the mode of operation here and people enjoy it. The&lt;br /&gt;
+man has to approach the girls parents and the parents have to act&lt;br /&gt;
+clueless. The parents have to then tell the girl there is someone&lt;br /&gt;
+interested in them and give her the choice of whether or not she wants&lt;br /&gt;
+to marry him. The man&#39;s family then comes to the girls house with tons&lt;br /&gt;
+of gifts to persuade the woman to join his family. Then a wedding is&lt;br /&gt;
+arranged. Water is of utmost importance in Ghanaian culture. When someone visits your home and you don&#39;t offer them water, it is considered an insult. Refusing the water someone offers you is an insult to the host (and likely means you are there for some sort of altercation).&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span&gt;Day 6:&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;We&lt;br /&gt;
+ got to learn drumming and dancing from a man who is a graduate student&lt;br /&gt;
+in the School of Fine Arts here at the University of Ghana. We see women&lt;br /&gt;
+ carrying babies on their backs and working away. If a women with a baby&lt;br /&gt;
+ is making food and the baby is crying, she makes the food to the rhythm&lt;br /&gt;
+ of a song and calms the baby down while still working. Maternity leave&lt;br /&gt;
+is almost unheard of here.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;I&#39;ve been trying Ghanaian alcohol&lt;br /&gt;
+(although there aren&#39;t that many options). Many people are extremely&lt;br /&gt;
+religious and give me dirty looks when they seen foreigners drinking in&lt;br /&gt;
+their country. This may also account for why alcohol is so cheap&lt;br /&gt;
+here--there is minimal demand for it. We had a pretty good happy hour&lt;br /&gt;
+tonight.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;There are a number of educated Ghanians (and other&lt;br /&gt;
+Africans from other countries too). Many people leave their country to&lt;br /&gt;
+learn English in Ghana. English is much more marketable than French or&lt;br /&gt;
+local languages. Since English is the official language of this country,&lt;br /&gt;
+ everyone can speak at least a little. A man with a small storefront I&lt;br /&gt;
+had a conversation with was fluent in Chinese. Another man had several&lt;br /&gt;
+family members in America (New Jersey to be exact) and chooses to live&lt;br /&gt;
+in Ghana because he likes it better. Other people were very open to&lt;br /&gt;
+sharing their stories and were very interested in hearing mine.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span&gt;Day 7&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;It seems that everyone here believes in some sort of a higher power. I&#39;ve noticed that people become really uneasy when I don&#39;t have a solid reply for what religion I follow. Atheism is almost unheard of here.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span&gt;Day 8&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;MOTECH - Mobile Technology for Community Health&lt;/span&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;This is a very interesting company I visited and I hope they succeed. Many pregnant women in rural areas do not have access to the internet or medical professionals. Consequently, they tend to have a large number of miscarriages or high infant mortality. This company is setting up a system such that rural women and their family members can register for updates via their mobile phones. Pregnant women get an update every week about what they should be doing and what they should expect. Now, of course, this system comes with a number of challenges in cultural, financial, and technological contexts, but they are close to getting this idea off of the ground. They will go bankrupt if they don&#39;t obtain more funding by this next March--they have to show the Grameen and Bill and Melinda Gates foundations that they are making a significant difference here. I&#39;m so proud to be able to help a company like this.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;&lt;span&gt;GIFEC - Ghana Investment Fund for Electronic Communications&lt;/span&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;We also visited GIFEC (a governmental agency that funds programs in Ghana that helps the poor). People were nice, but many of the things they shared seemed very rosy.&lt;br /&gt; Suspiciously rosy.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span&gt;Day 9&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;We went to a major internet cafe called Busy Internet. A section of the building was for normal citizens who just want to Facebook or check email. Another area was reserved for people who brought their own computers but wanted wifi access. Yet another area is reserved for start-up companies and &quot;soft business&quot; incubation. The more serious business are provided space upstairs.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Esoko is a company that makes mobile phone apps for rural farmers. Farmers sometimes get ripped off on their produce and sell for too little. Other times they can&#39;t find a buyer. This app solves both problems for them.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;I had my first encounter with Ghanaian gypsy children (who happened to speak Portuguese and English in addition to Twi, interestingly) &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;We leave for the Volta region tomorrow. And if internet connectivity wasn&#39;t hard to come by before, it certainly will be now... &lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Sep 2013 22:08:00 -0700</pubDate>
+        <link>http://nikhilgopal.com/travel/2013/09/03/ghana-day-4-9.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/travel/2013/09/03/ghana-day-4-9.html</guid>
+        
+        
+        <category>travel</category>
+        
+      </item>
+    
+  </channel>
+</rss>

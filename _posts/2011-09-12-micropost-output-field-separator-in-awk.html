@@ -1,0 +1,26 @@
+---
+layout: post
+title: 'Micropost: Output Field Separator in AWK'
+date: 2011-09-12 02:22:00.000000000 -07:00
+categories:
+- micropost
+- shell
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  blogger_blog: www.nikhilgopal.com
+  blogger_author: Nikhil Gopal
+  blogger_permalink: /2011/09/micropost-output-field-separator-in-awk.html
+  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/4510036260386706722
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><span>Awk has a nifty built-in variable users can overwrite called OFS. OFS stands for output field separator.</span><br /><span><br /></span><br /><span>Pretend I have a file which has 5 columns separated by single spaces, each of which I would like to print via AWK in tab-separated format.</span><br /><span><br /></span><br /><span><u>Life without OFS:</u></span><br /><span><br /></span><br /><span><i>cat file.txt | awk -F" " '{print $1"\t"$2"\t"$3"\t"$4"\t"$5}'</i></span><br /><span><br /></span><br /><span>Sticking a "\t" between each variable proves to be very annoying when scaled up.</span><br /><span><br /></span><br /><span><u>Life with OFS:</u></span><br /><span><br /></span><br /><span><i>cat file.txt | awk -F" " 'BEGIN{OFS="\t";}{print $1,$2,$3,$4,$5}'</i></span><br /><span><br /></span><br /><span>This seems a tad more reasonable. There is certainly less typing involved. The example I provided may not be the best use case, but it definitely shows the capability of OFS and where it can be useful.</span></p>

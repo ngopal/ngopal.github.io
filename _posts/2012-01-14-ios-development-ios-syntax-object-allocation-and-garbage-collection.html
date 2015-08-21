@@ -1,0 +1,25 @@
+---
+layout: post
+title: 'iOS Development: iOS Syntax, Object Allocation, and Garbage Collection'
+date: 2012-01-14 07:52:00.000000000 -08:00
+categories:
+- iOS
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  blogger_blog: www.nikhilgopal.com
+  blogger_author: Nikhil Gopal
+  blogger_permalink: /2012/01/ios-syntax-object-allocation-and.html
+  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/7429966432108713567
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><span><u><b>Syntax and Object Allocation:</b></u></span><br /><span><br /></span><br /><span>Coming from the world of Java and Android programming, I'm used to initializing an object in the following format:</span><br /><span><br /></span><br /><span>Coffee cupOfJoe = new </span><span>Coffee</span><span>;</span><br /><span><br /></span><br /><span>In Objective-C (which is actually a superset of the C language), the same line is written like so:</span><br /><span><br /></span><br /><span>Coffee</span><span> *</span><span>cupOfJoe</span><span> = [</span><span>Coffee</span><span> new];</span><br /><span><br /></span><br /><span>However, the recommended format is this (which is equivalent to the above):</span><br /><span><br /></span><br /><span>Coffee *</span><span>cupOfJoe</span><span> = [[</span><span>Coffee</span><span> alloc] init];</span><br /><span><br /></span><br /><span>The reason for this is that we have more functionality with this latter method.  There are variations of the init function such as initWithString, etc. This format is also followed for historical reasons (just crack open any supporting libraries to prove it to yourself).</span><br /><span><br /></span><br /><span><br /></span><br /><span><u><b>No garbage collection:</b></u></span><br /><span><br /></span><br /><span>Unlike Android (which comes complete with garbage collection since it is programmed in Java), we need to release our objects after we are done using them. </span><br /><span><br /></span><br /><span>[cupOfJoe release];</span><br /><span><br /></span><br /><span>We can also edit the dealloc method in the implementation file. This typically is not recommended. It is inherited from our super class, but we can add to its functionality. </span><br /><span><br /></span><br /><span>-(void) dealloc {</span><br /><span>    NSLog(@"The world is about to explode!");</span><br /><span>    [super dealloc]</span><br /><span>}</span><br /><span><br /></span><br /><span>The NSLog addition will run just before the object will be deleted.</span><br /><span><br /></span><br /><span>Although I can't confirm yet, I've heard this no garbage collection limitation doesn't exist when creating mac desktop applications-- just iPhone applications.</span><br /><span><br /></span><br /><span><br /></span><br /><span><u><b>Autorelease Pools:</b></u></span><br /><span><br /></span><br /><span>Typically, if we own an object, we are responsible for releasing it. However, this isn't always doable.</span><br /><span><br /></span><br /><span>Sometimes we need an autorelease pool. </span><br /><span><br /></span><br /><span><span>NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];</span></span><br /><span><br /></span><br /><span>Autorelease loosely translates to, "Release my object, but not immediately." This is useful for cases like below:</span><br /><span><br /></span><br /><span><span>-coolFunction {</span></span><br /><span><span>  A *a = [[A alloc] init];</span></span><br /><span><span>  [a autorelease];  //imagine using "release" here like normal</span></span><br /><span><span>  return a;</span></span><br /><span><span>}</span></span><br /><span><span><br /></span></span><br /><span><span>N *n = [[N alloc] init];</span></span><br /><span><span>A *coolResult = [n coolFunction];</span></span><br /><span><br /></span><br /><span>We have an object allocated inside the function, but it will be released before it can be returned! So instead of using release, we would use autorelease so that the object can be returned. This functionality shouldn't be abused.</span><br /><span><br /></span><br /><span><br /></span><br /><span>As an interesting side note, the "NS" in front of NSObject or NSLog functions stand for "Next Step," from NeXT Computers (the Steve Jobs venture). </span><br /><span><br /></span></p>

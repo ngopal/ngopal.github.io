@@ -1,0 +1,68 @@
+---
+layout: page
+title: Bayes
+date: 2014-04-26 17:42:21.000000000 -07:00
+categories: []
+tags: []
+status: draft
+type: page
+published: false
+meta:
+  _edit_last: '1'
+  _wp_page_template: default
+  show_client_logos: show_client_logos-no
+  sidebar_on: sidebar_on-no
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>What is bayes</p>
+<p>Why is it useful</p>
+<p>Who uses it?<br />
+-Recently used to help find crashed plane<br />
+-Used in WWII to find German submarines<br />
+-Used by Spam Filters<br />
+-</p>
+<p><strong>Simplified Version: Hipster or Punk?</strong></p>
+<p>Has mohawk<br />
+Based on the information you have, is this person a hipster or a punk?</p>
+<p>Let's update your prior information. We now know that this person wears glasses. Based on the information you have, is this person a hipster or a punk?</p>
+<p>Let's update your prior information again. We've learned that this person wears skinny jeans. Based on the information you have, is this person a hipster or a punk?</p>
+<p>News flash! New information for your prior! This person seems to drink PBR like water. Based on the information you have, is this person a hipster or a punk?</p>
+<p>One more update for your prior. This person owns a fixie. Based on the information you have, is this person a hipster or a punk?</p>
+<p>We tend to do all of these "calculations" subconsciously in our mind. As you know, it's hard to say with 100% certainty if this person is a hipster or a punk. However, based on the information we received, we can make a decent prediction.</p>
+<p>Now imagine how this could be applied to a crime scene or medical research. Pretty cool stuff.</p>
+<p><strong>The Equation</strong></p>
+<p>The above process can be illustrated as a mathematical equation. This equation is referred to as Bayes Theorem.</p>
+<p>We live in systems. Or at least we assume we do for modeling purposes. 1 = P(rain in Seattle) + P(NOT rain in Seattle)</p>
+<p>Probability is written in the notation P(rain in Seattle) = 0.7. We have "a" 7/10 times, 70/100 times, 700/1000 times, etc.</p>
+<p>P(NOT rain in Seattle) = 1 - P(rain in Seattle) = 1 - 0.7 = 0.3</p>
+<p>We can also have situations that depend on other factors.</p>
+<p>P(rain in Seattle | Cloudy) = 0.8</p>
+<p>P(NOT rain in Seattle | Cloudy) = 0.2</p>
+<p>What is the probability it is Cloudy given that it is not raining? Oh damn.</p>
+<p>Here comes the Bayes:</p>
+<p>P(A|B) = P(B|A)*P(B) / P(A)</p>
+<p>P(Cloudy | NOT raining in Seattle) = P(NOT raining in Seattle | Cloudy) * P(NOT raining in Seattle) / P(raining in Seattle) = .085 = 8.5%</p>
+<p>8-9 days out of 100 it is cloudy in Seattle, it is not raining.</p>
+<p>With Bayes Theorem, we can quantify and infer likelihood. And that is useful.</p>
+<p>Let's walk through another example.</p>
+<p><strong>Spam or Not Spam<br />
+</strong></p>
+<p>P(WordSet | Spam), P(NOT WordSet | Spam), P(Spam), P(WordSet)</p>
+<p>P(Spam | Words) = ?</p>
+<p>OMG. We just build a naive bayes spam filter.</p>
+<p><strong>Used with Networks</strong></p>
+<p>-Markov Models</p>
+<p><strong>The Downsides of Bayes</strong></p>
+<p>I could leave you readers with a sense of unbounded optimism, but there is are a few reasons Bayes is not used everywhere and for everything.</p>
+<p>Computational Complexity<br />
+-Bayes doesn't scale very well. In computer speak, it scales at O(n^2) time. More often than not, we can use a more specialized (and typically more efficient) statistical method to serve our purpose.</p>
+<p>Next: Sensitivity, Specificity, and Positive Predictive Value (aka how bayes applies to screening tests)</p>
+<p>Notes:</p>
+<p>* Mention that P(A and B) = P(A) * P(B) if they are independent. If they are not independent, what happens? P(A and B) = P(A) * P(B | A)?</p>

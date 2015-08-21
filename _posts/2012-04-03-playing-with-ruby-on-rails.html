@@ -1,0 +1,295 @@
+---
+layout: post
+title: Playing with Ruby on Rails
+date: 2012-04-03 23:54:00.000000000 -07:00
+categories:
+- RoR
+- Ruby
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  blogger_blog: www.nikhilgopal.com
+  blogger_author: Nikhil Gopal
+  blogger_permalink: /2012/04/playing-with-ruby-on-rails.html
+  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/6290602638582968819
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Here below are some notes I made while playing with Ruby and RoR. Interestingly, I found that RoR is a great way to learn about the foundations of web frameworks. I have a much stronger understanding about not just RoR, but of Django, Pyramid, and Web2Py. Every web framework really has the same few components (or some variation thereof): Models, Views, Controllers, and Routes.</p>
+<p>I walked through the free tutorial by <a href="http://railsforzombies.org/">CodeSchool</a>:</p>
+<p><b>The Basics:</b></p>
+<p>CRUD<br />
+Create,Read,Update,Destroy</p>
+<p>Zombie.new<br />
+z = Zombie.new(initialize)<br />
+z.save<br />
+Zombie.create<br />
+Zombie.find(3)<br />
+Zombie.update_attributes</p>
+<p><b>Models:</b></p>
+<p>class Tweet < ActiveRecord::Base (just means that class Tweet inherits from ActiveRecord)<br />
+end</p>
+<p>validate data before it is saved in DB</p>
+<p>class Tweet < ActiveRecord::Base<br />
+    validates_presence_of :status<br />
+end</p>
+<p>t.errors -> returns errors<br />
+t.errors[:status] --> just error pertaining to status</p>
+<p>Rails 3 new syntax for validation:</p>
+<p>validates attribute, validation<br />
+validates :status, :presence => true<br />
+validates :status, :length => {:minimum => 3}</p>
+<p><i>app/models/tweet.rb</i></p>
+<p><i>class Tweet < ActiveRecord::Base</i><br /><i>    belongs_to :zombie</i><br /><i>end</i>
+<div>
+<i><br /></i></div>
+<div>
+<i>app/models/zombie.rb</i></div>
+<div>
+<i>class Zombie < ActiveRecord::Base</i></div>
+<div>
+<i>    has_many :tweets</i></div>
+<div>
+<i>end</i></div>
+<div>
+</div>
+<div>
+<b>View:</b></div>
+<div>
+</div>
+<div>
+web request -> 4 layers -> models, view, controllers, routing</div>
+<div>
+</div>
+<div>
+<%...%> evaluate ruby</div>
+<div>
+<%=...%> evaluate and print results</div>
+<div>
+</div>
+<div>
+layouts/application --> make html page format and use <%= yield %></div>
+<div>
+/app/views/tweets/shot.html.erb (code that will be yielded is in here)</div>
+<div>
+</div>
+<div>
+<div>
+Adding CSS</div>
+<div>
+<%= stylesheet_link_tag :all %></div>
+<div>
+<%= javascript_include_tag :defaults %> # can replace prototype javascript library with jquery</div>
+<div>
+<%= csrf_meta_tag %> #protects website from hackers</div>
+<div>
+</div>
+<div>
+with URLs, it checks public folder first, then tries to execute inside rails</div>
+</div>
+<div>
+</div>
+<div>
+Adding a Link</div>
+<div>
+<%= link_to "link text",  "link path (URL)"%></div>
+<div>
+<%= link_to tweet.zombie.name, zombie_path(zombie.tweet) %></div>
+<div>
+<%= link_to "Edit", edit_tweet_path(tweet) %></div>
+<div>
+<%= link_to "Delete", :method => :delete %></div>
+<div>
+</div>
+<div>
+Listing Zombies</div>
+<div>
+<h1>
+<p> Listing Tweets</h1>
+</div>
+<div>
+</div>
+<div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+<% Tweet.all.each do |tweet| %></div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+<% end %></div>
+<div>
+</div>
+<table>
+<tbody>
+<tr>
+<th>Status</th>
+<th>Zombie</th>
+</tr>
+<tr>
+<td><% tweet.status %></td>
+<td><% tweet.zombie.name %></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+</div>
+<div>
+<b>Controllers:</b></div>
+<div>
+</div>
+<div>
+class TweetsController < ApplicationController</div>
+<div>
+   def show</div>
+<div>
+      @tweet = Tweet.find(params[:id]) #using an instance variable</div>
+<div>
+       render :action => 'status' #for status.html.erb</div>
+<div>
+       respond_to do |format|</div>
+<div>
+          format.html #show html.erb</div>
+<div>
+          format.xml  { render :xml => @tweet }</div>
+<div>
+          format.json { render :json => @tweet }</div>
+<div>
+   end</div>
+<div>
+end</div>
+<div>
+</div>
+<div>
+model calls goes into the controller files. All request data stored in a hash called params.</div>
+<div>
+</div>
+<div>
+def index -> list all tweets</div>
+<div>
+def show -> show a single tweet</div>
+<div>
+def new -> show a new tweet form</div>
+<div>
+def edit -> show an edit tweet form</div>
+<div>
+def create -> create a new tweet</div>
+<div>
+def update -> update a tweet</div>
+<div>
+def delete -> delete a tweet</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+<b>Authorization:</b></div>
+<div>
+def edit</div>
+<div>
+  @tweet = Tweet.find(params[:id])</div>
+<div>
+   if session[:zombie_id] != @tweet.zombie_id</div>
+<div>
+      flash[:notice] = "sorry, you can't edit this tweet"</div>
+<div>
+      redirect_to(tweets_path)</div>
+<div>
+    end</div>
+<div>
+  end</div>
+<div>
+ end</div>
+<div>
+</div>
+<div>
+class TweetsController < ApplicationController</div>
+<div>
+  before_filter :get_tweet, :only => [:edit, :update, :destroy]</div>
+<div>
+  before_filter :check_auth, :only => [:edit, :update, :destroy]</div>
+<div>
+</div>
+<div>
+  def get_tweet</div>
+<div>
+    @tweet = Tweet.find(params[:id])</div>
+<div>
+  end</div>
+<div>
+</div>
+<div>
+def check_auth</div>
+<div>
+<div>
+  if session[:zombie_id] != @tweet.zombie_id</div>
+<div>
+      flash[:notice] = "sorry, you can't edit this tweet"</div>
+<div>
+      redirect_to(tweets_path)</div>
+<div>
+  end</div>
+</div>
+<div>
+ end</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+<b>Routing:</b></div>
+<div>
+</div>
+<div>
+config/routes.rb</div>
+<div>
+ZombieTwitter::Application.routes.draw do |map|</div>
+<div>
+  resources :tweets #creates a "REST"ful resource</div>
+<div>
+  match 'new_tweet' => "Tweets#new" # path => controller#action</div>
+<div>
+  match 'all' => "Tweets#index", :as => "all_tweets" # now all tweets can be used as an object "link_to"</div>
+<div>
+  match 'a' => redirect('/tweets')</div>
+<div>
+  match 'google' => redirect('http://www.google.com')</div>
+<div>
+  root :to => "Tweets#index"</div>
+<div>
+  match 'local_tweets/:zipcode' => "Tweets#index"</div>
+<div>
+  match 'local_tweets/:zipcode' => 'Tweets#index', :as => <b>'local_tweets'</b></div>
+<div>
+end</div>
+<div>
+</div>
+<div>
+<%= link_to "All Tweets", all_tweets_path %></div>
+<div>
+<%= link_to "Tweets in 32828", <b>local_tweets</b>_path(32828) %></div>
+<div>
+</div>
+<div>
+</div>

@@ -1,0 +1,44 @@
+---
+layout: post
+title: Visualizing Look and Say Sequences with D3
+date: 2014-03-31 21:29:58.000000000 -07:00
+categories: []
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  disable_featured_image: disable_featured_image-no
+  single_format_link_url: ''
+  single_format_video: ''
+  single_format_audio: ''
+  single_format_audio_oga: ''
+  single_format_quote: ''
+  single_format_quote_url: ''
+  _wpas_done_all: '1'
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><a href="http://www.nikhilgopal.com/wp-content/uploads/2014/03/Screenshot-2014-03-25-21.58.57.png"><img class="alignnone size-full wp-image-257" alt="Screenshot 2014-03-25 21.58.57" src="assets/Screenshot-2014-03-25-21.58.57.png" width="950" height="488" /></a></p>
+<p><a href="https://oeis.org/A005150" target="_blank">Look and Say Sequences</a>:</p>
+<p>The way this works is you look at the first number (which is 1 in this case), you say it out loud ("one 1"), and that becomes the second number in the sequence (11). Then we rinse and repeat--we look at 11, say it out loud ("two 1's"), and that becomes the next number in the sequence (21).</p>
+<p>Here are the first ten:<br />
+1<br />
+11<br />
+21<br />
+1211<br />
+111221<br />
+312211<br />
+13112221<br />
+1113213211<br />
+31131211131221<br />
+13211311123113112211</p>
+<p>The visualization you are looking at above is sequence number 25. The coordinates start at (0,0). Each number in the sequence is multiplied by (0,1) Up, (-1,0) left, (1,0) right, and (0,-1) down in turn. All of the coordinates are converted to absolute values so they trend from bottom left to top right on the canvas.</p>
+<p>You can view the block here: <a href="http://bl.ocks.org/ngopal/9864113" target="_blank">http://bl.ocks.org/ngopal/9864113</a></p>

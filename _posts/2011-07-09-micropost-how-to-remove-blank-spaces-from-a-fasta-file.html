@@ -1,0 +1,45 @@
+---
+layout: post
+title: 'Micropost: How to remove blank spaces from a fasta file'
+date: 2011-07-09 20:21:00.000000000 -07:00
+categories:
+- bioinformatics
+- micropost
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  blogger_blog: www.nikhilgopal.com
+  blogger_author: Nikhil Gopal
+  blogger_permalink: /2011/07/micropost-how-to-remove-blank-spaces.html
+  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/4696559223757444952
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><span>Apparently BLAST doesn't like it when there are spaces between fasta entries (at least this is what my experience has been). When working with large fasta files, no one wants to remove the blank lines by hand. Here is a fast way to remove the blank lines in a fasta file in terminal:</span><br /><span><br /></span></p>
+<div><span><b>cat sequences.fasta | sed /^$/d > sequences_no_blanks.fasta</b></span></div>
+<div><span><br /></span></div>
+<div><span>This will turn:</span></div>
+<div><span><br /></span></div>
+<div><span><i>>sequenceA</i></span></div>
+<div><span><i>ATGCACACGATGATCGATCCGCGGCATCAGCAGCCTACGAGCAGCAGCGACGACGAGCAGCTACGAAGATATAGAGCA</i></span></div>
+<div><span><i><br /></i></span></div>
+<div><span><i>>sequenceB</i></span></div>
+<div><span><i>GTGTGTGTACAGCTGACTCGCGCGCGCGCGCAAGATATATAGAAGTAATATAGA</i></span></div>
+<div><span><br /></span></div>
+<div><span>Into this:</span></div>
+<div><span><br /></span></div>
+<div><span></span></div>
+<div><span><span><i>>sequenceA</i></span></span></div>
+<div><span><span><i>ATGCACACGATGATCGATCCGCGGCATCAGCAGCCTACGAGCAGCAGCGACGACGAGCAGCTACGAAGATATAGAGCA</i></span></span></div>
+<div><span><span><i>>sequenceB</i></span></span></div>
+<div><span><span><i>GTGTGTGTACAGCTGACTCGCGCGCGCGCGCAAGATATATAGAAGTAATATAGA</i></span></span></div>
+<div><span><span><br /></span></span></div>
+<div><span><span><br /></span></span></div>

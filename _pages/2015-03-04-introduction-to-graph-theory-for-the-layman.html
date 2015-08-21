@@ -1,0 +1,36 @@
+---
+layout: page
+title: Introduction to Graph Theory for the Layman
+date: 2015-03-04 14:13:51.000000000 -08:00
+categories: []
+tags: []
+status: draft
+type: page
+published: false
+meta:
+  sidebar_on: sidebar_on-no
+  _edit_last: '1'
+  _wp_page_template: default
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>This is meant to be a very brief introduction to graph theory and how has been used. It is the written version of a presentation I gave for the BIME 591 graduate class (Stochastic Modeling in Cancer). There is actually a lot of literature on graphs. Graphs aren't really a new data structure, they've just gotten popular recently. I guess with the success of Google and Facebook famous for their graph-based approaches, researchers are more curious than ever about what networks can do for them. </p>
+<p>This guide will not be very mathematics heavy. I'm sure you know how to reference a textbook or read Wikipedia. A number of graph libraries and tools already exist, and it is more important to develop an intuitive understanding for the uses and caveats of graphs and their properties than memorizing mathematical equations.</p>
+<p><strong>What is a graph?</strong><br />
+So first, what is a graph? I would argue that it depends on who you ask. A mathematician might say it's a construct. A computer scientist might say it's a data structure. A biologist might tell you it's a visualization. It's really all of that!</p>
+<p>What types of graphs exist? (directed, undirected, etc.)</p>
+<p>I'm sure you've heard people use the term network and graph interchangeably. Whether or not this is acceptable depends on your audience, but strictly speaking, they are different things. A network is a graph with weighted edges.</p>
+<p>Let's go to a lightweight app I whipped up a few months ago: http://staff.washington.edu/ngopal/pathwaydesigner/ . This app uses the DOT language to describe graphs--this is a nifty little language developed at Bell Labs used to describe graphs in computers and is still very useful today. It's great for creating a quick little node-link diagram.</p>
+<p><iframe src="http://staff.washington.edu/ngopal/pathwaydesigner" width="100%" height="400"></iframe></p>
+<p><strong>Centralities</strong><br />
+What is centrality? My explanation is that it is merely a way of ordering nodes. This is akin to ordering numbers from least to greatest for example.</p>
+<p>This little embedded JSBin below shows a little custom graph library I whipped up. It uses a programming technique called method chaining to keep the code readable.<br />
+<a class="jsbin-embed" href="http://jsbin.com/tavice/3/embed?js,console">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
+<p><strong>Types of graphs</strong><br />
+How many types of graphs are there? There are random graphs, small-world graphs, etc</p>

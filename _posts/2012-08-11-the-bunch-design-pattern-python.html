@@ -1,0 +1,35 @@
+---
+layout: post
+title: The Bunch Design Pattern (Python)
+date: 2012-08-11 05:17:00.000000000 -07:00
+categories:
+- python
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  blogger_blog: www.nikhilgopal.com
+  blogger_author: Nikhil Gopal
+  blogger_permalink: /2012/08/the-bunch-design-pattern-python.html
+  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/147618628117598724
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><span>This one is out of the Python Cookbook and credit goes to Alex Martelli if I'm not mistaken. This technique is useful when we would like to record data in some type of "forgiving" data structure.</span><br /><span><br /></span><br />
+<span>We know we can accomplish this with a python dictionary, but what about when we want to nest an inconsistent data structure in another inconsistent data structure? This is when the bunch pattern is useful.</span><br /><span><br /></span><br />
+<span><b>Example Program:</b></span><br /><span><br /></span><br />
+<br /><span><i>class Bunch:</i></span><br /><span><i><span>	</span>def __init__(self, *args, **kwargs):</i></span><br /><span><i><span>		</span>self.__dict__.update(kwargs)</i></span><br /><span><i><br /></i></span><br />
+<span><i>struct = Bunch(type="flat", size="huge", family="chordata", genus=Bunch(level="medium", intensity="hot"), BOOL=True)</i></span><br /><span><i><br /></i></span><br />
+<span><i>print struct</i></span><br /><span><i>print struct.type</i></span><br /><span><i>print struct.size</i></span><br /><span><i>print struct.genus.level</i></span><br /><span><br /></span><br />
+<span><b>Output:</b></span><br /><span><br /></span><br />
+<span><i></i></span><br /><span><i><__main__ .bunch=".bunch" at="at" instance="instance"></__main__></i></span><br /><span><i>flat</i></span><br /><span><i>huge</i></span><br /><span><i>medium</i></span></p>
+<p><span><br /></span><br />
+<span>Pretty slick, huh? The beauty of this vignette is that it is highly extensible. The original thread where I stumbled upon this is located <a href="http://code.activestate.com/recipes/52308-the-simple-but-handy-collector-of-a-bunch-of-named/">here</a>.</span><br /><span><br /></span><br />
+<span><br /></span></p>

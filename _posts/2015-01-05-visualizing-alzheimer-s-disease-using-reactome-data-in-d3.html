@@ -1,0 +1,59 @@
+---
+layout: post
+title: Visualizing Alzheimer's Disease Using Reactome Data in D3
+date: 2015-01-05 21:15:16.000000000 -08:00
+categories: []
+tags: []
+status: draft
+type: post
+published: false
+meta:
+  _edit_last: '1'
+  wpd3-451-0: '{"includes":[],"code":"var width = 960,\n      height = 500;\n\n  var
+    color = d3.scale.category20();\n\n  var force = d3.layout.force()\n      .charge(-120)\n      .linkDistance(30)\n      .size([width,
+    height]);\n\n  var svg = d3.select(\"body\").append(\"svg\")\n      .attr(\"width\",
+    width)\n      .attr(\"height\", height);\n\n  var reactants = [];\n  var products
+    = [];\n  var reactions = [];\n  var nodes = [];\n  var links = [];\n  var Rgraph
+    = {};\n\n  // on drop down pathway name change, load new file\n  d3.json(\"js/alzheimerR.json\",
+    function(error, result) {\n\n    // Create the nodes and edges connections for
+    reactions and species\n    var edges = [];\n    for (i = 0; i < result.sbml.model.listOfReactions.reaction.length;
+    i++) {\n      // Reactions to Products\n      edges.push(''{\"source\":''+''\"''+result.sbml.model.listOfReactions.reaction[i][''-id'']+''\",\"target\":''+''\"''+result.sbml.model.listOfReactions.reaction[i].listOfProducts.speciesReference[''-species'']+''\"}'');\n      reactions.push(result.sbml.model.listOfReactions.reaction[i][''-id'']);\n      products.push(result.sbml.model.listOfReactions.reaction[i].listOfProducts.speciesReference[''-species'']);\n      for
+    (k = 0; k < result.sbml.model.listOfReactions.reaction[i].listOfReactants.speciesReference.length;
+    k++) {\n        // Reactants to Reactions\n        edges.push(''{\"source\":''+''\"''+result.sbml.model.listOfReactions.reaction[i].listOfReactants.speciesReference[k][''-species'']+''\",\"target\":''+''\"''+result.sbml.model.listOfReactions.reaction[i][''-id'']+''\"}'');\n        reactants.push(result.sbml.model.listOfReactions.reaction[i].listOfReactants.speciesReference[k][''-species'']);\n      }\n    }\n\n    for
+    (i = 0; i < result.sbml.model.listOfSpecies.species.length; i++) {\n      //console.log(result.sbml.model.listOfSpecies.species[i]);\n      if
+    (typeof(result.sbml.model.listOfSpecies.species[i].annotation[''rdf:RDF''][''rdf:Description''][''bqbiol:is''][''rdf:Bag''][''rdf:li''])
+    === \"object\") {\n        for (k = 0; k < result.sbml.model.listOfSpecies.species[i].annotation[''rdf:RDF''][''rdf:Description''][''bqbiol:is''][''rdf:Bag''][''rdf:li''].length;
+    k++) {\n          console.log(result.sbml.model.listOfSpecies.species[i].annotation[''rdf:RDF''][''rdf:Description''][''bqbiol:is''][''rdf:Bag''][''rdf:li''][k][''-rdf:resource'']);\n        }\n      }\n      else
+    {\n        console.log(result.sbml.model.listOfSpecies.species[i].annotation[''rdf:RDF''][''rdf:Description''][''bqbiol:is''][''rdf:Bag''][''rdf:li''][''-rdf:resource'']);\n      }\n    }\n\n    //
+    setup nodes\n    var combined = products.concat(reactants).concat(reactions);\n    for
+    (n = 0; n < combined.length; n++) {\n      nodes.push(''{\"name\":\"''+combined[n]+''\"}'');\n      //
+    if ((/^species/).test(combined[n])) {\n      //   nodes.push(''{\"name\":\"''+combined[n]+''\",\"group\":1}'');\n      //
+    }\n      // else {\n      //   nodes.push(''{\"name\":\"''+combined[n]+''\",\"group\":\"2\"}'');
+    \n      // }\n    }\n      \n    // change source and target edges names to reflect
+    node order\n    for (x = 0; x < edges.length; x++) {\n      links.push(''{\"source\":''+nodes.indexOf(''{\"name\":\"''+JSON.parse(edges[x]).source+''\"}'')+'',
+    \"target\":''+nodes.indexOf(''{\"name\":\"''+JSON.parse(edges[x]).target+''\"}'')+''}'');\n    }\n\n    //
+    add groups to nodes for colors\n    var nodesWithGroup = [];\n    nodes.forEach(function(n)
+    {\n      if ((/^species/).test(JSON.parse(n).name)) {\n        nodesWithGroup.push(n.substring(0,
+    n.length - 1)+'',\"group\":1}'');\n      }\n      else {\n        nodesWithGroup.push(n.substring(0,
+    n.length - 1)+'',\"group\":2}'');\n      }\n    })\n\n    Rgraph.nodes = nodesWithGroup;\n    Rgraph.links
+    = links;\n    console.log(Rgraph);\n\n    var graph = {};\n    graph.nodes = JSON.parse(''[''+String(Rgraph.nodes)+'']'');\n    graph.links
+    = JSON.parse(''[''+String(Rgraph.links)+'']'');\n\n    force\n        .nodes(graph.nodes)\n        .links(graph.links)\n        .start();\n\n    var
+    link = svg.selectAll(\".link\")\n        .data(graph.links)\n      .enter().append(\"line\")\n        .attr(\"class\",
+    \"link\");\n\n    var node = svg.selectAll(\".node\")\n        .data(graph.nodes)\n      .enter().append(\"circle\")\n        .attr(\"class\",
+    \"node\")\n        .attr(\"r\", 5)\n        .style(\"fill\", function(d) { return
+    color(d.group); })\n        .call(force.drag);\n\n    node.append(\"title\")\n        .text(function(d)
+    { return d.name; });\n\n    force.on(\"tick\", function() {\n      link.attr(\"x1\",
+    function(d) { return d.source.x; })\n          .attr(\"y1\", function(d) { return
+    d.source.y; })\n          .attr(\"x2\", function(d) { return d.target.x; })\n          .attr(\"y2\",
+    function(d) { return d.target.y; });\n\n      node.attr(\"cx\", function(d) {
+    return d.x; })\n          .attr(\"cy\", function(d) { return d.y; });\n    });\n  });"}'
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+

@@ -1,0 +1,1 @@
+ruby -rubygems -e 'require "jekyll-import"; JekyllImport::Importers::WordpressDotCom.run({ "source" => "/home/martin/8thcolor.wordpress.2014-04-25.xml" })'

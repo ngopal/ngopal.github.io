@@ -1,0 +1,37 @@
+---
+layout: post
+title: 'OWLify: A Python Library to Generate RDF/OWL Code'
+date: 2012-12-27 01:04:00.000000000 -08:00
+categories:
+- python
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  blogger_blog: www.nikhilgopal.com
+  blogger_author: Nikhil Gopal
+  blogger_permalink: /2012/12/owlify-python-library-to-generate.html
+  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/3415956782986933503
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><b><span><br /></span></b><br />
+<b><span>Why Another Library?:</span></b><br /><span><br /></span><br />
+<span>I've been working with RDF/OWL data over the past few months. I've been moving away from high-performance databases and NoSQL and towards the semantic web. The semantic web allows us to represent rich, complex relationships between data--in ways we just aren't able to with current database technology. I've found RDF/OWL better suited for representing knowledge of the data I've been working with most recently.</span><br /><span><br /></span><br />
+<b><span>Libraries That Already Exist:</span></b><br /><span><br /></span><br />
+<span>We can query semantic web files with SPARQL. A Python library used to interface with SPARQL already exists. In fact, there is also a library that exists to help process RDF/OWL files in Python. However, I couldn't find anything well-suited to take a python object and transform that into RDF/OWL. So I wrote <a href="https://github.com/ngopal/OWLify">OWLify</a>.</span><br /><span><br /></span><br />
+<b><span>Explain <a href="https://github.com/ngopal/OWLify">OWLify</a>:</span></b><br /><span><br /></span><br />
+<span>In order to quickly turn my data into a RDF/OWL file, I wrote a bare minimal library I called <a href="https://github.com/ngopal/OWLify">OWLify</a>. I only included the functions I needed at the time. I'm putting it up on github for folks to fork and extend as needed. The interface is pretty simple. Creating new RDF-compliant functions should be very straightforward.</span><br /><span><br /></span><br />
+<b><span>Example Code:</span></b><br /><span><br /></span><br />
+<span>from OWLify import OWL</span><br /><span><br /></span><br />
+<span>names = ['Janet', 'Marcy', 'Ed']</span><br /><span>gender = ['Female', 'Female', 'Male']</span><br /><span>colors = ['Red','Blue','Green']</span><br /><span><br /></span><br />
+<span>out = OWL('http://www.nikhilgopal.com', 'owl_example.owl', 'http://www.nikhilgopal.com/properties')</span><br /><span>out.start()</span><br /><span>for n in range(len(names)):</span><br /><span>    out.addClass(names[n])</span><br /><span>    out.assertEquivalentTriple(names[n], 'hasColor', colors[n])</span><br /><span>    out.assertSubClassTriple(names[n], 'hasGender', gender[n])</span><br /><span>out.end()</span><br /><span><br /></span><br />
+<b><a href="https://github.com/ngopal/OWLify" target="_blank"><span>Get the Code</span></a></b><br /><span><br /></span><br />
+<span><br /></span><br /></p>
