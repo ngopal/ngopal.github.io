@@ -6,45 +6,17 @@
 </description>
     <link>http://nikhilgopal.com/</link>
     <atom:link href="http://nikhilgopal.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Aug 2015 14:39:32 -0700</pubDate>
-    <lastBuildDate>Fri, 21 Aug 2015 14:39:32 -0700</lastBuildDate>
+    <pubDate>Sun, 23 Aug 2015 14:34:51 -0700</pubDate>
+    <lastBuildDate>Sun, 23 Aug 2015 14:34:51 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 21 Aug 2015 04:40:22 -0700</pubDate>
-        <link>http://nikhilgopal.com/jekyll/update/2015/08/21/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://nikhilgopal.com/jekyll/update/2015/08/21/welcome-to-jekyll.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
     
       <item>
         <title>Applying A Divergent Color Scale to A Gene Expression Heat Map</title>
         <description>&lt;p&gt;&lt;em&gt;Estimated Read Time: Under 5 minutes&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This is a quick post about a quick little experiment I tried lately. I saw a &lt;a href=&quot;https://medium.com/matter/the-trouble-with-the-purple-election-map-31e6cb9f1827?source=tw-lo_d2937f3b017d-1415167125872&quot;&gt;recent post&lt;/a&gt; about how red and blue color scales on political heat maps can be misleading--primarily because human perception is not very good at discriminating between shades of purple in the presented scenario. &lt;/p&gt;
 &lt;p&gt;Since gene expression heat maps are virtually a right of passage in bioinformatics, I thought I&#39;d try and rescale the colors on a gene expression heat map to a properly divergent color scale and visualize the results. Results Below:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.nikhilgopal.com/wp-content/uploads/2014/11/old10scale.jpeg&quot;&gt;&lt;img src=&quot;assets/old10scale.jpeg&quot; alt=&quot;old10scale&quot; width=&quot;559&quot; height=&quot;351&quot; class=&quot;alignnone size-full wp-image-371&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.nikhilgopal.com/wp-content/uploads/2014/11/new.jpeg&quot;&gt;&lt;img src=&quot;assets/new.jpeg&quot; alt=&quot;new&quot; width=&quot;559&quot; height=&quot;351&quot; class=&quot;alignnone size-full wp-image-372&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://nikhilgopal.com/uploads/2014/11/old10scale.jpeg&quot;&gt;&lt;img src=&quot;http://nikhilgopal.com/assets/old10scale.jpeg&quot; alt=&quot;old10scale&quot; width=&quot;559&quot; height=&quot;351&quot; class=&quot;alignnone size-full wp-image-371&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://nikhilgopal.com/uploads/2014/11/new.jpeg&quot;&gt;&lt;img src=&quot;http://nikhilgopal.com/assets/new.jpeg&quot; alt=&quot;new&quot; width=&quot;559&quot; height=&quot;351&quot; class=&quot;alignnone size-full wp-image-372&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;At the top is a plot (green and blue) generated using the &lt;a href=&quot;http://www2.warwick.ac.uk/fac/sci/moac/people/students/peter_cock/r/heatmap/&quot;&gt;code available on Peter Cock&#39;s website&lt;/a&gt; (but modified to only use 10 colors on the scale). Below that is the plot (red and blue) generated with my modified version.&lt;/p&gt;
 &lt;p&gt;And of course, code for your consumption:&lt;/p&gt;
 &lt;p&gt;&lt;script src=&quot;https://gist.github.com/ngopal/2b25477d21632fe41045.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
@@ -117,7 +89,7 @@
     
       <item>
         <title>Visualizing Look and Say Sequences with D3</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://www.nikhilgopal.com/wp-content/uploads/2014/03/Screenshot-2014-03-25-21.58.57.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-257&quot; alt=&quot;Screenshot 2014-03-25 21.58.57&quot; src=&quot;assets/Screenshot-2014-03-25-21.58.57.png&quot; width=&quot;950&quot; height=&quot;488&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;http://nikhilgopal.com/uploads/2014/03/Screenshot-2014-03-25-21.58.57.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-257&quot; alt=&quot;Screenshot 2014-03-25 21.58.57&quot; src=&quot;http://nikhilgopal.com/assets/Screenshot-2014-03-25-21.58.57.png&quot; width=&quot;950&quot; height=&quot;488&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://oeis.org/A005150&quot; target=&quot;_blank&quot;&gt;Look and Say Sequences&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;The way this works is you look at the first number (which is 1 in this case), you say it out loud (&quot;one 1&quot;), and that becomes the second number in the sequence (11). Then we rinse and repeat--we look at 11, say it out loud (&quot;two 1&#39;s&quot;), and that becomes the next number in the sequence (21).&lt;/p&gt;
 &lt;p&gt;Here are the first ten:&lt;br /&gt;
@@ -161,13 +133,13 @@
 &lt;p&gt;Here is my code to get the data into the database (Python):&lt;/p&gt;
 &lt;p&gt;[gist]https://gist.github.com/ngopal/9164149[/gist]&lt;/p&gt;
 &lt;p&gt;We can watch the number of nodes and relationships grow.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.nikhilgopal.com/wp-content/uploads/2014/02/Screenshot-2014-02-22-15.45.18.png&quot;&gt;&lt;img class=&quot;size-full wp-image-233 aligncenter&quot; alt=&quot;Screenshot 2014-02-22 15.45.18&quot; src=&quot;assets/Screenshot-2014-02-22-15.45.18.png&quot; width=&quot;1215&quot; height=&quot;768&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://nikhilgopal.com/uploads/2014/02/Screenshot-2014-02-22-15.45.18.png&quot;&gt;&lt;img class=&quot;size-full wp-image-233 aligncenter&quot; alt=&quot;Screenshot 2014-02-22 15.45.18&quot; src=&quot;http://nikhilgopal.com/assets/Screenshot-2014-02-22-15.45.18.png&quot; width=&quot;1215&quot; height=&quot;768&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Now we can run a basic query on the data from node to node using Cypher. Here is the code:&lt;/p&gt;
 &lt;p&gt;[gist]https://gist.github.com/ngopal/9163968[/gist]&lt;/p&gt;
 &lt;p&gt;And here is the output:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.nikhilgopal.com/wp-content/uploads/2014/02/Screenshot-2014-02-22-15.46.28.png&quot;&gt;&lt;img class=&quot;size-full wp-image-232 aligncenter&quot; alt=&quot;Screenshot 2014-02-22 15.46.28&quot; src=&quot;assets/Screenshot-2014-02-22-15.46.28.png&quot; width=&quot;1215&quot; height=&quot;768&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://nikhilgopal.com/uploads/2014/02/Screenshot-2014-02-22-15.46.28.png&quot;&gt;&lt;img class=&quot;size-full wp-image-232 aligncenter&quot; alt=&quot;Screenshot 2014-02-22 15.46.28&quot; src=&quot;http://nikhilgopal.com/assets/Screenshot-2014-02-22-15.46.28.png&quot; width=&quot;1215&quot; height=&quot;768&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;And another example:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.nikhilgopal.com/wp-content/uploads/2014/02/Screenshot-2014-02-22-15.47.04.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-231&quot; alt=&quot;Screenshot 2014-02-22 15.47.04&quot; src=&quot;assets/Screenshot-2014-02-22-15.47.04.png&quot; width=&quot;682&quot; height=&quot;216&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://nikhilgopal.com/uploads/2014/02/Screenshot-2014-02-22-15.47.04.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-231&quot; alt=&quot;Screenshot 2014-02-22 15.47.04&quot; src=&quot;http://nikhilgopal.com/assets/Screenshot-2014-02-22-15.47.04.png&quot; width=&quot;682&quot; height=&quot;216&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I&#39;m planning on eventually visualizing this data in D3. If you want to stay in the loop, sign up and I&#39;ll keep you updated (your email won&#39;t be shared with anyone else):&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;&lt;br /&gt;
 &lt;!-- Begin MailChimp Signup Form --&gt;&lt;/p&gt;
@@ -250,9 +222,9 @@
 &lt;p&gt;Focus on improving just these 4 things and you will find that your skills are at the next level. Seriously.&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;On Getting Over Your Fear:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Amy Cuddy, a psychologist from Princeton, gave a &lt;a href=&quot;http://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are.html&quot; target=&quot;_blank&quot;&gt;TED talk&lt;/a&gt; mentioning how strongly body language and emotions are tied to each other.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.hbs.edu/faculty/Pages/profile.aspx?facId=491042&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;aligncenter&quot; alt=&quot;&quot; src=&quot;assets/cuddy%20tedglobal_0ac9cc7f-59e9-428f-bf75-5b0142c71bb6.jpg&quot; width=&quot;595&quot; height=&quot;396&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.hbs.edu/faculty/Pages/profile.aspx?facId=491042&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;aligncenter&quot; alt=&quot;&quot; src=&quot;http://nikhilgopal.com/assets/cuddy%20tedglobal_0ac9cc7f-59e9-428f-bf75-5b0142c71bb6.jpg&quot; width=&quot;595&quot; height=&quot;396&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;David Lee Roth, one of my favorite performers, mentioned in an &lt;a href=&quot;http://www.youtube.com/watch?v=ffxkY3fd5BY&quot; target=&quot;_blank&quot;&gt;interview&lt;/a&gt; that he would try all kinds of crazy things on stage. He would fail half of the time, but it didn&#39;t matter--the audience would cheer just because he was so energetic and daring.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.theguardian.com/music/2011/jun/12/van-halen-invent-hair-metal&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;aligncenter&quot; alt=&quot;&quot; src=&quot;assets/David-Lee-Roth-of-Van-Hal-007.jpg&quot; width=&quot;460&quot; height=&quot;276&quot; /&gt;&lt;/a&gt; Learn from Amy Cuddy! Channel David Lee Roth&#39;s energy! Use these tips and avoid being awkward in front of large groups of people. As a closing note, videotape yourself. It&#39;s painful to watch yourself stumble, but you will identify your weak areas and know exactly how to get better. Good luck!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.theguardian.com/music/2011/jun/12/van-halen-invent-hair-metal&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;aligncenter&quot; alt=&quot;&quot; src=&quot;http://nikhilgopal.com/assets/David-Lee-Roth-of-Van-Hal-007.jpg&quot; width=&quot;460&quot; height=&quot;276&quot; /&gt;&lt;/a&gt; Learn from Amy Cuddy! Channel David Lee Roth&#39;s energy! Use these tips and avoid being awkward in front of large groups of people. As a closing note, videotape yourself. It&#39;s painful to watch yourself stumble, but you will identify your weak areas and know exactly how to get better. Good luck!&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Jan 2014 20:34:38 -0800</pubDate>
@@ -373,6 +345,39 @@ sharing their stories and were very interested in hearing mine.&lt;/span&gt;&lt;
         <pubDate>Tue, 03 Sep 2013 22:08:00 -0700</pubDate>
         <link>http://nikhilgopal.com/travel/2013/09/03/ghana-day-4-9.html</link>
         <guid isPermaLink="true">http://nikhilgopal.com/travel/2013/09/03/ghana-day-4-9.html</guid>
+        
+        
+        <category>travel</category>
+        
+      </item>
+    
+      <item>
+        <title>Ghana: Day 3</title>
+        <description>&lt;p&gt;I started the day with an interesting cabbage and sausage dish. It was simple, greasy, and ohhh so delicious. I couldn&#39;t stand the instant coffee at first, but I&#39;m almost embarrassed to say it&#39;s been growing on me.&lt;/p&gt;
+&lt;p&gt;We had a lecture from a professor named Godfrey. He gave us a breakdown of the mobile market in Ghana and explained how the government is involved with the &quot;invisible hand&quot; in this country. It&#39;s a free market economy, but the government seems to favor local providers being the major supplier of mobile phone cards--and the government will pass laws to make it so. Speaking of which, there is a major court case that is going to receive a verdict this Thursday. The US Embassy is warning there might be riots and we might be evacuated. However, all of the program coordinators and political science professors I&#39;ve interacted with don&#39;t think it will come to that and assure me that there is no need to be worried.&lt;/p&gt;
+&lt;p&gt;
+The Twi lesson today was very interesting. I was given an African name: Kwabana. Since that name is kind of a mouthful, they gave me the nickname, &quot;nanaki.&quot; This roughly translates to &quot;King Tuesday.&quot; Tuesday because that was the day I was born. Ghanaians refer to each other by the day they were born! The culture is very much a &quot;drop-in&quot; culture. Our teacher was talking about how she drops-in on her friends all of the time. Everybody here seems to be very religious. I&#39;ve been invited to church several times and I think I am going to go (there doesn&#39;t seem to be any escaping it). People have been finding my philosophical insights on life very interesting--it seems to be a way of thinking most Ghanaian haven&#39;t been exposed to.&lt;/p&gt;
+&lt;p&gt;I bought plantain chips on the road. These are pretty good. They&#39;re dirt cheap too. Literally less than 50 cents USD. I bought a bag of water for 25 cents USD. I&#39;ve spent less than $2 USD on all three of my meals today. And everything has been delicious.&lt;/p&gt;
+&lt;div&gt;
+&lt;a href=&quot;http://2.bp.blogspot.com/-KPOeatnu3BY/Uh0aN6CzqAI/AAAAAAAAEO4/_HtuGLZ-YcY/s1600/2012-08-27+04.20.07-1.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://nikhilgopal.com/assets/2012-08-27+04.20.07-1.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;
+&lt;div&gt;
+&lt;a href=&quot;http://4.bp.blogspot.com/-Ct1N2sZQk4s/Uh0a8Q36ShI/AAAAAAAAEPY/f4l4PgR9q5I/s1600/2012-08-26+13.39.46.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://nikhilgopal.com/assets/2012-08-26+13.39.46.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;I also took a tour of Accra today. I learned about the first president and he was definitely an interesting guy. He married an Egyptian woman although it wouldn&#39;t be healthy for him to do so in a local political sense (although it would be very healthy from a foreign relations sense). He did his undergraduate work at Lincoln University, his masters at UPenn, and his PhD at the London School of Economics. He was eventually overthrown because of the revolutionary company of friends he&#39;d keep. I would have flipped through his thesis, but it was protected under glass. He&#39;d hang out with everyone from Muhammad Ali to Nehru to Castro to Mao.&lt;/p&gt;
+&lt;div&gt;
+&lt;a href=&quot;http://4.bp.blogspot.com/-RlKmdv1XnCI/Uh0aXAHQ4TI/AAAAAAAAEPA/9AI9c670REU/s1600/2012-08-27+04.58.40.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://nikhilgopal.com/assets/2012-08-27+04.58.40.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;
+&lt;div&gt;
+&lt;a href=&quot;http://3.bp.blogspot.com/-Vn2Yf5GBl3g/Uh0aeC3NGBI/AAAAAAAAEPI/4HBhR-R1sEE/s1600/2012-08-27+04.55.46.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://nikhilgopal.com/assets/2012-08-27+04.55.46.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;
+&lt;div&gt;
+&lt;a href=&quot;http://3.bp.blogspot.com/-ODiHEo2YR-I/Uh0alRcuJfI/AAAAAAAAEPQ/v9gi8pcVDFE/s1600/2012-08-27+05.39.50.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;320&quot; src=&quot;http://nikhilgopal.com/assets/2012-08-27+05.39.50.jpg&quot; width=&quot;240&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;I finally tried Waakye for lunch. It was basically a type of spicy meat (chicken or fish) served with rice and black-eyed peas. I have a lot more food to try! I went to a night market close to the university. I ended up getting dinner to-go and they basically just thrown all of the food you order into a plastic bag (which you then eat with your hands). All in all it&#39;s been a pretty interesting day.&lt;/p&gt;
+&lt;p&gt;Gerald has gone AWOL. I hope he wasn&#39;t kidnapped by any of the hotel attendants. He was really growing on me. Who knows-- he may turn up tomorrow morning.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Aug 2013 21:36:00 -0700</pubDate>
+        <link>http://nikhilgopal.com/travel/2013/08/27/ghana-day-3.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/travel/2013/08/27/ghana-day-3.html</guid>
         
         
         <category>travel</category>
