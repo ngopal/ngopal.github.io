@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The Guerilla Guide to R</title>
+  <meta name="description" content="{"options"=>{}}">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://nikhilgopal.com/r/2013/05/13/the-guerilla-guide-to-r.html">
+  <link rel="alternate" type="application/rss+xml" title="Optinalysis" href="http://nikhilgopal.com/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Optinalysis</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/lab.html">Lab</a>
+          
+        
+          
+        
+      <a href="http://bit.ly/d3coffeescript">D3 and Coffeescript</a>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">The Guerilla Guide to R</h1>
+    <p class="post-meta">May 13, 2013 • {"login"=>"nikhilgopal@gmail.com", "email"=>"nikhilgopal@gmail.com", "display_name"=>"Nikhil Gopal", "first_name"=>"", "last_name"=>""} • {"blogger_blog"=>"www.nikhilgopal.com", "blogger_author"=>"Nikhil Gopal", "blogger_permalink"=>"/2013/05/the-guerilla-guide-to-r.html", "_blogger_self"=>"https://www.blogger.com/feeds/3320739517310204273/posts/default/9065341080674365162", "_edit_last"=>"1", "show_client_logos"=>"show_client_logos-no", "disable_featured_image"=>"disable_featured_image-no", "single_format_link_url"=>"", "single_format_video"=>"", "single_format_audio"=>"", "single_format_audio_oga"=>"", "single_format_quote"=>"", "single_format_quote_url"=>""}</p>
+  </header>
+
+  <article class="post-content">
+    <p><b>Update: </b>Okay. I've uploaded a new template and things seem to be fine now.<b> </b></p>
+<p><b>Update:</b> I am aware the table of contents is not being displayed in bullet form as I intended. The web template I'm using seems to be buggy. It also seems to think this page is in Indonesian...Working on it!<b></b></p>
+<p><b><span style="text-decoration: underline;">Table of Contents:</span></b></p>
+<ol>
+<li><b>Reading/Writing Files</b>
+<ol>
+<li><a href="http://stackoverflow.com/questions/2470248/write-lines-of-text-to-a-file-in-r" target="_blank">How to write lines of text into a file</a></li>
+<li><a href="http://stackoverflow.com/questions/3094866/trimming-a-huge-3-5-gb-csv-file-to-read-into-r" target="_blank">Trimming a huge (3.5GB) csv file to read into R</a></li>
+<li><a href="http://stackoverflow.com/questions/1727772/quickly-reading-very-large-tables-as-dataframes-in-r" target="_blank">Quickly reading large dataframes into R</a></li>
+<li><a href="http://stackoverflow.com/questions/12767432/how-can-i-tell-when-my-dataset-in-r-is-going-to-be-too-large" target="_blank">How can I tell if my R dataset is going to be too large?</a></li>
+<li><a href="http://stackoverflow.com/questions/1928332/is-there-any-standard-logging-package-for-r" target="_blank">Standard logging library for R</a></li>
+</ol>
+</li>
+<li><b>Dataframes</b>
+<ol>
+<li><a href="http://stackoverflow.com/questions/1413697/how-do-you-write-a-csv-in-r-with-the-matrix-names-dimnamesm-intact-in-r?rq=1" target="_blank">How do you write a CSV in R with matrix names dimnames(M) intact?</a></li>
+<li><a href="http://stackoverflow.com/questions/1299871/how-to-join-data-frames-in-r-inner-outer-left-right" target="_blank">How to join dataframes in R (inner, outer, left, right)?</a></li>
+<li><a href="http://stackoverflow.com/questions/4605206/drop-columns-r-data-frame" target="_blank">Dropping Columns in Dataframes</a></li>
+<li><a href="http://stackoverflow.com/questions/1195826/dropping-factor-levels-in-a-subsetted-data-frame-in-r" target="_blank">Dropping factor levels in a subsetted dataframe</a></li>
+<li><a href="http://stackoverflow.com/questions/4862178/remove-rows-with-nas-in-data-frame" target="_blank">Remove rows with NA in your dataframe</a></li>
+<li><a href="http://stackoverflow.com/questions/3642535/creating-an-r-dataframe-row-by-row" target="_blank">Creating an R dataframe row by row</a></li>
+<li><a href="http://stackoverflow.com/questions/4322219/whats-the-fastest-way-to-merge-join-data-frames-in-r" target="_blank">Fastest way to merge/join dataframes</a></li>
+</ol>
+</li>
+<li><b>Lists and Vectors</b>
+<ol>
+<li><a href="http://stackoverflow.com/questions/2050790/how-to-correctly-use-lists-in-r" target="_blank">How to correctly use lists in R?</a></li>
+<li><a href="http://stackoverflow.com/questions/10449366/levels-what-sorcery-is-this/10491881#10491881" target="_blank">Levels - what sorcery is this?</a></li>
+<li><a href="http://stackoverflow.com/questions/1169248/r-function-for-testing-if-a-vector-contains-a-given-element" target="_blank">R function for testing if a vector contains a given element?</a></li>
+<li><a href="http://stackoverflow.com/questions/4227223/r-list-to-data-frame" target="_blank">Converting lists to dataframe</a></li>
+<li><a href="http://stackoverflow.com/questions/1169456/in-r-what-is-the-difference-between-the-and-notations-for-accessing-the" target="_blank">In R, what is the difference between [] and [[]] notations accessing the elements of a list</a></li>
+<li><a href="http://stackoverflow.com/questions/3418128/how-to-convert-a-factor-to-an-integer-numeric-without-a-loss-of-information" target="_blank">How to convert a factor to an integer/numeric without a loss of information</a></li>
+<li><a href="http://stackoverflow.com/questions/77434/how-to-access-the-last-value-in-a-vector" target="_blank">How to access the last value of a vector</a></li>
+<li><a href="http://stackoverflow.com/questions/652136/how-can-i-remove-an-element-from-a-list" target="_blank">Removing an element from a list</a></li>
+<li><a href="http://stackoverflow.com/questions/7963898/extracting-the-last-n-characters-from-a-string-in-r" target="_blank">Extracting the last n characters from a string</a></li>
+</ol>
+</li>
+<li><b>Exceptions and Gotchas</b>
+<ol>
+<li><a href="http://stackoverflow.com/questions/1535021/whats-the-biggest-r-gotcha-youve-run-across" target="_blank">What is the biggest R gotcha you've run across?</a></li>
+<li><a href="http://stackoverflow.com/questions/2622777/exception-handling-in-r" target="_blank">Exception handling in R</a></li>
+<li><a href="http://stackoverflow.com/questions/2151212/how-can-i-read-command-line-parameters-from-an-r-script" target="_blank">Reading commandline parameters from an R script</a></li>
+<li><a href="http://stackoverflow.com/questions/1741820/assignment-operators-in-r-and" target="_blank">Assignment operators in R: '=' vs ' <!-----><!-----><!-----><!-----><!-----><!-----><!----->-&gt;</a></li>
+<li><a href="http://stackoverflow.com/questions/11738823/explicitly-calling-return-in-a-function-or-not" target="_blank">Why is not (explicitly) calling return faster or better, and thus preferable? </a></li>
+<li><a href="http://stackoverflow.com/questions/14932015/why-does-true-true-in-r" target="_blank">Why does TRUE == "TRUE" in R?</a></li>
+<li><a href="http://stackoverflow.com/questions/7014387/whats-the-difference-between-1l-and-1" target="_blank">What is the difference between '1L' and '1'? </a></li>
+<li><a href="http://stackoverflow.com/questions/11700748/why-does-the-number-1e9999-31-9s-cause-problems-in-r" target="_blank">Why does the number 1e99999 (31 9's) cause problems?</a></li>
+<li><a href="http://stackoverflow.com/questions/5526322/examples-of-the-perils-of-globals-in-r-and-stata" target="_blank">Examples of the perils of globals in R and Stata</a></li>
+<li><a href="http://stackoverflow.com/questions/2190756/in-r-how-to-count-true-values-in-a-logical-vector" target="_blank">How to count TRUE values in a logical vector</a></li>
+</ol>
+</li>
+<li><b>Sorting </b>
+<ol>
+<li><a href="http://stackoverflow.com/questions/14458314/letter-y-comes-after-i-when-sorting-alphabetically" target="_blank">Letter "y" comes after "i" when sorting?</a></li>
+<li><a href="http://stackoverflow.com/questions/1296646/how-to-sort-a-dataframe-by-columns-in-r/1296745#1296745" target="_blank">How to sort a dataframe by column(s) in R?</a></li>
+<li><a href="http://stackoverflow.com/questions/2453326/fastest-way-to-find-second-third-highest-lowest-value-in-vector-or-column" target="_blank">Fastest way to find the second (or third) highest/lowest value in a vector or column</a></li>
+</ol>
+</li>
+<li><b>Plotting</b>
+<ol>
+<li><a href="http://stackoverflow.com/questions/2564258/plot-2-graphs-in-same-plot-in-r" target="_blank">Plotting 2 graphs in the same plot</a></li>
+<li><a href="http://stackoverflow.com/questions/3541713/how-to-plot-two-histograms-together-in-r" target="_blank">How to plot 2 histograms together in R</a></li>
+<li><a href="http://stackoverflow.com/questions/1245273/histogram-with-logarithmic-scale" target="_blank">Histogram with a logarithmic scale</a></li>
+<li><a href="http://stackoverflow.com/questions/2076370/most-underused-data-visualization" target="_blank">The most underutilized visualization</a></li>
+<li><a href="http://stackoverflow.com/questions/1330989/rotating-and-spacing-axis-labels-in-ggplot2" target="_blank">Rotating and spacing axis labels in ggplot2</a></li>
+<li><a href="http://stackoverflow.com/questions/3494593/shading-a-kernel-density-plot-between-two-points" target="_blank">Shading a kernal density plot between 2 points</a></li>
+<li><a href="http://stackoverflow.com/questions/5322836/choosing-between-qplot-and-ggplot-in-ggplot2" target="_blank">Choosing between qplot() and ggplot() in ggplot2</a></li>
+<li><a href="http://stackoverflow.com/questions/7611169/intelligent-point-label-placement-in-r" target="_blank">Intelligent point label placement in R</a></li>
+<li><a href="http://stackoverflow.com/questions/5453336/plot-correlation-matrix-into-a-graph" target="_blank">Plotting a correlation matrix</a></li>
+<li><a href="http://stackoverflow.com/questions/1896419/plotting-a-3d-surface-plot-with-contour-map-overlay-using-r" target="_blank">Plotting a 3D surface plot with contour map overlay, using R</a></li>
+<li><a href="http://stackoverflow.com/questions/1249548/side-by-side-plots-with-ggplot2-in-r" target="_blank">Side-by-side plots using ggplot2</a></li>
+<li><a href="http://stackoverflow.com/questions/3446495/ggplot2-cheat-sheet" target="_blank">Ggplot2 cheat sheet</a></li>
+<li><a href="http://stackoverflow.com/questions/10670751/r-plot-human-body-in-2d" target="_blank">Plot a human body in 2D</a></li>
+<li><a href="http://stackoverflow.com/questions/3777174/plotting-two-variables-as-lines-using-ggplot2" target="_blank">Plotting 2 variables as lines using ggplot2</a></li>
+<li><a href="http://stackoverflow.com/questions/1154242/getting-rid-of-axis-values-in-r-plot" target="_blank">Getting rid of axis values in an R plot</a></li>
+</ol>
+</li>
+<li><b>Grouping Functions and Speed</b>
+<ol>
+<li><a href="http://stackoverflow.com/questions/3505701/r-grouping-functions-sapply-vs-lapply-vs-apply-vs-tapply-vs-by-vs-aggrega" target="_blank">R grouping functions: sapply vs lapply vs apply vs tapply vs etc.</a></li>
+<li><a href="http://stackoverflow.com/questions/9860090/in-r-why-is-better-than-subset" target="_blank">Why is '[' better than the subset function?</a></li>
+<li><a href="http://stackoverflow.com/questions/12523548/confused-by" target="_blank">Confused by ...()</a></li>
+<li><a href="http://stackoverflow.com/questions/3685492/r-speeding-up-group-by-operations" target="_blank">Speeding up "group by" functions</a></li>
+<li><a href="http://stackoverflow.com/questions/7262485/options-for-caching-memoization-hashing-in-r" target="_blank">Options for caching/memoization/hashing in R</a></li>
+</ol>
+</li>
+<li><b>Random</b>
+<ol>
+<li><a href="http://stackoverflow.com/questions/12675147/how-can-we-make-xkcd-style-graphs-in-r" target="_blank">Making XKCD style plots in R</a></li>
+<li><a href="http://stackoverflow.com/questions/1260965/developing-geographic-thematic-maps-with-r" target="_blank">Developing geographic thematic maps with R</a></li>
+<li><a href="http://stackoverflow.com/questions/1738087/what-can-matlab-do-that-r-cannot-do" target="_blank">What can Matlab do that R cannot do?</a></li>
+<li><a href="http://stackoverflow.com/questions/4106174/where-can-i-learn-to-how-to-write-c-code-to-speed-up-slow-r-functions" target="_blank">Where to learn C code to speed up your R functions</a></li>
+<li><a href="http://stackoverflow.com/questions/1266279/how-to-organize-large-r-programs" target="_blank">How to organize large R programs</a></li>
+<li><a href="http://stackoverflow.com/questions/5595512/what-is-the-difference-between-require-and-library" target="_blank">The difference between library() and require()</a></li>
+<li><a href="http://stackoverflow.com/questions/6979917/how-to-unload-a-package-without-restarting-r" target="_blank">Unloading a package without restarting R</a></li>
+<li><a href="http://stackoverflow.com/questions/3412911/r-exe-rcmd-exe-rscript-exe-and-rterm-exe-whats-the-difference" target="_blank">What is the difference between R.exe, Rterm.exe, Rscript.exe, and Rcmd.exe?</a></li>
+<li><a href="http://stackoverflow.com/questions/1944910/what-is-your-preferred-style-for-naming-variables-in-r" target="_blank">What is your preferred style for naming variables in R?</a></li>
+<li><a href="http://stackoverflow.com/questions/6135868/in-r-what-exactly-is-the-problem-with-having-variables-with-the-same-name-as-ba" target="_blank">In R, what exactly is the problem with having objects with the same base name as functions?</a></li>
+<li><a href="http://stackoverflow.com/questions/7910270/are-there-any-easter-eggs-in-base-r-or-in-major-packages" target="_blank">Easter eggs in R</a></li>
+<li><a href="http://stackoverflow.com/questions/15705301/drawing-an-excellent-cow" target="_blank">Drawing an excellent cow</a></li>
+<li><a href="http://stackoverflow.com/questions/4222476/r-display-a-time-clock-in-the-r-command-line" target="_blank">Display a time clock on the R commandline </a></li>
+<li><a href="http://stackoverflow.com/questions/4713968/r-what-are-slots" target="_blank">What are slots?</a></li>
+<li><a href="http://stackoverflow.com/questions/15289995/get-help-for-r-package" target="_blank">Get help for an R package </a></li>
+</ol>
+</li>
+<li><b>Case Studies</b>
+<ol>
+<li><a href="http://stackoverflow.com/questions/8708048/position-of-the-sun-given-time-of-day-latitude-and-longitude" target="_blank">How to determine the position of the sun at a given time of day, latitude and longitude</a></li>
+<li><a href="http://stackoverflow.com/questions/9674027/implementing-standard-software-design-patterns-focus-on-mvc-in-r" target="_blank">Implementing Model-View-Control (MVC) in R</a></li>
+<li><a href="http://stackoverflow.com/questions/1395528/scraping-html-tables-into-r-data-frames-using-the-xml-package" target="_blank">Scraping html tables into R dataframes</a></li>
+<li><a href="http://stackoverflow.com/questions/8317584/r-ggplot-time-series-with-events" target="_blank">R + ggplot: time series with events</a></li>
+<li><a href="http://stackoverflow.com/questions/2908822/speed-up-the-loop-operation-in-r" target="_blank">Speed up loop operation in R</a></li>
+<li><a href="http://stackoverflow.com/questions/13567453/how-to-scrape-the-web-for-the-list-of-r-release-dates" target="_blank">How to scrape the web for the list of R release dates</a></li>
+</ol>
+</li>
+</ol>
+<p><span style="text-decoration: underline;"><b>About:</b></span></p>
+<p>Stack Overflow is awesome. Some of the worlds most brilliant programmers frequent the website and answertough questions. Wouldn't that make it a great place to learn from? Yeah, I think so too.</p>
+<p>This is why I've collated, <b>The Guerilla Cookbook for R</b>. It's basically a number of Stack Overflow links organized and ordered in a way to help R programmers learn their way to the next level. If you are proficient in R, I hope these resources will help you get closer to being amazing. If you are just getting started with R, I'd suggest adding this page to your bookmarks and returning when you are familiar with the basics of R programming.</p>
+<p>The cool thing is, this "book" essentially writes itself since most of the experts (and peer-reviewers) are answering the questions. Most of the questions are "real-world" and are asked by novice or intermediate programmers. We can easily add/remove/reorganize the contents as necessary.</p>
+<p><span style="text-decoration: underline;"><b>How Was The Content Selected?:</b></span></p>
+<p>I personally searched through Stack Overflow to find my favorite questions and shared them here.</p>
+<p>The table of contents will have to be updated/reorganized over time as links are added and removed. But use whatever you can for now!</p>
+
+  </article>
+
+</div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'nikhilgopalcom'; // your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); 
+        dsq.type = 'text/javascript'; 
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] 
+      || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<noscript>Please enable JavaScript to view the 
+<a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+
+<a href="http://disqus.com" class="dsq-brlink">comments powered by 
+<span class="logo-disqus">Disqus</span></a>
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Optinalysis</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Optinalysis</li>
+          <li><a href="mailto:nikhil@nikhilgopal.com">nikhil@nikhilgopal.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/ngopal">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">ngopal</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/nikhilgopal">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">nikhilgopal</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">infrequent logging of random things.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

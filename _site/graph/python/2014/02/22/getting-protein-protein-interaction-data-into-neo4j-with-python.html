@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Applying A Divergent Color Scale to A Gene Expression Heat Map</title>
+  <title>Getting Protein-Protein Interaction Data Into Neo4J With Python</title>
   <meta name="description" content="{"options"=>{}}">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://nikhilgopal.com/title.html">
+  <link rel="canonical" href="http://nikhilgopal.com/graph/python/2014/02/22/getting-protein-protein-interaction-data-into-neo4j-with-python.html">
   <link rel="alternate" type="application/rss+xml" title="Optinalysis" href="http://nikhilgopal.com/feed.xml" />
 </head>
 
@@ -58,23 +58,39 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Applying A Divergent Color Scale to A Gene Expression Heat Map</h1>
-    <p class="post-meta">Nov 13, 2014 • {"login"=>"nikhilgopal@gmail.com", "email"=>"nikhilgopal@gmail.com", "display_name"=>"Nikhil Gopal", "first_name"=>"", "last_name"=>""} • {"_edit_last"=>"1", "disable_featured_image"=>"disable_featured_image-no", "single_format_link_url"=>"", "single_format_video"=>"", "single_format_audio"=>"", "single_format_audio_oga"=>"", "single_format_quote"=>"", "single_format_quote_url"=>"", "_wpas_done_all"=>"1"}</p>
+    <h1 class="post-title">Getting Protein-Protein Interaction Data Into Neo4J With Python</h1>
+    <p class="post-meta">Feb 22, 2014 • {"login"=>"nikhilgopal@gmail.com", "email"=>"nikhilgopal@gmail.com", "display_name"=>"Nikhil Gopal", "first_name"=>"", "last_name"=>""} • {"_edit_last"=>"1", "show_client_logos"=>"show_client_logos-no", "disable_featured_image"=>"disable_featured_image-no", "single_format_link_url"=>"", "single_format_video"=>"", "single_format_audio"=>"", "single_format_audio_oga"=>"", "single_format_quote"=>"", "single_format_quote_url"=>"", "_wpas_done_all"=>"1"}</p>
   </header>
 
   <article class="post-content">
-    <p><em>Estimated Read Time: Under 5 minutes</em></p>
-<p>This is a quick post about a quick little experiment I tried lately. I saw a <a href="https://medium.com/matter/the-trouble-with-the-purple-election-map-31e6cb9f1827?source=tw-lo_d2937f3b017d-1415167125872">recent post</a> about how red and blue color scales on political heat maps can be misleading--primarily because human perception is not very good at discriminating between shades of purple in the presented scenario. </p>
-<p>Since gene expression heat maps are virtually a right of passage in bioinformatics, I thought I'd try and rescale the colors on a gene expression heat map to a properly divergent color scale and visualize the results. Results Below:</p>
-<p><a href="http://nikhilgopal.com/uploads/2014/11/old10scale.jpeg"><img src="http://nikhilgopal.com/assets/old10scale.jpeg" alt="old10scale" width="559" height="351" class="alignnone size-full wp-image-371" /></a></p>
-<p><a href="http://nikhilgopal.com/uploads/2014/11/new.jpeg"><img src="http://nikhilgopal.com/assets/new.jpeg" alt="new" width="559" height="351" class="alignnone size-full wp-image-372" /></a></p>
-<p>At the top is a plot (green and blue) generated using the <a href="http://www2.warwick.ac.uk/fac/sci/moac/people/students/peter_cock/r/heatmap/">code available on Peter Cock's website</a> (but modified to only use 10 colors on the scale). Below that is the plot (red and blue) generated with my modified version.</p>
-<p>And of course, code for your consumption:</p>
-<p><script src="https://gist.github.com/ngopal/2b25477d21632fe41045.js"></script></p>
-<p>Thanks to <a href="http://www.sandia.gov/~kmorel/documents/ColorMaps/">Kenneth Moreland's research on color scales, and José Gama's implementation in R</a> (now part of Rgnuplot), all it took was a one line modification of Peter's code to switch to the new divergent color scale!</p>
-<p>The new scale does seem to help us visually discriminate between the elements in the "muddy" area of the left plot. However, since the use of the heat map in bioinformatics is more aesthetic than functional, I'm afraid the fruits seem to stop there. Although this is paints a prettier picture, the hierarchical clustering results remain unchanged. Fun to try though! And now we know a divergent color scale function implementation exists in R!</p>
-<p>It always takes a while to write a blog post. In return, all I ask is that you share. Also, if you are a Python or R coder and would like to learn to use D3.js, please check out my O'Reilly Media product, <a href="http://bit.ly/d3coffeescript">D3 and Coffeescript: A Python Programmer's Introduction to Web Visualizations</a>.</p>
-<p><!-- Begin MailChimp Signup Form --></p>
+    <p>I started playing with <a href="http://www.neo4j.org/" target="_blank">Neo4J</a> (the graph database). It seems like great software, but I found the documentation pretty sparse and opaque. It took me 16 hours to do all of this, so I'm hoping it will save you 15.5 hours of fumbling around the Internet.</p>
+<p><strong>Why is Neo4j powerful?</strong></p>
+<blockquote><p>"A traditional relational database may tell you the average age of everyone in this pub, but a graph database will tell you who is most likely to buy you a beer."</p>
+<p><i>Andreas Kollegger</i></p></blockquote>
+<p><strong>Installing</strong></p>
+<p>To install on Mac, use <a href="http://brew.sh/" target="_blank">homebrew</a> on terminal:</p>
+<p>"brew install neo4j"</p>
+<p>Start the server.</p>
+<p>"neo4j start"</p>
+<p>Note: stop the server with the "neo4j stop" command</p>
+<p>The database exists in the "/usr/local/Cellar/neo4j/1.9.4/libexec/data/graph.db/" directory. If you delete the files in here, you've deleted your database (and can repopulate it). I've nuked by database a few times while debugging. Note that homebrew install Neo4j version 1.9.4 and that the latest version is currently 2.0.</p>
+<p><strong>Getting Data In</strong></p>
+<p>I tried using <a href="http://gephi.org" target="_blank">Gephi</a> and the <a href="https://gephi.org/2011/gephi-adds-neo4j-graph-database-support-screencast/" target="_blank">Neo4j plugin</a> that is available. I wasn't quite able to get the data to look the way I wanted. I would have loved to use this plugin, but I just couldn't figure out how to get everything to play together nicely. Plus, whenever I'd export the neo4j database it would corrupt the files and the server would crash--I'm sure this had more to do with what I was doing and less with the software though.</p>
+<p>There is a <a href="http://neo4j-rest-client.readthedocs.org/en/latest/info.html" target="_blank">Python wrapper</a> you can download. Two Javascript wrapper exist, but I haven't used either of them--maybe in the future if I create a front-end. Install the Python library using the typical commands:</p>
+<p>"pip install neo4jrestclient" or "easy_install neo4sjrestclient"</p>
+<p>Here is my code to get the data into the database (Python):</p>
+<p>[gist]https://gist.github.com/ngopal/9164149[/gist]</p>
+<p>We can watch the number of nodes and relationships grow.</p>
+<p><a href="http://nikhilgopal.com/uploads/2014/02/Screenshot-2014-02-22-15.45.18.png"><img class="size-full wp-image-233 aligncenter" alt="Screenshot 2014-02-22 15.45.18" src="http://nikhilgopal.com/assets/Screenshot-2014-02-22-15.45.18.png" width="1215" height="768" /></a></p>
+<p>Now we can run a basic query on the data from node to node using Cypher. Here is the code:</p>
+<p>[gist]https://gist.github.com/ngopal/9163968[/gist]</p>
+<p>And here is the output:</p>
+<p><a href="http://nikhilgopal.com/uploads/2014/02/Screenshot-2014-02-22-15.46.28.png"><img class="size-full wp-image-232 aligncenter" alt="Screenshot 2014-02-22 15.46.28" src="http://nikhilgopal.com/assets/Screenshot-2014-02-22-15.46.28.png" width="1215" height="768" /></a></p>
+<p>And another example:</p>
+<p><a href="http://nikhilgopal.com/uploads/2014/02/Screenshot-2014-02-22-15.47.04.png"><img class="alignnone size-full wp-image-231" alt="Screenshot 2014-02-22 15.47.04" src="http://nikhilgopal.com/assets/Screenshot-2014-02-22-15.47.04.png" width="682" height="216" /></a></p>
+<p>I'm planning on eventually visualizing this data in D3. If you want to stay in the loop, sign up and I'll keep you updated (your email won't be shared with anyone else):</p>
+<p><center><br />
+<!-- Begin MailChimp Signup Form --></p>
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }<br />
@@ -82,16 +98,15 @@
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */<br />
 </style>
 <div id="mc_embed_signup">
-<form action="//nikhilgopal.us3.list-manage.com/subscribe/post?u=247178139134c0616342e1953&amp;id=88361a83c7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-<div id="mc_embed_signup_scroll">
-	<label for="mce-EMAIL">Subscribe for more visualization and code posts</label><br />
-	<input type="email" value="Oh man! I can't type in my email fast enough.." name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required /><br />
+<form action="http://nikhilgopal.us3.list-manage.com/subscribe/post?u=247178139134c0616342e1953&amp;id=a6fef99460" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	<label for="mce-EMAIL">Subscribe for updates!</label><br />
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required /><br />
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--></p>
-<div style="position: absolute; left: -5000px;"><input type="text" name="b_247178139134c0616342e1953_88361a83c7" tabindex="-1" value="" /></div>
-<div class="clear"><input type="submit" value="Update Me" name="subscribe" id="mc-embedded-subscribe" class="button" /></div>
-</p></div>
+<div style="position: absolute; left: -5000px;"><input type="text" name="b_247178139134c0616342e1953_a6fef99460" value="" /></div>
+<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" /></div>
 </form>
 </div>
+<p></center></p>
 <p><!--End mc_embed_signup--></p>
 
   </article>
