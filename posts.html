@@ -1,0 +1,40 @@
+---
+layout: page
+title: Posts
+date: 2014-01-01 22:33:19.000000000 -08:00
+categories: []
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _edit_last: '1'
+  _wp_page_template: default
+  show_client_logos: show_client_logos-no
+  sidebar_on: sidebar_on-no
+author:
+  login: nikhilgopal@gmail.com
+  email: nikhilgopal@gmail.com
+  display_name: Nikhil Gopal
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

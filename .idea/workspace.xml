@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92758ea1-4ef6-41f1-bd27-7849ff32b0cf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_extras/lab.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publications.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/01/15/improve-your-public-speaking-in-5-minutes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/01/24/write-better-emails-in-3-minutes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/04/09/how-to-learn-to.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/06/09/javascript-masterclass-on-how-to-be-an-expert-and-introduction-to-angular.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/analysis/2012/01/18/word-frequency-count-of-hacker-news-front-page-on-sopa-blackout-day.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bioinformatics/2011/05/17/bioinformatics-programming-like-experts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bioinformatics/r/2011/08/20/statistical-analysis-functions-in-r.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/lab.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/philosophy/2011/08/10/the-scorpion-and-the-frog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/productivity/2010/12/08/being-productive-and-remaining-stress-free.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/productivity/2011/11/01/supercharge-programmer-productivity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/ror/ruby/2012/04/03/playing-with-ruby-on-rails.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_nav_menu_items/2014-10-28-d3-and-coffeescript.html" afterPath="$PROJECT_DIR$/_extras/2014-10-28-d3-and-coffeescript.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2010-12-08-being-productive-and-remaining-stress-free.html" afterPath="$PROJECT_DIR$/_extras/2010-12-08-being-productive-and-remaining-stress-free.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2011-05-17-bioinformatics-programming-like-experts.html" afterPath="$PROJECT_DIR$/_extras/2011-05-17-bioinformatics-programming-like-experts.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2011-08-10-the-scorpion-and-the-frog.html" afterPath="$PROJECT_DIR$/_extras/2011-08-10-the-scorpion-and-the-frog.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2011-08-20-statistical-analysis-functions-in-r.html" afterPath="$PROJECT_DIR$/_extras/2011-08-20-statistical-analysis-functions-in-r.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2011-11-01-supercharge-programmer-productivity.html" afterPath="$PROJECT_DIR$/_extras/2011-11-01-supercharge-programmer-productivity.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2012-01-18-word-frequency-count-of-hacker-news-front-page-on-sopa-blackout-day.html" afterPath="$PROJECT_DIR$/_extras/2012-01-18-word-frequency-count-of-hacker-news-front-page-on-sopa-blackout-day.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2012-04-03-playing-with-ruby-on-rails.html" afterPath="$PROJECT_DIR$/_extras/2012-04-03-playing-with-ruby-on-rails.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2014-01-15-improve-your-public-speaking-in-5-minutes.html" afterPath="$PROJECT_DIR$/_extras/2014-01-15-improve-your-public-speaking-in-5-minutes.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2014-01-24-write-better-emails-in-3-minutes.html" afterPath="$PROJECT_DIR$/_extras/2014-01-24-write-better-emails-in-3-minutes.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2014-04-09-how-to-learn-to.html" afterPath="$PROJECT_DIR$/_extras/2014-04-09-how-to-learn-to.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2014-06-09-javascript-masterclass-on-how-to-be-an-expert-and-introduction-to-angular.html" afterPath="$PROJECT_DIR$/_extras/2014-06-09-javascript-masterclass-on-how-to-be-an-expert-and-introduction-to-angular.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lab.html" afterPath="$PROJECT_DIR$/posts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dcf16f6475fd330fbcfd688ab04c218573c10e4c/_base.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dcf16f6475fd330fbcfd688ab04c218573c10e4c/_base.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dcf16f6475fd330fbcfd688ab04c218573c10e4c/_layout.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dcf16f6475fd330fbcfd688ab04c218573c10e4c/_layout.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dcf16f6475fd330fbcfd688ab04c218573c10e4c/_syntax-highlighting.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dcf16f6475fd330fbcfd688ab04c218573c10e4c/_syntax-highlighting.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_pages/2014-01-01-lab.html" afterPath="$PROJECT_DIR$/_pages/2014-01-01-lab.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/01/15/defining-poverty.html" afterPath="$PROJECT_DIR$/_site/2014/01/15/defining-poverty.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/03/31/visualizing-look-and-say-sequences-with-d3.html" afterPath="$PROJECT_DIR$/_site/2014/03/31/visualizing-look-and-say-sequences-with-d3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/02/09/how-to-mine-23andme-raw-data-with-python-part-1.html" afterPath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/02/09/how-to-mine-23andme-raw-data-with-python-part-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/03/16/how-to-mine-23andme-raw-data-with-python-part-2.html" afterPath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/03/16/how-to-mine-23andme-raw-data-with-python-part-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/05/20/how-to-mine-23andme-data-part-3.html" afterPath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/05/20/how-to-mine-23andme-data-part-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/applescript/utility/2011/08/03/show-and-tell-applescript-a-spotify-alarm-clock-on-mac.html" afterPath="$PROJECT_DIR$/_site/applescript/utility/2011/08/03/show-and-tell-applescript-a-spotify-alarm-clock-on-mac.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/bioinformatics/2010/12/23/efficiently-reading-in-and-iterating-through-large-files-with-python.html" afterPath="$PROJECT_DIR$/_site/bioinformatics/2010/12/23/efficiently-reading-in-and-iterating-through-large-files-with-python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/bioinformatics/2011/08/11/bioinformatics-extra-tabs-in-sam-to-bam-conversion.html" afterPath="$PROJECT_DIR$/_site/bioinformatics/2011/08/11/bioinformatics-extra-tabs-in-sam-to-bam-conversion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/bioinformatics/2011/10/31/mongodbsnp-stub-code-for-getting-dbsnp-into-a-nosql-database.html" afterPath="$PROJECT_DIR$/_site/bioinformatics/2011/10/31/mongodbsnp-stub-code-for-getting-dbsnp-into-a-nosql-database.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/bioinformatics/micropost/2011/06/09/micropost-python-scripts-with-unix-pipes.html" afterPath="$PROJECT_DIR$/_site/bioinformatics/micropost/2011/06/09/micropost-python-scripts-with-unix-pipes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/bioinformatics/micropost/2011/07/09/micropost-how-to-remove-blank-spaces-from-a-fasta-file.html" afterPath="$PROJECT_DIR$/_site/bioinformatics/micropost/2011/07/09/micropost-how-to-remove-blank-spaces-from-a-fasta-file.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/code optimization/python/2011/12/19/code-optimization-technique-you-need-memoization.html" afterPath="$PROJECT_DIR$/_site/code optimization/python/2011/12/19/code-optimization-technique-you-need-memoization.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/code optimization/python/2012/04/24/a-refresher-on-big-o-notation-python.html" afterPath="$PROJECT_DIR$/_site/code optimization/python/2012/04/24/a-refresher-on-big-o-notation-python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/main.css" afterPath="$PROJECT_DIR$/_site/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/graph/python/2014/02/22/getting-protein-protein-interaction-data-into-neo4j-with-python.html" afterPath="$PROJECT_DIR$/_site/graph/python/2014/02/22/getting-protein-protein-interaction-data-into-neo4j-with-python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/ios/2012/01/14/ios-development-ios-syntax-object-allocation-and-garbage-collection.html" afterPath="$PROJECT_DIR$/_site/ios/2012/01/14/ios-development-ios-syntax-object-allocation-and-garbage-collection.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/ios/2012/01/15/ios-development-types-of-applications-in-xcode-model-view-controller-mvc-and-basic-object-interactions.html" afterPath="$PROJECT_DIR$/_site/ios/2012/01/15/ios-development-types-of-applications-in-xcode-model-view-controller-mvc-and-basic-object-interactions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/micropost/shell/2011/09/12/micropost-output-field-separator-in-awk.html" afterPath="$PROJECT_DIR$/_site/micropost/shell/2011/09/12/micropost-output-field-separator-in-awk.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/python/2012/04/04/how-to-improve-coding-style-in-python.html" afterPath="$PROJECT_DIR$/_site/python/2012/04/04/how-to-improve-coding-style-in-python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/python/2012/08/11/the-bunch-design-pattern-python.html" afterPath="$PROJECT_DIR$/_site/python/2012/08/11/the-bunch-design-pattern-python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/python/2012/12/27/owlify-a-python-library-to-generate-rdfowl-code.html" afterPath="$PROJECT_DIR$/_site/python/2012/12/27/owlify-a-python-library-to-generate-rdfowl-code.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/r/2013/05/13/the-guerilla-guide-to-r.html" afterPath="$PROJECT_DIR$/_site/r/2013/05/13/the-guerilla-guide-to-r.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/r/visualization/2014/11/13/applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html" afterPath="$PROJECT_DIR$/_site/r/visualization/2014/11/13/applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/statistics/2012/01/12/exploring-bonferroni-correction-or-how-facebook-could-improve-friend-suggestions.html" afterPath="$PROJECT_DIR$/_site/statistics/2012/01/12/exploring-bonferroni-correction-or-how-facebook-could-improve-friend-suggestions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/travel/2013/08/26/ghana-day-1.html" afterPath="$PROJECT_DIR$/_site/travel/2013/08/26/ghana-day-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/travel/2013/08/26/ghana-day-2.html" afterPath="$PROJECT_DIR$/_site/travel/2013/08/26/ghana-day-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/travel/2013/08/27/ghana-day-3.html" afterPath="$PROJECT_DIR$/_site/travel/2013/08/27/ghana-day-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/travel/2013/09/03/ghana-day-4-9.html" afterPath="$PROJECT_DIR$/_site/travel/2013/09/03/ghana-day-4-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
+    <ignored path="ngopal.github.io.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ngopal.github.io" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2700491">
+              <caret line="11" column="400" selection-start-line="11" selection-start-column="400" selection-end-line="11" selection-end-column="400" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_pages/2014-01-01-lab.html" />
+        <option value="$PROJECT_DIR$/_nav_menu_items/2014-10-28-d3-and-coffeescript.html" />
+        <option value="$PROJECT_DIR$/lab.html" />
+        <option value="$PROJECT_DIR$/posts.html" />
+        <option value="$PROJECT_DIR$/_extras/lab.html" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/publications.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2" />
+    <option name="y" value="23" />
+    <option name="width" value="1260" />
+    <option name="height" value="760" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngopal.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngopal.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngopal.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngopal.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngopal.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_nav_menu_items" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngopal.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngopal.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngopal.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngopal.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_extras" />
+      <recent name="$PROJECT_DIR$/Extras" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92758ea1-4ef6-41f1-bd27-7849ff32b0cf" name="Default" comment="" />
+      <created>1475258175414</created>
+      <option name="number" value="Default" />
+      <updated>1475258175414</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2" y="23" width="1260" height="760" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_pages/2014-06-27-javascript-for-data-scientists.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_extras/2012-04-03-playing-with-ruby-on-rails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_extras/2014-01-15-improve-your-public-speaking-in-5-minutes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_extras/2014-01-24-write-better-emails-in-3-minutes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_extras/2014-04-09-how-to-learn-to.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_extras/2014-06-09-javascript-masterclass-on-how-to-be-an-expert-and-introduction-to-angular.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_extras/2011-11-01-supercharge-programmer-productivity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_extras/2011-08-20-statistical-analysis-functions-in-r.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_extras/2010-12-08-being-productive-and-remaining-stress-free.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_extras/2011-08-10-the-scorpion-and-the-frog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_extras/2011-05-17-bioinformatics-programming-like-experts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_pages/2014-03-29-art.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_pages/2014-02-03-coffeescript-visualization.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_pages/2014-01-01-lab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.109375">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_pages/2014-01-01-experiments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5625">
+          <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_nav_menu_items/2014-01-01-106.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_nav_menu_items/2014-01-02-blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_extras/2014-10-28-d3-and-coffeescript.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.140625">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.022624435">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_extras/lab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1171875">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.515625">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.652174">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publications.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15625">
+          <caret line="80" column="56" selection-start-line="80" selection-start-column="56" selection-end-line="80" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#4;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2700491">
+          <caret line="11" column="400" selection-start-line="11" selection-start-column="400" selection-end-line="11" selection-end-column="400" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
