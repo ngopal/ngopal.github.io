@@ -3,19 +3,19 @@
   <channel>
     <title>Optinalysis</title>
     <description></description>
-    <link>http://nikhilgopal.com/</link>
-    <atom:link href="http://nikhilgopal.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Sep 2016 12:11:49 -0700</pubDate>
-    <lastBuildDate>Fri, 30 Sep 2016 12:11:49 -0700</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 23 Jun 2017 14:41:43 -0700</pubDate>
+    <lastBuildDate>Fri, 23 Jun 2017 14:41:43 -0700</lastBuildDate>
+    <generator>Jekyll v3.5.0</generator>
     
       <item>
         <title>Applying A Divergent Color Scale to A Gene Expression Heat Map</title>
         <description>&lt;p&gt;&lt;em&gt;Estimated Read Time: Under 5 minutes&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This is a quick post about a quick little experiment I tried lately. I saw a &lt;a href=&quot;https://medium.com/matter/the-trouble-with-the-purple-election-map-31e6cb9f1827?source=tw-lo_d2937f3b017d-1415167125872&quot;&gt;recent post&lt;/a&gt; about how red and blue color scales on political heat maps can be misleading--primarily because human perception is not very good at discriminating between shades of purple in the presented scenario. &lt;/p&gt;
 &lt;p&gt;Since gene expression heat maps are virtually a right of passage in bioinformatics, I thought I'd try and rescale the colors on a gene expression heat map to a properly divergent color scale and visualize the results. Results Below:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://nikhilgopal.com/uploads/2014/11/old10scale.jpeg&quot;&gt;&lt;img src=&quot;http://nikhilgopal.com/assets/old10scale.jpeg&quot; alt=&quot;old10scale&quot; width=&quot;559&quot; height=&quot;351&quot; class=&quot;alignnone size-full wp-image-371&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://nikhilgopal.com/uploads/2014/11/new.jpeg&quot;&gt;&lt;img src=&quot;http://nikhilgopal.com/assets/new.jpeg&quot; alt=&quot;new&quot; width=&quot;559&quot; height=&quot;351&quot; class=&quot;alignnone size-full wp-image-372&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/uploads/2014/11/old10scale.jpeg&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/old10scale.jpeg&quot; alt=&quot;old10scale&quot; width=&quot;559&quot; height=&quot;351&quot; class=&quot;alignnone size-full wp-image-371&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/uploads/2014/11/new.jpeg&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/new.jpeg&quot; alt=&quot;new&quot; width=&quot;559&quot; height=&quot;351&quot; class=&quot;alignnone size-full wp-image-372&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;At the top is a plot (green and blue) generated using the &lt;a href=&quot;http://www2.warwick.ac.uk/fac/sci/moac/people/students/peter_cock/r/heatmap/&quot;&gt;code available on Peter Cock's website&lt;/a&gt; (but modified to only use 10 colors on the scale). Below that is the plot (red and blue) generated with my modified version.&lt;/p&gt;
 &lt;p&gt;And of course, code for your consumption:&lt;/p&gt;
 &lt;p&gt;&lt;script src=&quot;https://gist.github.com/ngopal/2b25477d21632fe41045.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
@@ -43,8 +43,8 @@
 &lt;p&gt;&lt;!--End mc_embed_signup--&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 13 Nov 2014 22:35:12 -0800</pubDate>
-        <link>http://nikhilgopal.com/r/visualization/2014/11/13/applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html</link>
-        <guid isPermaLink="true">http://nikhilgopal.com/r/visualization/2014/11/13/applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html</guid>
+        <link>http://localhost:4000/r/visualization/2014/11/13/applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html</link>
+        <guid isPermaLink="true">http://localhost:4000/r/visualization/2014/11/13/applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html</guid>
         
         <category>R</category>
         
@@ -59,7 +59,7 @@
     
       <item>
         <title>Visualizing Look and Say Sequences with D3</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://nikhilgopal.com/uploads/2014/03/Screenshot-2014-03-25-21.58.57.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-257&quot; alt=&quot;Screenshot 2014-03-25 21.58.57&quot; src=&quot;http://nikhilgopal.com/assets/Screenshot-2014-03-25-21.58.57.png&quot; width=&quot;950&quot; height=&quot;488&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;http://localhost:4000/uploads/2014/03/Screenshot-2014-03-25-21.58.57.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-257&quot; alt=&quot;Screenshot 2014-03-25 21.58.57&quot; src=&quot;http://localhost:4000/assets/Screenshot-2014-03-25-21.58.57.png&quot; width=&quot;950&quot; height=&quot;488&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://oeis.org/A005150&quot; target=&quot;_blank&quot;&gt;Look and Say Sequences&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;The way this works is you look at the first number (which is 1 in this case), you say it out loud (&quot;one 1&quot;), and that becomes the second number in the sequence (11). Then we rinse and repeat--we look at 11, say it out loud (&quot;two 1's&quot;), and that becomes the next number in the sequence (21).&lt;/p&gt;
 &lt;p&gt;Here are the first ten:&lt;br /&gt;
@@ -77,8 +77,8 @@
 &lt;p&gt;You can view the block here: &lt;a href=&quot;http://bl.ocks.org/ngopal/9864113&quot; target=&quot;_blank&quot;&gt;http://bl.ocks.org/ngopal/9864113&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 31 Mar 2014 21:29:58 -0700</pubDate>
-        <link>http://nikhilgopal.com/2014/03/31/visualizing-look-and-say-sequences-with-d3.html</link>
-        <guid isPermaLink="true">http://nikhilgopal.com/2014/03/31/visualizing-look-and-say-sequences-with-d3.html</guid>
+        <link>http://localhost:4000/2014/03/31/visualizing-look-and-say-sequences-with-d3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/03/31/visualizing-look-and-say-sequences-with-d3.html</guid>
         
         
       </item>
@@ -103,13 +103,13 @@
 &lt;p&gt;Here is my code to get the data into the database (Python):&lt;/p&gt;
 &lt;p&gt;[gist]https://gist.github.com/ngopal/9164149[/gist]&lt;/p&gt;
 &lt;p&gt;We can watch the number of nodes and relationships grow.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://nikhilgopal.com/uploads/2014/02/Screenshot-2014-02-22-15.45.18.png&quot;&gt;&lt;img class=&quot;size-full wp-image-233 aligncenter&quot; alt=&quot;Screenshot 2014-02-22 15.45.18&quot; src=&quot;http://nikhilgopal.com/assets/Screenshot-2014-02-22-15.45.18.png&quot; width=&quot;1215&quot; height=&quot;768&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/uploads/2014/02/Screenshot-2014-02-22-15.45.18.png&quot;&gt;&lt;img class=&quot;size-full wp-image-233 aligncenter&quot; alt=&quot;Screenshot 2014-02-22 15.45.18&quot; src=&quot;http://localhost:4000/assets/Screenshot-2014-02-22-15.45.18.png&quot; width=&quot;1215&quot; height=&quot;768&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Now we can run a basic query on the data from node to node using Cypher. Here is the code:&lt;/p&gt;
 &lt;p&gt;[gist]https://gist.github.com/ngopal/9163968[/gist]&lt;/p&gt;
 &lt;p&gt;And here is the output:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://nikhilgopal.com/uploads/2014/02/Screenshot-2014-02-22-15.46.28.png&quot;&gt;&lt;img class=&quot;size-full wp-image-232 aligncenter&quot; alt=&quot;Screenshot 2014-02-22 15.46.28&quot; src=&quot;http://nikhilgopal.com/assets/Screenshot-2014-02-22-15.46.28.png&quot; width=&quot;1215&quot; height=&quot;768&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/uploads/2014/02/Screenshot-2014-02-22-15.46.28.png&quot;&gt;&lt;img class=&quot;size-full wp-image-232 aligncenter&quot; alt=&quot;Screenshot 2014-02-22 15.46.28&quot; src=&quot;http://localhost:4000/assets/Screenshot-2014-02-22-15.46.28.png&quot; width=&quot;1215&quot; height=&quot;768&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;And another example:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://nikhilgopal.com/uploads/2014/02/Screenshot-2014-02-22-15.47.04.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-231&quot; alt=&quot;Screenshot 2014-02-22 15.47.04&quot; src=&quot;http://nikhilgopal.com/assets/Screenshot-2014-02-22-15.47.04.png&quot; width=&quot;682&quot; height=&quot;216&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/uploads/2014/02/Screenshot-2014-02-22-15.47.04.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-231&quot; alt=&quot;Screenshot 2014-02-22 15.47.04&quot; src=&quot;http://localhost:4000/assets/Screenshot-2014-02-22-15.47.04.png&quot; width=&quot;682&quot; height=&quot;216&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I'm planning on eventually visualizing this data in D3. If you want to stay in the loop, sign up and I'll keep you updated (your email won't be shared with anyone else):&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;&lt;br /&gt;
 &lt;!-- Begin MailChimp Signup Form --&gt;&lt;/p&gt;
@@ -132,8 +132,8 @@
 &lt;p&gt;&lt;!--End mc_embed_signup--&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 22 Feb 2014 16:06:39 -0800</pubDate>
-        <link>http://nikhilgopal.com/graph/python/2014/02/22/getting-protein-protein-interaction-data-into-neo4j-with-python.html</link>
-        <guid isPermaLink="true">http://nikhilgopal.com/graph/python/2014/02/22/getting-protein-protein-interaction-data-into-neo4j-with-python.html</guid>
+        <link>http://localhost:4000/graph/python/2014/02/22/getting-protein-protein-interaction-data-into-neo4j-with-python.html</link>
+        <guid isPermaLink="true">http://localhost:4000/graph/python/2014/02/22/getting-protein-protein-interaction-data-into-neo4j-with-python.html</guid>
         
         
         <category>graph</category>
@@ -157,8 +157,8 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Jan 2014 21:28:53 -0800</pubDate>
-        <link>http://nikhilgopal.com/2014/01/15/defining-poverty.html</link>
-        <guid isPermaLink="true">http://nikhilgopal.com/2014/01/15/defining-poverty.html</guid>
+        <link>http://localhost:4000/2014/01/15/defining-poverty.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/01/15/defining-poverty.html</guid>
         
         
       </item>
@@ -272,8 +272,8 @@ sharing their stories and were very interested in hearing mine.&lt;/span&gt;&lt;
 &lt;span&gt;We leave for the Volta region tomorrow. And if internet connectivity wasn't hard to come by before, it certainly will be now... &lt;/span&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 03 Sep 2013 22:08:00 -0700</pubDate>
-        <link>http://nikhilgopal.com/travel/2013/09/03/ghana-day-4-9.html</link>
-        <guid isPermaLink="true">http://nikhilgopal.com/travel/2013/09/03/ghana-day-4-9.html</guid>
+        <link>http://localhost:4000/travel/2013/09/03/ghana-day-4-9.html</link>
+        <guid isPermaLink="true">http://localhost:4000/travel/2013/09/03/ghana-day-4-9.html</guid>
         
         
         <category>travel</category>
@@ -288,25 +288,25 @@ sharing their stories and were very interested in hearing mine.&lt;/span&gt;&lt;
 The Twi lesson today was very interesting. I was given an African name: Kwabana. Since that name is kind of a mouthful, they gave me the nickname, &quot;nanaki.&quot; This roughly translates to &quot;King Tuesday.&quot; Tuesday because that was the day I was born. Ghanaians refer to each other by the day they were born! The culture is very much a &quot;drop-in&quot; culture. Our teacher was talking about how she drops-in on her friends all of the time. Everybody here seems to be very religious. I've been invited to church several times and I think I am going to go (there doesn't seem to be any escaping it). People have been finding my philosophical insights on life very interesting--it seems to be a way of thinking most Ghanaian haven't been exposed to.&lt;/p&gt;
 &lt;p&gt;I bought plantain chips on the road. These are pretty good. They're dirt cheap too. Literally less than 50 cents USD. I bought a bag of water for 25 cents USD. I've spent less than $2 USD on all three of my meals today. And everything has been delicious.&lt;/p&gt;
 &lt;div&gt;
-&lt;a href=&quot;http://2.bp.blogspot.com/-KPOeatnu3BY/Uh0aN6CzqAI/AAAAAAAAEO4/_HtuGLZ-YcY/s1600/2012-08-27+04.20.07-1.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://nikhilgopal.com/assets/2012-08-27+04.20.07-1.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;a href=&quot;http://2.bp.blogspot.com/-KPOeatnu3BY/Uh0aN6CzqAI/AAAAAAAAEO4/_HtuGLZ-YcY/s1600/2012-08-27+04.20.07-1.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://localhost:4000/assets/2012-08-27+04.20.07-1.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;
 &lt;div&gt;
-&lt;a href=&quot;http://4.bp.blogspot.com/-Ct1N2sZQk4s/Uh0a8Q36ShI/AAAAAAAAEPY/f4l4PgR9q5I/s1600/2012-08-26+13.39.46.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://nikhilgopal.com/assets/2012-08-26+13.39.46.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;a href=&quot;http://4.bp.blogspot.com/-Ct1N2sZQk4s/Uh0a8Q36ShI/AAAAAAAAEPY/f4l4PgR9q5I/s1600/2012-08-26+13.39.46.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://localhost:4000/assets/2012-08-26+13.39.46.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;I also took a tour of Accra today. I learned about the first president and he was definitely an interesting guy. He married an Egyptian woman although it wouldn't be healthy for him to do so in a local political sense (although it would be very healthy from a foreign relations sense). He did his undergraduate work at Lincoln University, his masters at UPenn, and his PhD at the London School of Economics. He was eventually overthrown because of the revolutionary company of friends he'd keep. I would have flipped through his thesis, but it was protected under glass. He'd hang out with everyone from Muhammad Ali to Nehru to Castro to Mao.&lt;/p&gt;
 &lt;div&gt;
-&lt;a href=&quot;http://4.bp.blogspot.com/-RlKmdv1XnCI/Uh0aXAHQ4TI/AAAAAAAAEPA/9AI9c670REU/s1600/2012-08-27+04.58.40.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://nikhilgopal.com/assets/2012-08-27+04.58.40.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;a href=&quot;http://4.bp.blogspot.com/-RlKmdv1XnCI/Uh0aXAHQ4TI/AAAAAAAAEPA/9AI9c670REU/s1600/2012-08-27+04.58.40.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://localhost:4000/assets/2012-08-27+04.58.40.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;
 &lt;div&gt;
-&lt;a href=&quot;http://3.bp.blogspot.com/-Vn2Yf5GBl3g/Uh0aeC3NGBI/AAAAAAAAEPI/4HBhR-R1sEE/s1600/2012-08-27+04.55.46.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://nikhilgopal.com/assets/2012-08-27+04.55.46.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;a href=&quot;http://3.bp.blogspot.com/-Vn2Yf5GBl3g/Uh0aeC3NGBI/AAAAAAAAEPI/4HBhR-R1sEE/s1600/2012-08-27+04.55.46.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://localhost:4000/assets/2012-08-27+04.55.46.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;
 &lt;div&gt;
-&lt;a href=&quot;http://3.bp.blogspot.com/-ODiHEo2YR-I/Uh0alRcuJfI/AAAAAAAAEPQ/v9gi8pcVDFE/s1600/2012-08-27+05.39.50.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;320&quot; src=&quot;http://nikhilgopal.com/assets/2012-08-27+05.39.50.jpg&quot; width=&quot;240&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;a href=&quot;http://3.bp.blogspot.com/-ODiHEo2YR-I/Uh0alRcuJfI/AAAAAAAAEPQ/v9gi8pcVDFE/s1600/2012-08-27+05.39.50.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;320&quot; src=&quot;http://localhost:4000/assets/2012-08-27+05.39.50.jpg&quot; width=&quot;240&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;I finally tried Waakye for lunch. It was basically a type of spicy meat (chicken or fish) served with rice and black-eyed peas. I have a lot more food to try! I went to a night market close to the university. I ended up getting dinner to-go and they basically just thrown all of the food you order into a plastic bag (which you then eat with your hands). All in all it's been a pretty interesting day.&lt;/p&gt;
 &lt;p&gt;Gerald has gone AWOL. I hope he wasn't kidnapped by any of the hotel attendants. He was really growing on me. Who knows-- he may turn up tomorrow morning.&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Aug 2013 21:36:00 -0700</pubDate>
-        <link>http://nikhilgopal.com/travel/2013/08/27/ghana-day-3.html</link>
-        <guid isPermaLink="true">http://nikhilgopal.com/travel/2013/08/27/ghana-day-3.html</guid>
+        <link>http://localhost:4000/travel/2013/08/27/ghana-day-3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/travel/2013/08/27/ghana-day-3.html</guid>
         
         
         <category>travel</category>
@@ -321,19 +321,19 @@ The Twi lesson today was very interesting. I was given an African name: Kwabana.
 &lt;p&gt;I started learning some Twi (the local language here). I can say a lot of the basic things (where I am from, who I am, how I am, asking, &quot;how are you,&quot; etc.) I'll be doing this everyday for a week plus being immersed in the culture. I'm probably going to reach reasonable proficiency with this language! One of the more interesting parts of Ghanian culture is how they address others. A child interacting with his or her mother's friend would refer to her as &quot;mother!&quot; A woman interacting with her friend's child would also refer to the child as &quot;son&quot; or &quot;daughter.&quot; The concept of aunt, uncle, or cousin doesn't really exist.&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
 
 &lt;div&gt;
-&lt;a href=&quot;http://1.bp.blogspot.com/-_bxxtP2qrco/Uhu2UxzZErI/AAAAAAAAEN4/1GrzrtUTHMI/s1600/2012-08-26+03.56.17-1.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://nikhilgopal.com/assets/2012-08-26+03.56.17-1.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;a href=&quot;http://1.bp.blogspot.com/-_bxxtP2qrco/Uhu2UxzZErI/AAAAAAAAEN4/1GrzrtUTHMI/s1600/2012-08-26+03.56.17-1.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://localhost:4000/assets/2012-08-26+03.56.17-1.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
 &lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;We took a campus tour after the Twi lesson. Surprisingly large. The student life seems interesting. The book store had some great books. There were some interesting titles available such as, &quot;How to Avoid Intimacy.&quot; The stats book were very interesting.&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
 
 &lt;div&gt;
-&lt;a href=&quot;http://3.bp.blogspot.com/-PQx4e3JcxBU/Uhu2KdxwBUI/AAAAAAAAENw/D1u5A9AVZUc/s1600/2012-08-26+04.05.26.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://nikhilgopal.com/assets/2012-08-26+04.05.26.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;a href=&quot;http://3.bp.blogspot.com/-PQx4e3JcxBU/Uhu2KdxwBUI/AAAAAAAAENw/D1u5A9AVZUc/s1600/2012-08-26+04.05.26.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://localhost:4000/assets/2012-08-26+04.05.26.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
 &lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;We then ate lunch at a relatively high-end Ghanaian restaurant. Very tasty and things don't taste the way we would expect them to taste. Fufu was amazing (although what we have pictured here is tilapia). &lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
 
 &lt;div&gt;
-&lt;a href=&quot;http://2.bp.blogspot.com/-o1khPfVvAHg/Uhu2jM95ymI/AAAAAAAAEOA/inmpW02eC6w/s1600/2012-08-26+06.19.27.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://nikhilgopal.com/assets/2012-08-26+06.19.27.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;a href=&quot;http://2.bp.blogspot.com/-o1khPfVvAHg/Uhu2jM95ymI/AAAAAAAAEOA/inmpW02eC6w/s1600/2012-08-26+06.19.27.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://localhost:4000/assets/2012-08-26+06.19.27.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;div&gt;
-&lt;a href=&quot;http://3.bp.blogspot.com/-GluUMuUfdXU/Uhu2_3z0DrI/AAAAAAAAEOM/SznbaitreFo/s1600/2012-08-26+06.19.40.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://nikhilgopal.com/assets/2012-08-26+06.19.40.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;a href=&quot;http://3.bp.blogspot.com/-GluUMuUfdXU/Uhu2_3z0DrI/AAAAAAAAEOM/SznbaitreFo/s1600/2012-08-26+06.19.40.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://localhost:4000/assets/2012-08-26+06.19.40.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
 &lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;We all needed cellphones so we went shopping at a mall. Went to a street market and was almost roped into buying things I don't need yet. Not pushy, but good sellers. &lt;/p&gt;
 &lt;p&gt;In general, people are very friendly. Store owners REALLY enjoy to see me making an effort to learn and speak the local language. It seems like they suddenly stop viewing me as a tourist and view me as one of their own! Many even discount their goods--a nice perk, right?&lt;/p&gt;
@@ -341,15 +341,15 @@ The Twi lesson today was very interesting. I was given an African name: Kwabana.
 &lt;p&gt;Dinner wasn't too different from lunch. I essentially had fish again.&lt;/p&gt;
 &lt;p&gt;Gerald has decided to take the other bed. He has the right idea.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;div&gt;
-&lt;a href=&quot;http://2.bp.blogspot.com/-enzPZ5CO4nY/Uhu3WKORq2I/AAAAAAAAEOU/F_XIqXkIKdA/s1600/2012-08-26+09.57.54.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://nikhilgopal.com/assets/2012-08-26+09.57.54.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;a href=&quot;http://2.bp.blogspot.com/-enzPZ5CO4nY/Uhu3WKORq2I/AAAAAAAAEOU/F_XIqXkIKdA/s1600/2012-08-26+09.57.54.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://localhost:4000/assets/2012-08-26+09.57.54.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;
 &lt;div&gt;
-&lt;a href=&quot;http://2.bp.blogspot.com/-UrKjHTLA-70/Uhu3ZI7A4mI/AAAAAAAAEOc/MVCis66yIjo/s1600/2012-08-26+09.56.30.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://nikhilgopal.com/assets/2012-08-26+09.56.30.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;a href=&quot;http://2.bp.blogspot.com/-UrKjHTLA-70/Uhu3ZI7A4mI/AAAAAAAAEOc/MVCis66yIjo/s1600/2012-08-26+09.56.30.jpg&quot; imageanchor=&quot;1&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;http://localhost:4000/assets/2012-08-26+09.56.30.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 26 Aug 2013 20:06:00 -0700</pubDate>
-        <link>http://nikhilgopal.com/travel/2013/08/26/ghana-day-2.html</link>
-        <guid isPermaLink="true">http://nikhilgopal.com/travel/2013/08/26/ghana-day-2.html</guid>
+        <link>http://localhost:4000/travel/2013/08/26/ghana-day-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/travel/2013/08/26/ghana-day-2.html</guid>
         
         
         <category>travel</category>
@@ -363,8 +363,8 @@ The Twi lesson today was very interesting. I was given an African name: Kwabana.
 &lt;span&gt;&lt;span&gt;Early day tomorrow!&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 26 Aug 2013 20:05:00 -0700</pubDate>
-        <link>http://nikhilgopal.com/travel/2013/08/26/ghana-day-1.html</link>
-        <guid isPermaLink="true">http://nikhilgopal.com/travel/2013/08/26/ghana-day-1.html</guid>
+        <link>http://localhost:4000/travel/2013/08/26/ghana-day-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/travel/2013/08/26/ghana-day-1.html</guid>
         
         
         <category>travel</category>
@@ -498,8 +498,8 @@ The Twi lesson today was very interesting. I was given an African name: Kwabana.
 &lt;p&gt;The table of contents will have to be updated/reorganized over time as links are added and removed. But use whatever you can for now!&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 May 2013 00:39:00 -0700</pubDate>
-        <link>http://nikhilgopal.com/r/2013/05/13/the-guerilla-guide-to-r.html</link>
-        <guid isPermaLink="true">http://nikhilgopal.com/r/2013/05/13/the-guerilla-guide-to-r.html</guid>
+        <link>http://localhost:4000/r/2013/05/13/the-guerilla-guide-to-r.html</link>
+        <guid isPermaLink="true">http://localhost:4000/r/2013/05/13/the-guerilla-guide-to-r.html</guid>
         
         
         <category>R</category>
@@ -523,8 +523,8 @@ The Twi lesson today was very interesting. I was given an African name: Kwabana.
 &lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 27 Dec 2012 01:04:00 -0800</pubDate>
-        <link>http://nikhilgopal.com/python/2012/12/27/owlify-a-python-library-to-generate-rdfowl-code.html</link>
-        <guid isPermaLink="true">http://nikhilgopal.com/python/2012/12/27/owlify-a-python-library-to-generate-rdfowl-code.html</guid>
+        <link>http://localhost:4000/python/2012/12/27/owlify-a-python-library-to-generate-rdfowl-code.html</link>
+        <guid isPermaLink="true">http://localhost:4000/python/2012/12/27/owlify-a-python-library-to-generate-rdfowl-code.html</guid>
         
         
         <category>python</category>
