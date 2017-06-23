@@ -5,14 +5,30 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Jun 2017 15:04:38 -0700</pubDate>
-    <lastBuildDate>Fri, 23 Jun 2017 15:04:38 -0700</lastBuildDate>
+    <pubDate>Fri, 23 Jun 2017 15:18:25 -0700</pubDate>
+    <lastBuildDate>Fri, 23 Jun 2017 15:18:25 -0700</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
         <title>Tutorial on Principal Components Analysis (PCA) and Singular Value Decomposition (SVD) using Python</title>
-        <description>&lt;p&gt;Principal Components Analysis is useful as a dimensionality reduction method. I decided to write the example below here in Python, using a combination of gists and Jupyter notebooks. For simplicity, I will descrobe PCA in a few steps, like in a recipe:&lt;/p&gt;
-&lt;h3&gt;Recipe for PCA&lt;/h3&gt;
+        <description>&lt;p&gt;Principal Components Analysis is useful as a dimensionality reduction method. I decided to write the example below here in Python, using a combination of gists and Jupyter notebooks. For simplicity, I will describe PCA in a few steps, like in a recipe. Much of the content covered about PCA (via covariance matrix) can be found in a great paper (2005) by Jonathon Shlens. My own preference is to think about some of these approaches as flowcharts, which is what I've provided here.&lt;/p&gt;
+&lt;h3&gt;Recipe for PCA (via covariance matrix)&lt;/h3&gt;
+$$
+\begin{align*}
+&amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+&amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+\phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
+\vdots &amp; \ddots &amp; \vdots \\
+\phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
+\end{array} \right)
+\left( \begin{array}{c}
+y_1 \\
+\vdots \\
+y_n
+\end{array} \right)
+\end{align*}
+$$
 &lt;ul&gt;
     &lt;li&gt;Calculate deviation matrix&lt;/li&gt;
     &lt;li&gt;Calculate covariance matrix&lt;/li&gt;
@@ -21,8 +37,10 @@
 &lt;/ul&gt;
 &lt;p&gt;How to roll PCA from scratch&lt;/p&gt;
 &lt;p&gt;Limitations/Assumptions about PCA&lt;/p&gt;
+&lt;p&gt;PCA makes the following assumptions. There are flavors of PCA that can handle non-linear relationships, and these methods are referred to as kernel PCA.&lt;/p&gt;
 &lt;p&gt;How SVD is better&lt;/p&gt;
-&lt;p&gt;SVD can be thought of as a generalization of PCA. When we use SVD, we actually don't obtain the principal components directly, but we can easily obtain them through a few operations. Here's the recipe:&lt;/p&gt;
+&lt;p&gt;SVD can be thought of as a generalization of PCA. When we use SVD, we actually don't obtain the principal components directly, but we can easily obtain them through a few operations.&lt;/p&gt;
+&lt;h3&gt;Recipe for PCA (via SVD):&lt;/h3&gt;
 &lt;ul&gt;
     &lt;li&gt;Calculate deviation matrix&lt;/li&gt;
     &lt;li&gt;Perform decomposition&lt;/li&gt;

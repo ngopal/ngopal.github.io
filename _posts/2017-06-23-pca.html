@@ -8,8 +8,24 @@ status: draft
 type: post
 published: true
 ---
-<p>Principal Components Analysis is useful as a dimensionality reduction method. I decided to write the example below here in Python, using a combination of gists and Jupyter notebooks. For simplicity, I will descrobe PCA in a few steps, like in a recipe:</p>
-<h3>Recipe for PCA</h3>
+<p>Principal Components Analysis is useful as a dimensionality reduction method. I decided to write the example below here in Python, using a combination of gists and Jupyter notebooks. For simplicity, I will describe PCA in a few steps, like in a recipe. Much of the content covered about PCA (via covariance matrix) can be found in a great paper (2005) by Jonathon Shlens. My own preference is to think about some of these approaches as flowcharts, which is what I've provided here.</p>
+<h3>Recipe for PCA (via covariance matrix)</h3>
+$$
+\begin{align*}
+& \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+& (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+\phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+\vdots & \ddots & \vdots \\
+\phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+\end{array} \right)
+\left( \begin{array}{c}
+y_1 \\
+\vdots \\
+y_n
+\end{array} \right)
+\end{align*}
+$$
 <ul>
     <li>Calculate deviation matrix</li>
     <li>Calculate covariance matrix</li>
@@ -18,8 +34,10 @@ published: true
 </ul>
 <p>How to roll PCA from scratch</p>
 <p>Limitations/Assumptions about PCA</p>
+<p>PCA makes the following assumptions. There are flavors of PCA that can handle non-linear relationships, and these methods are referred to as kernel PCA.</p>
 <p>How SVD is better</p>
-<p>SVD can be thought of as a generalization of PCA. When we use SVD, we actually don't obtain the principal components directly, but we can easily obtain them through a few operations. Here's the recipe:</p>
+<p>SVD can be thought of as a generalization of PCA. When we use SVD, we actually don't obtain the principal components directly, but we can easily obtain them through a few operations.</p>
+<h3>Recipe for PCA (via SVD):</h3>
 <ul>
     <li>Calculate deviation matrix</li>
     <li>Perform decomposition</li>

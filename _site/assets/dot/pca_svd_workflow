@@ -1,0 +1,9 @@
+digraph G {
+  "data" -> "calculate deviation matrix"
+  "calculate deviation matrix" -> "PCA"
+  "calculate deviation matrix" -> "SVD"
+  "PCA" -> "calculate covariance matrix"
+  "calculate covariance matrix" -> "calculate eigens"
+  "SVD" -> "calculate eigens"
+  "calculate eigens" -> "calculate scores/loadings"
+}
