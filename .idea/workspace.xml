@@ -2,11 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92758ea1-4ef6-41f1-bd27-7849ff32b0cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dot/pca_svd_workflow" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-23-pca.html" afterPath="$PROJECT_DIR$/_posts/2017-06-23-pca.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/01/15/defining-poverty.html" afterPath="$PROJECT_DIR$/_site/2014/01/15/defining-poverty.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/03/31/visualizing-look-and-say-sequences-with-d3.html" afterPath="$PROJECT_DIR$/_site/2014/03/31/visualizing-look-and-say-sequences-with-d3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/02/10/pca.html" afterPath="$PROJECT_DIR$/_site/2015/02/10/pca.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/02/09/how-to-mine-23andme-raw-data-with-python-part-1.html" afterPath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/02/09/how-to-mine-23andme-raw-data-with-python-part-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/03/16/how-to-mine-23andme-raw-data-with-python-part-2.html" afterPath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/03/16/how-to-mine-23andme-raw-data-with-python-part-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/05/20/how-to-mine-23andme-data-part-3.html" afterPath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/05/20/how-to-mine-23andme-data-part-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/applescript/utility/2011/08/03/show-and-tell-applescript-a-spotify-alarm-clock-on-mac.html" afterPath="$PROJECT_DIR$/_site/applescript/utility/2011/08/03/show-and-tell-applescript-a-spotify-alarm-clock-on-mac.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/bioinformatics/2010/12/23/efficiently-reading-in-and-iterating-through-large-files-with-python.html" afterPath="$PROJECT_DIR$/_site/bioinformatics/2010/12/23/efficiently-reading-in-and-iterating-through-large-files-with-python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/bioinformatics/2011/08/11/bioinformatics-extra-tabs-in-sam-to-bam-conversion.html" afterPath="$PROJECT_DIR$/_site/bioinformatics/2011/08/11/bioinformatics-extra-tabs-in-sam-to-bam-conversion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/bioinformatics/2011/10/31/mongodbsnp-stub-code-for-getting-dbsnp-into-a-nosql-database.html" afterPath="$PROJECT_DIR$/_site/bioinformatics/2011/10/31/mongodbsnp-stub-code-for-getting-dbsnp-into-a-nosql-database.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/bioinformatics/micropost/2011/06/09/micropost-python-scripts-with-unix-pipes.html" afterPath="$PROJECT_DIR$/_site/bioinformatics/micropost/2011/06/09/micropost-python-scripts-with-unix-pipes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/bioinformatics/micropost/2011/07/09/micropost-how-to-remove-blank-spaces-from-a-fasta-file.html" afterPath="$PROJECT_DIR$/_site/bioinformatics/micropost/2011/07/09/micropost-how-to-remove-blank-spaces-from-a-fasta-file.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/code optimization/python/2011/12/19/code-optimization-technique-you-need-memoization.html" afterPath="$PROJECT_DIR$/_site/code optimization/python/2011/12/19/code-optimization-technique-you-need-memoization.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/code optimization/python/2012/04/24/a-refresher-on-big-o-notation-python.html" afterPath="$PROJECT_DIR$/_site/code optimization/python/2012/04/24/a-refresher-on-big-o-notation-python.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/graph/python/2014/02/22/getting-protein-protein-interaction-data-into-neo4j-with-python.html" afterPath="$PROJECT_DIR$/_site/graph/python/2014/02/22/getting-protein-protein-interaction-data-into-neo4j-with-python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/ios/2012/01/14/ios-development-ios-syntax-object-allocation-and-garbage-collection.html" afterPath="$PROJECT_DIR$/_site/ios/2012/01/14/ios-development-ios-syntax-object-allocation-and-garbage-collection.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/ios/2012/01/15/ios-development-types-of-applications-in-xcode-model-view-controller-mvc-and-basic-object-interactions.html" afterPath="$PROJECT_DIR$/_site/ios/2012/01/15/ios-development-types-of-applications-in-xcode-model-view-controller-mvc-and-basic-object-interactions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/micropost/shell/2011/09/12/micropost-output-field-separator-in-awk.html" afterPath="$PROJECT_DIR$/_site/micropost/shell/2011/09/12/micropost-output-field-separator-in-awk.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/posts.html" afterPath="$PROJECT_DIR$/_site/posts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/publications.html" afterPath="$PROJECT_DIR$/_site/publications.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/python/2012/04/04/how-to-improve-coding-style-in-python.html" afterPath="$PROJECT_DIR$/_site/python/2012/04/04/how-to-improve-coding-style-in-python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/python/2012/08/11/the-bunch-design-pattern-python.html" afterPath="$PROJECT_DIR$/_site/python/2012/08/11/the-bunch-design-pattern-python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/python/2012/12/27/owlify-a-python-library-to-generate-rdfowl-code.html" afterPath="$PROJECT_DIR$/_site/python/2012/12/27/owlify-a-python-library-to-generate-rdfowl-code.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/r/2013/05/13/the-guerilla-guide-to-r.html" afterPath="$PROJECT_DIR$/_site/r/2013/05/13/the-guerilla-guide-to-r.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/r/visualization/2014/11/13/applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html" afterPath="$PROJECT_DIR$/_site/r/visualization/2014/11/13/applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/statistics/2012/01/12/exploring-bonferroni-correction-or-how-facebook-could-improve-friend-suggestions.html" afterPath="$PROJECT_DIR$/_site/statistics/2012/01/12/exploring-bonferroni-correction-or-how-facebook-could-improve-friend-suggestions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/travel/2013/08/26/ghana-day-1.html" afterPath="$PROJECT_DIR$/_site/travel/2013/08/26/ghana-day-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/travel/2013/08/26/ghana-day-2.html" afterPath="$PROJECT_DIR$/_site/travel/2013/08/26/ghana-day-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/travel/2013/08/27/ghana-day-3.html" afterPath="$PROJECT_DIR$/_site/travel/2013/08/27/ghana-day-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/travel/2013/09/03/ghana-day-4-9.html" afterPath="$PROJECT_DIR$/_site/travel/2013/09/03/ghana-day-4-9.html" />
     </list>
     <ignored path="ngopal.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-06-23-pca.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2017-06-23-pca.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-06-23-pca.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="60">
+              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -49,14 +79,14 @@
       <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -103,6 +133,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/dot/pca_svd_workflow" />
         <option value="$PROJECT_DIR$/_posts/2017-06-23-pca.html" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
       </list>
     </option>
   </component>
@@ -111,6 +142,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="46" />
@@ -173,6 +207,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngopal.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngopal.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngopal.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngopal.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -839,12 +901,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475258175414</updated>
-      <workItem from="1498251323087" duration="4562000" />
+      <workItem from="1498251323087" duration="5190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4562000" />
+    <option name="totallyTimeSpent" value="5190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="23" width="1260" height="760" extended-state="0" />
@@ -1042,13 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/publications.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1191,15 +1246,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-06-23-pca.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1211,6 +1258,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-23-pca.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding />
         </state>
       </provider>

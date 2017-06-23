@@ -10,6 +10,8 @@ published: true
 ---
 <p>Principal Components Analysis is useful as a dimensionality reduction method. I decided to write the example below here in Python, using a combination of gists and Jupyter notebooks. For simplicity, I will describe PCA in a few steps, like in a recipe. Much of the content covered about PCA (via covariance matrix) can be found in a great paper (2005) by Jonathon Shlens. My own preference is to think about some of these approaches as flowcharts, which is what I've provided here.</p>
 <h3>Recipe for PCA (via covariance matrix)</h3>
+
+# markdown
 $$
 \begin{align*}
 & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
@@ -26,6 +28,17 @@ y_n
 \end{array} \right)
 \end{align*}
 $$
+
+{% highlight python %}
+def show
+@widget = Widget(params[:id])
+respond_to do |format|
+format.html # show.html.erb
+format.json { render json: @widget }
+end
+end
+{% endhighlight %}
+
 <ul>
     <li>Calculate deviation matrix</li>
     <li>Calculate covariance matrix</li>

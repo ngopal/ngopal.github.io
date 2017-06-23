@@ -12,6 +12,15 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000/2015/02/10/pca.html">
   <link rel="alternate" type="application/rss+xml" title="Optinalysis" href="http://localhost:4000/feed.xml" />
+  <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+  <!--<script src="https://cdn.rawgit.com/ngopal/ngopal.github.io/master/node_modules/mathjax/MathJax.js"></script>-->
+  <script type="text/javascript" async
+          src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
 </head>
 
 
@@ -71,6 +80,8 @@
   <article class="post-content">
     <p>Principal Components Analysis is useful as a dimensionality reduction method. I decided to write the example below here in Python, using a combination of gists and Jupyter notebooks. For simplicity, I will describe PCA in a few steps, like in a recipe. Much of the content covered about PCA (via covariance matrix) can be found in a great paper (2005) by Jonathon Shlens. My own preference is to think about some of these approaches as flowcharts, which is what I've provided here.</p>
 <h3>Recipe for PCA (via covariance matrix)</h3>
+
+# markdown
 $$
 \begin{align*}
 & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
@@ -87,6 +98,15 @@ y_n
 \end{array} \right)
 \end{align*}
 $$
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">show</span>
+<span class="nd">@widget</span> <span class="o">=</span> <span class="n">Widget</span><span class="p">(</span><span class="n">params</span><span class="p">[:</span><span class="nb">id</span><span class="p">])</span>
+<span class="n">respond_to</span> <span class="n">do</span> <span class="o">|</span><span class="n">format</span><span class="o">|</span>
+<span class="n">format</span><span class="o">.</span><span class="n">html</span> <span class="c"># show.html.erb</span>
+<span class="n">format</span><span class="o">.</span><span class="n">json</span> <span class="p">{</span> <span class="n">render</span> <span class="n">json</span><span class="p">:</span> <span class="nd">@widget</span> <span class="p">}</span>
+<span class="n">end</span>
+<span class="n">end</span></code></pre></figure>
+
 <ul>
     <li>Calculate deviation matrix</li>
     <li>Calculate covariance matrix</li>

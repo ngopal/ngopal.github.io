@@ -5,14 +5,16 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Jun 2017 15:18:25 -0700</pubDate>
-    <lastBuildDate>Fri, 23 Jun 2017 15:18:25 -0700</lastBuildDate>
+    <pubDate>Fri, 23 Jun 2017 15:31:27 -0700</pubDate>
+    <lastBuildDate>Fri, 23 Jun 2017 15:31:27 -0700</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
         <title>Tutorial on Principal Components Analysis (PCA) and Singular Value Decomposition (SVD) using Python</title>
         <description>&lt;p&gt;Principal Components Analysis is useful as a dimensionality reduction method. I decided to write the example below here in Python, using a combination of gists and Jupyter notebooks. For simplicity, I will describe PCA in a few steps, like in a recipe. Much of the content covered about PCA (via covariance matrix) can be found in a great paper (2005) by Jonathon Shlens. My own preference is to think about some of these approaches as flowcharts, which is what I've provided here.&lt;/p&gt;
 &lt;h3&gt;Recipe for PCA (via covariance matrix)&lt;/h3&gt;
+
+# markdown
 $$
 \begin{align*}
 &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
@@ -29,6 +31,15 @@ y_n
 \end{array} \right)
 \end{align*}
 $$
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;show&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Widget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;respond_to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# show.html.erb&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nd&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;ul&gt;
     &lt;li&gt;Calculate deviation matrix&lt;/li&gt;
     &lt;li&gt;Calculate covariance matrix&lt;/li&gt;
