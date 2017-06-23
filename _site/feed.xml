@@ -5,9 +5,39 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Jun 2017 14:41:43 -0700</pubDate>
-    <lastBuildDate>Fri, 23 Jun 2017 14:41:43 -0700</lastBuildDate>
+    <pubDate>Fri, 23 Jun 2017 15:04:38 -0700</pubDate>
+    <lastBuildDate>Fri, 23 Jun 2017 15:04:38 -0700</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
+    
+      <item>
+        <title>Tutorial on Principal Components Analysis (PCA) and Singular Value Decomposition (SVD) using Python</title>
+        <description>&lt;p&gt;Principal Components Analysis is useful as a dimensionality reduction method. I decided to write the example below here in Python, using a combination of gists and Jupyter notebooks. For simplicity, I will descrobe PCA in a few steps, like in a recipe:&lt;/p&gt;
+&lt;h3&gt;Recipe for PCA&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Calculate deviation matrix&lt;/li&gt;
+    &lt;li&gt;Calculate covariance matrix&lt;/li&gt;
+    &lt;li&gt;Calculate eigenvectors and eigenvalues of the covariance matrix&lt;/li&gt;
+    &lt;li&gt;Calculate loadings and scores&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How to roll PCA from scratch&lt;/p&gt;
+&lt;p&gt;Limitations/Assumptions about PCA&lt;/p&gt;
+&lt;p&gt;How SVD is better&lt;/p&gt;
+&lt;p&gt;SVD can be thought of as a generalization of PCA. When we use SVD, we actually don't obtain the principal components directly, but we can easily obtain them through a few operations. Here's the recipe:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Calculate deviation matrix&lt;/li&gt;
+    &lt;li&gt;Perform decomposition&lt;/li&gt;
+    &lt;li&gt;Square the diagonal matrix S, and divide by sum(S) to obtain eigenvalues&lt;/li&gt;
+    &lt;li&gt;Matrix Vt (or U) will contain the eigenvectors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Translating from PCA to SVD&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 10 Feb 2015 20:12:55 -0800</pubDate>
+        <link>http://localhost:4000/2015/02/10/pca.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/02/10/pca.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Applying A Divergent Color Scale to A Gene Expression Heat Map</title>
@@ -503,31 +533,6 @@ The Twi lesson today was very interesting. I was given an African name: Kwabana.
         
         
         <category>R</category>
-        
-      </item>
-    
-      <item>
-        <title>OWLify: A Python Library to Generate RDF/OWL Code</title>
-        <description>&lt;p&gt;&lt;b&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/b&gt;&lt;br /&gt;
-&lt;b&gt;&lt;span&gt;Why Another Library?:&lt;/span&gt;&lt;/b&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;span&gt;I've been working with RDF/OWL data over the past few months. I've been moving away from high-performance databases and NoSQL and towards the semantic web. The semantic web allows us to represent rich, complex relationships between data--in ways we just aren't able to with current database technology. I've found RDF/OWL better suited for representing knowledge of the data I've been working with most recently.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;b&gt;&lt;span&gt;Libraries That Already Exist:&lt;/span&gt;&lt;/b&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;span&gt;We can query semantic web files with SPARQL. A Python library used to interface with SPARQL already exists. In fact, there is also a library that exists to help process RDF/OWL files in Python. However, I couldn't find anything well-suited to take a python object and transform that into RDF/OWL. So I wrote &lt;a href=&quot;https://github.com/ngopal/OWLify&quot;&gt;OWLify&lt;/a&gt;.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;b&gt;&lt;span&gt;Explain &lt;a href=&quot;https://github.com/ngopal/OWLify&quot;&gt;OWLify&lt;/a&gt;:&lt;/span&gt;&lt;/b&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;span&gt;In order to quickly turn my data into a RDF/OWL file, I wrote a bare minimal library I called &lt;a href=&quot;https://github.com/ngopal/OWLify&quot;&gt;OWLify&lt;/a&gt;. I only included the functions I needed at the time. I'm putting it up on github for folks to fork and extend as needed. The interface is pretty simple. Creating new RDF-compliant functions should be very straightforward.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;b&gt;&lt;span&gt;Example Code:&lt;/span&gt;&lt;/b&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;span&gt;from OWLify import OWL&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;span&gt;names = ['Janet', 'Marcy', 'Ed']&lt;/span&gt;&lt;br /&gt;&lt;span&gt;gender = ['Female', 'Female', 'Male']&lt;/span&gt;&lt;br /&gt;&lt;span&gt;colors = ['Red','Blue','Green']&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;span&gt;out = OWL('http://www.nikhilgopal.com', 'owl_example.owl', 'http://www.nikhilgopal.com/properties')&lt;/span&gt;&lt;br /&gt;&lt;span&gt;out.start()&lt;/span&gt;&lt;br /&gt;&lt;span&gt;for n in range(len(names)):&lt;/span&gt;&lt;br /&gt;&lt;span&gt;    out.addClass(names[n])&lt;/span&gt;&lt;br /&gt;&lt;span&gt;    out.assertEquivalentTriple(names[n], 'hasColor', colors[n])&lt;/span&gt;&lt;br /&gt;&lt;span&gt;    out.assertSubClassTriple(names[n], 'hasGender', gender[n])&lt;/span&gt;&lt;br /&gt;&lt;span&gt;out.end()&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;b&gt;&lt;a href=&quot;https://github.com/ngopal/OWLify&quot; target=&quot;_blank&quot;&gt;&lt;span&gt;Get the Code&lt;/span&gt;&lt;/a&gt;&lt;/b&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 27 Dec 2012 01:04:00 -0800</pubDate>
-        <link>http://localhost:4000/python/2012/12/27/owlify-a-python-library-to-generate-rdfowl-code.html</link>
-        <guid isPermaLink="true">http://localhost:4000/python/2012/12/27/owlify-a-python-library-to-generate-rdfowl-code.html</guid>
-        
-        
-        <category>python</category>
         
       </item>
     
