@@ -9,9 +9,9 @@ type: post
 published: true
 ---
 <p>Principal Components Analysis is useful as a dimensionality reduction method. I decided to write the example below here in Python, using a combination of gists and Jupyter notebooks. For simplicity, I will describe PCA in a few steps, like in a recipe. Much of the content covered about PCA (via covariance matrix) can be found in a great paper (2005) by Jonathon Shlens. My own preference is to think about some of these approaches as flowcharts, which is what I've provided here.</p>
+<p><img src="/assets/dot/pca_svd_workflow.png"/></p>
 <h3>Recipe for PCA (via covariance matrix)</h3>
 
-# markdown
 $$
 \begin{align*}
 & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
@@ -29,6 +29,23 @@ y_n
 \end{align*}
 $$
 
+
+$$
+\begin{align*}
+& D = A - Abar
+& C = DD'
+& B = (XX')(Xy)
+\end{align*}
+$$
+
+
+<ul>
+    <li>Calculate deviation matrix</li>
+    <li>Calculate covariance matrix</li>
+    <li>Calculate eigenvectors and eigenvalues of the covariance matrix</li>
+    <li>Calculate loadings and scores</li>
+</ul>
+<p>How to roll PCA from scratch</p>
 {% highlight python %}
 def show
 @widget = Widget(params[:id])
@@ -39,23 +56,28 @@ end
 end
 {% endhighlight %}
 
-<ul>
-    <li>Calculate deviation matrix</li>
-    <li>Calculate covariance matrix</li>
-    <li>Calculate eigenvectors and eigenvalues of the covariance matrix</li>
-    <li>Calculate loadings and scores</li>
-</ul>
-<p>How to roll PCA from scratch</p>
-<p>Limitations/Assumptions about PCA</p>
-<p>PCA makes the following assumptions. There are flavors of PCA that can handle non-linear relationships, and these methods are referred to as kernel PCA.</p>
-<p>How SVD is better</p>
-<p>SVD can be thought of as a generalization of PCA. When we use SVD, we actually don't obtain the principal components directly, but we can easily obtain them through a few operations.</p>
+<p>A minor note on calculating eigenvectors and eigenvalues. It seems that numpy uses LAPACK to perform eigen calculations. Calculating eigens efficiently is a tricky challenge, so it makes sense to use the implementation found in LAPACK. In LAPACK, the operation that is performed is called QR decomposition. Without this technique, we may attempt to create a polynomial equation using the diagonal values from the determinant matrix, and solving for large polynomial equations can be resource-expensive (e.g. time to completion, compute power, etc). Rosetta Code has a good example of the "householder method", which performs QR decomposition.</p>
+<h3>Limitations/Assumptions about PCA</h3>
+<p>PCA makes the following assumptions. Firstly, PCA assumes linearity. Secondly, PCA assumes that components are orthogonal--this constraint is convenient as it reduces the set space of possible components. Thirdly, PCA will be adversely affected by correlated varianles. Fourth, . There are flavors of PCA that can handle non-linear relationships, and these methods are referred to as kernel PCA.</p>
+<h3>How SVD is better</h3>
+$$
+\begin{align*}
+& R = USV^t
+\end{align*}
+$$
+<p>SVD is explained in the * paper as a generalization of PCA. I mostly agree with this. One note I would like to add is that square matricies have eigenvectors/eigenvalues, whereas rectangular matrices have singular values. When we use SVD, we actually don't obtain the principal components directly, but we can easily obtain them through a few basic operations. At the end of SVD, we have a rectangular matrix U, a square matrix S, and a rectangular matrix Vt. Squaring S will provide eigenvalues, while U and Vt provide eigenvectors. I haven't confirmed this myself (nor do I have any evidence to support the claim), but I've heard SVD calculations are more "stable" than "covariance-based" calculations.</p>
 <h3>Recipe for PCA (via SVD):</h3>
 <ul>
     <li>Calculate deviation matrix</li>
     <li>Perform decomposition</li>
-    <li>Square the diagonal matrix S, and divide by sum(S) to obtain eigenvalues</li>
+    <li>Square the diagonal matrix S, and divide by sum(S) to obtain eigenvalues<br>
+        $$
+        \begin{align*}
+        & Eigenvalues = S^2
+        \end{align*}
+        $$</li>
     <li>Matrix Vt (or U) will contain the eigenvectors</li>
 </ul>
-<p>Translating from PCA to SVD</p>
+<h3>Translating from PCA to SVD</h3>
+<p>There is clearly overlap between these two methods.</p>
 
