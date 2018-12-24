@@ -2,50 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92758ea1-4ef6-41f1-bd27-7849ff32b0cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/talks.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teaching.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/dot/pca_svd_workflow" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/posts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/dot/pca_svd_workflow" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/posts.html" afterPath="$PROJECT_DIR$/consulting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-08-12-landint-a-data-science-role.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/01/15/defining-poverty.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/03/31/visualizing-look-and-say-sequences-with-d3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/02/10/pca.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/02/09/how-to-mine-23andme-raw-data-with-python-part-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/03/16/how-to-mine-23andme-raw-data-with-python-part-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/05/20/how-to-mine-23andme-data-part-3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/applescript/utility/2011/08/03/show-and-tell-applescript-a-spotify-alarm-clock-on-mac.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bioinformatics/2010/12/23/efficiently-reading-in-and-iterating-through-large-files-with-python.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bioinformatics/2011/08/11/bioinformatics-extra-tabs-in-sam-to-bam-conversion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bioinformatics/2011/10/31/mongodbsnp-stub-code-for-getting-dbsnp-into-a-nosql-database.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bioinformatics/micropost/2011/06/09/micropost-python-scripts-with-unix-pipes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bioinformatics/micropost/2011/07/09/micropost-how-to-remove-blank-spaces-from-a-fasta-file.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/code optimization/python/2011/12/19/code-optimization-technique-you-need-memoization.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/code optimization/python/2012/04/24/a-refresher-on-big-o-notation-python.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/graph/python/2014/02/22/getting-protein-protein-interaction-data-into-neo4j-with-python.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/ios/2012/01/14/ios-development-ios-syntax-object-allocation-and-garbage-collection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/ios/2012/01/15/ios-development-types-of-applications-in-xcode-model-view-controller-mvc-and-basic-object-interactions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/micropost/shell/2011/09/12/micropost-output-field-separator-in-awk.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/2012/04/04/how-to-improve-coding-style-in-python.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/2012/08/11/the-bunch-design-pattern-python.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/2012/12/27/owlify-a-python-library-to-generate-rdfowl-code.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/r/visualization/2014/11/13/applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/statistics/2012/01/12/exploring-bonferroni-correction-or-how-facebook-could-improve-friend-suggestions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/travel/2013/08/26/ghana-day-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/travel/2013/08/26/ghana-day-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/travel/2013/08/27/ghana-day-3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/travel/2013/09/03/ghana-day-4-9.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010-12-23-efficiently-reading-in-and-iterating-through-large-files-with-python.html" afterPath="$PROJECT_DIR$/_posts/2010-12-23-efficiently-reading-in-and-iterating-through-large-files-with-python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-02-09-how-to-mine-23andme-raw-data-with-python-part-1.html" afterPath="$PROJECT_DIR$/_posts/2011-02-09-how-to-mine-23andme-raw-data-with-python-part-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-03-16-how-to-mine-23andme-raw-data-with-python-part-2.html" afterPath="$PROJECT_DIR$/_posts/2011-03-16-how-to-mine-23andme-raw-data-with-python-part-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-05-20-how-to-mine-23andme-data-part-3.html" afterPath="$PROJECT_DIR$/_posts/2011-05-20-how-to-mine-23andme-data-part-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-06-09-micropost-python-scripts-with-unix-pipes.html" afterPath="$PROJECT_DIR$/_posts/2011-06-09-micropost-python-scripts-with-unix-pipes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-07-09-micropost-how-to-remove-blank-spaces-from-a-fasta-file.html" afterPath="$PROJECT_DIR$/_posts/2011-07-09-micropost-how-to-remove-blank-spaces-from-a-fasta-file.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-08-03-show-and-tell-applescript-a-spotify-alarm-clock-on-mac.html" afterPath="$PROJECT_DIR$/_posts/2011-08-03-show-and-tell-applescript-a-spotify-alarm-clock-on-mac.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-08-11-bioinformatics-extra-tabs-in-sam-to-bam-conversion.html" afterPath="$PROJECT_DIR$/_posts/2011-08-11-bioinformatics-extra-tabs-in-sam-to-bam-conversion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-09-12-micropost-output-field-separator-in-awk.html" afterPath="$PROJECT_DIR$/_posts/2011-09-12-micropost-output-field-separator-in-awk.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-10-31-mongodbsnp-stub-code-for-getting-dbsnp-into-a-nosql-database.html" afterPath="$PROJECT_DIR$/_posts/2011-10-31-mongodbsnp-stub-code-for-getting-dbsnp-into-a-nosql-database.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-12-19-code-optimization-technique-you-need-memoization.html" afterPath="$PROJECT_DIR$/_posts/2011-12-19-code-optimization-technique-you-need-memoization.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-01-12-exploring-bonferroni-correction-or-how-facebook-could-improve-friend-suggestions.html" afterPath="$PROJECT_DIR$/_posts/2012-01-12-exploring-bonferroni-correction-or-how-facebook-could-improve-friend-suggestions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-01-14-ios-development-ios-syntax-object-allocation-and-garbage-collection.html" afterPath="$PROJECT_DIR$/_posts/2012-01-14-ios-development-ios-syntax-object-allocation-and-garbage-collection.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-01-15-ios-development-types-of-applications-in-xcode-model-view-controller-mvc-and-basic-object-interactions.html" afterPath="$PROJECT_DIR$/_posts/2012-01-15-ios-development-types-of-applications-in-xcode-model-view-controller-mvc-and-basic-object-interactions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-04-04-how-to-improve-coding-style-in-python.html" afterPath="$PROJECT_DIR$/_posts/2012-04-04-how-to-improve-coding-style-in-python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-04-24-a-refresher-on-big-o-notation-python.html" afterPath="$PROJECT_DIR$/_posts/2012-04-24-a-refresher-on-big-o-notation-python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-08-11-the-bunch-design-pattern-python.html" afterPath="$PROJECT_DIR$/_posts/2012-08-11-the-bunch-design-pattern-python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-12-27-owlify-a-python-library-to-generate-rdfowl-code.html" afterPath="$PROJECT_DIR$/_posts/2012-12-27-owlify-a-python-library-to-generate-rdfowl-code.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-08-26-ghana-day-1.html" afterPath="$PROJECT_DIR$/_posts/2013-08-26-ghana-day-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-08-26-ghana-day-2.html" afterPath="$PROJECT_DIR$/_posts/2013-08-26-ghana-day-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-08-27-ghana-day-3.html" afterPath="$PROJECT_DIR$/_posts/2013-08-27-ghana-day-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-09-03-ghana-day-4-9.html" afterPath="$PROJECT_DIR$/_posts/2013-09-03-ghana-day-4-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-01-15-defining-poverty.html" afterPath="$PROJECT_DIR$/_posts/2014-01-15-defining-poverty.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-02-22-getting-protein-protein-interaction-data-into-neo4j-with-python.html" afterPath="$PROJECT_DIR$/_posts/2014-02-22-getting-protein-protein-interaction-data-into-neo4j-with-python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-03-31-visualizing-look-and-say-sequences-with-d3.html" afterPath="$PROJECT_DIR$/_posts/2014-03-31-visualizing-look-and-say-sequences-with-d3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-11-13-applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html" afterPath="$PROJECT_DIR$/_posts/2014-11-13-applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-23-pca.html" afterPath="$PROJECT_DIR$/_posts/2017-06-23-pca.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/01/15/defining-poverty.html" afterPath="$PROJECT_DIR$/_site/2014/01/15/defining-poverty.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/03/31/visualizing-look-and-say-sequences-with-d3.html" afterPath="$PROJECT_DIR$/_site/2014/03/31/visualizing-look-and-say-sequences-with-d3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/02/10/pca.html" afterPath="$PROJECT_DIR$/_site/2015/02/10/pca.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/02/09/how-to-mine-23andme-raw-data-with-python-part-1.html" afterPath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/02/09/how-to-mine-23andme-raw-data-with-python-part-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/03/16/how-to-mine-23andme-raw-data-with-python-part-2.html" afterPath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/03/16/how-to-mine-23andme-raw-data-with-python-part-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/05/20/how-to-mine-23andme-data-part-3.html" afterPath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/05/20/how-to-mine-23andme-data-part-3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/applescript/utility/2011/08/03/show-and-tell-applescript-a-spotify-alarm-clock-on-mac.html" afterPath="$PROJECT_DIR$/_site/applescript/utility/2011/08/03/show-and-tell-applescript-a-spotify-alarm-clock-on-mac.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/bioinformatics/2010/12/23/efficiently-reading-in-and-iterating-through-large-files-with-python.html" afterPath="$PROJECT_DIR$/_site/bioinformatics/2010/12/23/efficiently-reading-in-and-iterating-through-large-files-with-python.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/bioinformatics/2011/08/11/bioinformatics-extra-tabs-in-sam-to-bam-conversion.html" afterPath="$PROJECT_DIR$/_site/bioinformatics/2011/08/11/bioinformatics-extra-tabs-in-sam-to-bam-conversion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/bioinformatics/2011/10/31/mongodbsnp-stub-code-for-getting-dbsnp-into-a-nosql-database.html" afterPath="$PROJECT_DIR$/_site/bioinformatics/2011/10/31/mongodbsnp-stub-code-for-getting-dbsnp-into-a-nosql-database.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/bioinformatics/micropost/2011/06/09/micropost-python-scripts-with-unix-pipes.html" afterPath="$PROJECT_DIR$/_site/bioinformatics/micropost/2011/06/09/micropost-python-scripts-with-unix-pipes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/bioinformatics/micropost/2011/07/09/micropost-how-to-remove-blank-spaces-from-a-fasta-file.html" afterPath="$PROJECT_DIR$/_site/bioinformatics/micropost/2011/07/09/micropost-how-to-remove-blank-spaces-from-a-fasta-file.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/code optimization/python/2011/12/19/code-optimization-technique-you-need-memoization.html" afterPath="$PROJECT_DIR$/_site/code optimization/python/2011/12/19/code-optimization-technique-you-need-memoization.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/code optimization/python/2012/04/24/a-refresher-on-big-o-notation-python.html" afterPath="$PROJECT_DIR$/_site/code optimization/python/2012/04/24/a-refresher-on-big-o-notation-python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/blog.html" afterPath="$PROJECT_DIR$/_site/blog.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/graph/python/2014/02/22/getting-protein-protein-interaction-data-into-neo4j-with-python.html" afterPath="$PROJECT_DIR$/_site/graph/python/2014/02/22/getting-protein-protein-interaction-data-into-neo4j-with-python.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/ios/2012/01/14/ios-development-ios-syntax-object-allocation-and-garbage-collection.html" afterPath="$PROJECT_DIR$/_site/ios/2012/01/14/ios-development-ios-syntax-object-allocation-and-garbage-collection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/ios/2012/01/15/ios-development-types-of-applications-in-xcode-model-view-controller-mvc-and-basic-object-interactions.html" afterPath="$PROJECT_DIR$/_site/ios/2012/01/15/ios-development-types-of-applications-in-xcode-model-view-controller-mvc-and-basic-object-interactions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/micropost/shell/2011/09/12/micropost-output-field-separator-in-awk.html" afterPath="$PROJECT_DIR$/_site/micropost/shell/2011/09/12/micropost-output-field-separator-in-awk.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/publications.html" afterPath="$PROJECT_DIR$/_site/publications.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/python/2012/04/04/how-to-improve-coding-style-in-python.html" afterPath="$PROJECT_DIR$/_site/python/2012/04/04/how-to-improve-coding-style-in-python.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/python/2012/08/11/the-bunch-design-pattern-python.html" afterPath="$PROJECT_DIR$/_site/python/2012/08/11/the-bunch-design-pattern-python.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/python/2012/12/27/owlify-a-python-library-to-generate-rdfowl-code.html" afterPath="$PROJECT_DIR$/_site/python/2012/12/27/owlify-a-python-library-to-generate-rdfowl-code.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/r/2013/05/13/the-guerilla-guide-to-r.html" afterPath="$PROJECT_DIR$/_site/r/2013/05/13/the-guerilla-guide-to-r.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/r/visualization/2014/11/13/applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html" afterPath="$PROJECT_DIR$/_site/r/visualization/2014/11/13/applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/statistics/2012/01/12/exploring-bonferroni-correction-or-how-facebook-could-improve-friend-suggestions.html" afterPath="$PROJECT_DIR$/_site/statistics/2012/01/12/exploring-bonferroni-correction-or-how-facebook-could-improve-friend-suggestions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/travel/2013/08/26/ghana-day-1.html" afterPath="$PROJECT_DIR$/_site/travel/2013/08/26/ghana-day-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/travel/2013/08/26/ghana-day-2.html" afterPath="$PROJECT_DIR$/_site/travel/2013/08/26/ghana-day-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/travel/2013/08/27/ghana-day-3.html" afterPath="$PROJECT_DIR$/_site/travel/2013/08/27/ghana-day-3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/travel/2013/09/03/ghana-day-4-9.html" afterPath="$PROJECT_DIR$/_site/travel/2013/09/03/ghana-day-4-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/talks.html" afterPath="$PROJECT_DIR$/_site/talks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/teaching.html" afterPath="$PROJECT_DIR$/_site/teaching.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publications.html" afterPath="$PROJECT_DIR$/publications.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/talks.html" afterPath="$PROJECT_DIR$/talks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teaching.html" afterPath="$PROJECT_DIR$/teaching.html" />
     </list>
     <ignored path="ngopal.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,21 +85,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="92" lean-forward="false" selection-start-line="4" selection-start-column="92" selection-end-line="4" selection-end-column="92" />
-              <folding />
+            <state relative-caret-position="135">
+              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#center#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="165">
+              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -98,7 +120,7 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="315">
               <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding />
             </state>
@@ -108,8 +130,8 @@
       <file leaf-file-name="talks.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/talks.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+            <state relative-caret-position="420">
+              <caret line="28" column="93" lean-forward="false" selection-start-line="28" selection-start-column="93" selection-end-line="28" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -118,18 +140,8 @@
       <file leaf-file-name="consulting.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consulting.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
+            <state relative-caret-position="120">
               <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="teaching.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/teaching.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="30" column="88" lean-forward="false" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -138,54 +150,9 @@
       <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
+            <state relative-caret-position="30">
               <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="publications.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_site/publications.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-              <folding>
-                <marker date="1533526218000" expanded="true" signature="2366:4729" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="2394:4718" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="2421:4704" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="2453:2510" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="2544:4696" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="2567:4683" ph="..." />
-                <marker date="1533526218000" expanded="false" signature="2646:2666" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="2667:3743" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="2676:3323" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="3332:3735" ph="..." />
-                <marker date="1533526218000" expanded="false" signature="3798:3818" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="3819:4449" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="3828:4033" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="4042:4236" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="4245:4441" ph="..." />
-                <marker date="1533526218000" expanded="false" signature="4501:4521" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="4522:4675" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="4531:4667" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="4763:7680" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="4788:7669" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="4888:7659" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="4933:5117" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="4967:5104" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="5163:7560" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="5202:7547" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="5228:6410" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="5277:6394" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="5325:6325" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="5367:6303" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="6448:7522" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="6503:7506" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="6552:7432" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="6594:7410" ph="..." />
-                <marker date="1533526218000" expanded="true" signature="7606:7648" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -209,8 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_pages/2014-01-01-lab.html" />
-        <option value="$PROJECT_DIR$/_nav_menu_items/2014-10-28-d3-and-coffeescript.html" />
         <option value="$PROJECT_DIR$/lab.html" />
         <option value="$PROJECT_DIR$/_extras/lab.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
@@ -220,20 +185,48 @@
         <option value="$PROJECT_DIR$/_sass/_layout.scss" />
         <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
-        <option value="$PROJECT_DIR$/_posts/2015-05-12-network-visualization-library-round-up.html" />
         <option value="$PROJECT_DIR$/assets/dot/pca_svd_workflow" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_posts/2017-06-23-pca.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_site/publications.html" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/posts.html" />
-        <option value="$PROJECT_DIR$/talks.html" />
         <option value="$PROJECT_DIR$/publications.html" />
-        <option value="$PROJECT_DIR$/teaching.html" />
         <option value="$PROJECT_DIR$/consulting.html" />
+        <option value="$PROJECT_DIR$/teaching.html" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/talks.html" />
+        <option value="$PROJECT_DIR$/_posts/2010-12-23-efficiently-reading-in-and-iterating-through-large-files-with-python.html" />
+        <option value="$PROJECT_DIR$/_posts/2011-02-09-how-to-mine-23andme-raw-data-with-python-part-1.html" />
+        <option value="$PROJECT_DIR$/_posts/2011-03-16-how-to-mine-23andme-raw-data-with-python-part-2.html" />
+        <option value="$PROJECT_DIR$/_posts/2011-05-20-how-to-mine-23andme-data-part-3.html" />
+        <option value="$PROJECT_DIR$/_posts/2011-06-09-micropost-python-scripts-with-unix-pipes.html" />
+        <option value="$PROJECT_DIR$/_posts/2011-07-09-micropost-how-to-remove-blank-spaces-from-a-fasta-file.html" />
+        <option value="$PROJECT_DIR$/_posts/2011-08-03-show-and-tell-applescript-a-spotify-alarm-clock-on-mac.html" />
+        <option value="$PROJECT_DIR$/_posts/2011-08-11-bioinformatics-extra-tabs-in-sam-to-bam-conversion.html" />
+        <option value="$PROJECT_DIR$/_posts/2011-10-31-mongodbsnp-stub-code-for-getting-dbsnp-into-a-nosql-database.html" />
+        <option value="$PROJECT_DIR$/_posts/2011-09-12-micropost-output-field-separator-in-awk.html" />
+        <option value="$PROJECT_DIR$/_posts/2012-01-12-exploring-bonferroni-correction-or-how-facebook-could-improve-friend-suggestions.html" />
+        <option value="$PROJECT_DIR$/_posts/2011-12-19-code-optimization-technique-you-need-memoization.html" />
+        <option value="$PROJECT_DIR$/_posts/2012-01-14-ios-development-ios-syntax-object-allocation-and-garbage-collection.html" />
+        <option value="$PROJECT_DIR$/_posts/2012-01-15-ios-development-types-of-applications-in-xcode-model-view-controller-mvc-and-basic-object-interactions.html" />
+        <option value="$PROJECT_DIR$/_posts/2012-04-04-how-to-improve-coding-style-in-python.html" />
+        <option value="$PROJECT_DIR$/_posts/2012-04-24-a-refresher-on-big-o-notation-python.html" />
+        <option value="$PROJECT_DIR$/_posts/2012-08-11-the-bunch-design-pattern-python.html" />
+        <option value="$PROJECT_DIR$/_posts/2012-12-27-owlify-a-python-library-to-generate-rdfowl-code.html" />
+        <option value="$PROJECT_DIR$/_posts/2013-08-26-ghana-day-1.html" />
+        <option value="$PROJECT_DIR$/_posts/2013-08-26-ghana-day-2.html" />
+        <option value="$PROJECT_DIR$/_posts/2013-08-27-ghana-day-3.html" />
+        <option value="$PROJECT_DIR$/_posts/2013-09-03-ghana-day-4-9.html" />
+        <option value="$PROJECT_DIR$/_posts/2014-01-15-defining-poverty.html" />
+        <option value="$PROJECT_DIR$/_posts/2014-02-22-getting-protein-protein-interaction-data-into-neo4j-with-python.html" />
+        <option value="$PROJECT_DIR$/_posts/2014-03-31-visualizing-look-and-say-sequences-with-d3.html" />
+        <option value="$PROJECT_DIR$/_posts/2014-11-13-applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html" />
+        <option value="$PROJECT_DIR$/_posts/2017-06-23-pca.html" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-12-landint-a-data-science-role.html" />
+        <option value="$PROJECT_DIR$/_posts/2015-05-12-network-visualization-library-round-up.html" />
+        <option value="$PROJECT_DIR$/_posts/2015-01-05-visualizing-alzheimer-s-disease-using-reactome-data-in-d3.html" />
       </list>
     </option>
   </component>
@@ -264,9 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,68 +279,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngopal.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngopal.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngopal.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngopal.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_nav_menu_items" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngopal.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngopal.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngopal.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngopal.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
+              <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,8 +302,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -1018,12 +955,15 @@
       <updated>1475258175414</updated>
       <workItem from="1498251323087" duration="7516000" />
       <workItem from="1498768184548" duration="1871000" />
-      <workItem from="1533511900987" duration="2696000" />
+      <workItem from="1533511900987" duration="5276000" />
+      <workItem from="1535907698766" duration="657000" />
+      <workItem from="1540153296619" duration="633000" />
+      <workItem from="1542776744127" duration="2525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12083000" />
+    <option name="totallyTimeSpent" value="18478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="138" y="24" width="1260" height="760" extended-state="0" />
@@ -1077,245 +1017,21 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_extras/2014-01-24-write-better-emails-in-3-minutes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_extras/2014-04-09-how-to-learn-to.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_extras/2014-06-09-javascript-masterclass-on-how-to-be-an-expert-and-introduction-to-angular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_extras/2011-11-01-supercharge-programmer-productivity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_extras/2011-08-20-statistical-analysis-functions-in-r.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_extras/2010-12-08-being-productive-and-remaining-stress-free.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_extras/2011-08-10-the-scorpion-and-the-frog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_extras/2011-05-17-bioinformatics-programming-like-experts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/2014-03-29-art.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/2014-02-03-coffeescript-visualization.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/2014-01-01-lab.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/2014-01-01-experiments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="79" lean-forward="false" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_extras/2014-10-28-d3-and-coffeescript.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main_original.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="372" column="48" lean-forward="false" selection-start-line="372" selection-start-column="43" selection-end-line="372" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-861">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootswatch.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="150" column="5" lean-forward="false" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_syntax-highlighting.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-11-13-applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-05-12-network-visualization-library-round-up.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-02-10-.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/dot/pca_svd_workflow" />
-    <entry file="file://$PROJECT_DIR$/assets/dot/pca_svd_workflow.jpeg" />
-    <entry file="file://$PROJECT_DIR$/assets/dot/pca_svd_workflow.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/dot/pca_svd_workflow.dot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-06-23-pca.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="64" column="10" lean-forward="false" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_extras/lab.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post_cp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/posts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/posts.html" />
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1323,7 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1331,7 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,42 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-          <folding>
-            <marker date="1533526218000" expanded="true" signature="2366:4729" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="2394:4718" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="2421:4704" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="2453:2510" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="2544:4696" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="2567:4683" ph="..." />
-            <marker date="1533526218000" expanded="false" signature="2646:2666" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="2667:3743" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="2676:3323" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="3332:3735" ph="..." />
-            <marker date="1533526218000" expanded="false" signature="3798:3818" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="3819:4449" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="3828:4033" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="4042:4236" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="4245:4441" ph="..." />
-            <marker date="1533526218000" expanded="false" signature="4501:4521" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="4522:4675" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="4531:4667" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="4763:7680" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="4788:7669" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="4888:7659" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="4933:5117" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="4967:5104" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="5163:7560" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="5202:7547" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="5228:6410" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="5277:6394" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="5325:6325" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="5367:6303" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="6448:7522" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="6503:7506" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="6552:7432" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="6594:7410" ph="..." />
-            <marker date="1533526218000" expanded="true" signature="7606:7648" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1382,7 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1398,7 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1406,14 +1082,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publications.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teaching.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consulting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+    <entry file="file://$PROJECT_DIR$/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="30">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1426,49 +1131,241 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/publications.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/talks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        <state relative-caret-position="420">
+          <caret line="28" column="93" lean-forward="false" selection-start-line="28" selection-start-column="93" selection-end-line="28" selection-end-column="93" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teaching.html">
+    <entry file="file://$PROJECT_DIR$/_posts/2010-12-23-efficiently-reading-in-and-iterating-through-large-files-with-python.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="30" column="88" lean-forward="false" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consulting.html">
+    <entry file="file://$PROJECT_DIR$/_posts/2011-02-09-how-to-mine-23andme-raw-data-with-python-part-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2011-03-16-how-to-mine-23andme-raw-data-with-python-part-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2011-05-20-how-to-mine-23andme-data-part-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2011-06-09-micropost-python-scripts-with-unix-pipes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2011-07-09-micropost-how-to-remove-blank-spaces-from-a-fasta-file.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2011-08-03-show-and-tell-applescript-a-spotify-alarm-clock-on-mac.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2011-08-11-bioinformatics-extra-tabs-in-sam-to-bam-conversion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2011-10-31-mongodbsnp-stub-code-for-getting-dbsnp-into-a-nosql-database.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2011-09-12-micropost-output-field-separator-in-awk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012-01-12-exploring-bonferroni-correction-or-how-facebook-could-improve-friend-suggestions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2011-12-19-code-optimization-technique-you-need-memoization.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012-01-14-ios-development-ios-syntax-object-allocation-and-garbage-collection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012-01-15-ios-development-types-of-applications-in-xcode-model-view-controller-mvc-and-basic-object-interactions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012-04-04-how-to-improve-coding-style-in-python.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012-04-24-a-refresher-on-big-o-notation-python.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012-08-11-the-bunch-design-pattern-python.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2013-05-13-the-guerilla-guide-to-r.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012-12-27-owlify-a-python-library-to-generate-rdfowl-code.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2013-08-26-ghana-day-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2013-08-26-ghana-day-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2013-08-27-ghana-day-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2013-09-03-ghana-day-4-9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-01-15-defining-poverty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-02-22-getting-protein-protein-interaction-data-into-neo4j-with-python.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-03-31-visualizing-look-and-say-sequences-with-d3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-11-13-applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-02-10-.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-23-pca.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
           <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
         </state>
@@ -1476,8 +1373,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="92" lean-forward="false" selection-start-line="4" selection-start-column="92" selection-end-line="4" selection-end-column="92" />
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#center#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-12-landint-a-data-science-role.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-05-12-network-visualization-library-round-up.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-01-05-visualizing-alzheimer-s-disease-using-reactome-data-in-d3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding />
         </state>
       </provider>
