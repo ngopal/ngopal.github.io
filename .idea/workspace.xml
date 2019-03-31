@@ -2,70 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92758ea1-4ef6-41f1-bd27-7849ff32b0cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-08-12-landint-a-data-science-role.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/01/15/defining-poverty.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/03/31/visualizing-look-and-say-sequences-with-d3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/02/10/pca.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/02/09/how-to-mine-23andme-raw-data-with-python-part-1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/03/16/how-to-mine-23andme-raw-data-with-python-part-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/23andme/bioinformatics/2011/05/20/how-to-mine-23andme-data-part-3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/applescript/utility/2011/08/03/show-and-tell-applescript-a-spotify-alarm-clock-on-mac.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bioinformatics/2010/12/23/efficiently-reading-in-and-iterating-through-large-files-with-python.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bioinformatics/2011/08/11/bioinformatics-extra-tabs-in-sam-to-bam-conversion.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bioinformatics/2011/10/31/mongodbsnp-stub-code-for-getting-dbsnp-into-a-nosql-database.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bioinformatics/micropost/2011/06/09/micropost-python-scripts-with-unix-pipes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bioinformatics/micropost/2011/07/09/micropost-how-to-remove-blank-spaces-from-a-fasta-file.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/code optimization/python/2011/12/19/code-optimization-technique-you-need-memoization.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/code optimization/python/2012/04/24/a-refresher-on-big-o-notation-python.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/graph/python/2014/02/22/getting-protein-protein-interaction-data-into-neo4j-with-python.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/ios/2012/01/14/ios-development-ios-syntax-object-allocation-and-garbage-collection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/ios/2012/01/15/ios-development-types-of-applications-in-xcode-model-view-controller-mvc-and-basic-object-interactions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/micropost/shell/2011/09/12/micropost-output-field-separator-in-awk.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/2012/04/04/how-to-improve-coding-style-in-python.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/2012/08/11/the-bunch-design-pattern-python.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/2012/12/27/owlify-a-python-library-to-generate-rdfowl-code.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/r/visualization/2014/11/13/applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/statistics/2012/01/12/exploring-bonferroni-correction-or-how-facebook-could-improve-friend-suggestions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/travel/2013/08/26/ghana-day-1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/travel/2013/08/26/ghana-day-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/travel/2013/08/27/ghana-day-3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/travel/2013/09/03/ghana-day-4-9.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2018-08-12-landint-a-data-science-role.html" afterPath="$PROJECT_DIR$/_posts/2018-08-12-landint-a-data-science-role.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010-12-23-efficiently-reading-in-and-iterating-through-large-files-with-python.html" afterPath="$PROJECT_DIR$/_posts/2010-12-23-efficiently-reading-in-and-iterating-through-large-files-with-python.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-02-09-how-to-mine-23andme-raw-data-with-python-part-1.html" afterPath="$PROJECT_DIR$/_posts/2011-02-09-how-to-mine-23andme-raw-data-with-python-part-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-03-16-how-to-mine-23andme-raw-data-with-python-part-2.html" afterPath="$PROJECT_DIR$/_posts/2011-03-16-how-to-mine-23andme-raw-data-with-python-part-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-05-20-how-to-mine-23andme-data-part-3.html" afterPath="$PROJECT_DIR$/_posts/2011-05-20-how-to-mine-23andme-data-part-3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-06-09-micropost-python-scripts-with-unix-pipes.html" afterPath="$PROJECT_DIR$/_posts/2011-06-09-micropost-python-scripts-with-unix-pipes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-07-09-micropost-how-to-remove-blank-spaces-from-a-fasta-file.html" afterPath="$PROJECT_DIR$/_posts/2011-07-09-micropost-how-to-remove-blank-spaces-from-a-fasta-file.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-08-03-show-and-tell-applescript-a-spotify-alarm-clock-on-mac.html" afterPath="$PROJECT_DIR$/_posts/2011-08-03-show-and-tell-applescript-a-spotify-alarm-clock-on-mac.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-08-11-bioinformatics-extra-tabs-in-sam-to-bam-conversion.html" afterPath="$PROJECT_DIR$/_posts/2011-08-11-bioinformatics-extra-tabs-in-sam-to-bam-conversion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-09-12-micropost-output-field-separator-in-awk.html" afterPath="$PROJECT_DIR$/_posts/2011-09-12-micropost-output-field-separator-in-awk.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-10-31-mongodbsnp-stub-code-for-getting-dbsnp-into-a-nosql-database.html" afterPath="$PROJECT_DIR$/_posts/2011-10-31-mongodbsnp-stub-code-for-getting-dbsnp-into-a-nosql-database.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-12-19-code-optimization-technique-you-need-memoization.html" afterPath="$PROJECT_DIR$/_posts/2011-12-19-code-optimization-technique-you-need-memoization.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-01-12-exploring-bonferroni-correction-or-how-facebook-could-improve-friend-suggestions.html" afterPath="$PROJECT_DIR$/_posts/2012-01-12-exploring-bonferroni-correction-or-how-facebook-could-improve-friend-suggestions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-01-14-ios-development-ios-syntax-object-allocation-and-garbage-collection.html" afterPath="$PROJECT_DIR$/_posts/2012-01-14-ios-development-ios-syntax-object-allocation-and-garbage-collection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-01-15-ios-development-types-of-applications-in-xcode-model-view-controller-mvc-and-basic-object-interactions.html" afterPath="$PROJECT_DIR$/_posts/2012-01-15-ios-development-types-of-applications-in-xcode-model-view-controller-mvc-and-basic-object-interactions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-04-04-how-to-improve-coding-style-in-python.html" afterPath="$PROJECT_DIR$/_posts/2012-04-04-how-to-improve-coding-style-in-python.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-04-24-a-refresher-on-big-o-notation-python.html" afterPath="$PROJECT_DIR$/_posts/2012-04-24-a-refresher-on-big-o-notation-python.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-08-11-the-bunch-design-pattern-python.html" afterPath="$PROJECT_DIR$/_posts/2012-08-11-the-bunch-design-pattern-python.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-12-27-owlify-a-python-library-to-generate-rdfowl-code.html" afterPath="$PROJECT_DIR$/_posts/2012-12-27-owlify-a-python-library-to-generate-rdfowl-code.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-08-26-ghana-day-1.html" afterPath="$PROJECT_DIR$/_posts/2013-08-26-ghana-day-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-08-26-ghana-day-2.html" afterPath="$PROJECT_DIR$/_posts/2013-08-26-ghana-day-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-08-27-ghana-day-3.html" afterPath="$PROJECT_DIR$/_posts/2013-08-27-ghana-day-3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-09-03-ghana-day-4-9.html" afterPath="$PROJECT_DIR$/_posts/2013-09-03-ghana-day-4-9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-01-15-defining-poverty.html" afterPath="$PROJECT_DIR$/_posts/2014-01-15-defining-poverty.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-02-22-getting-protein-protein-interaction-data-into-neo4j-with-python.html" afterPath="$PROJECT_DIR$/_posts/2014-02-22-getting-protein-protein-interaction-data-into-neo4j-with-python.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-03-31-visualizing-look-and-say-sequences-with-d3.html" afterPath="$PROJECT_DIR$/_posts/2014-03-31-visualizing-look-and-say-sequences-with-d3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-11-13-applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html" afterPath="$PROJECT_DIR$/_posts/2014-11-13-applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-23-pca.html" afterPath="$PROJECT_DIR$/_posts/2017-06-23-pca.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2018/12/22/landint-a-data-science-role.html" afterPath="$PROJECT_DIR$/_site/2018/12/22/landint-a-data-science-role.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/blog.html" afterPath="$PROJECT_DIR$/_site/blog.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/publications.html" afterPath="$PROJECT_DIR$/_site/publications.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/r/2013/05/13/the-guerilla-guide-to-r.html" afterPath="$PROJECT_DIR$/_site/r/2013/05/13/the-guerilla-guide-to-r.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/talks.html" afterPath="$PROJECT_DIR$/_site/talks.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/teaching.html" afterPath="$PROJECT_DIR$/_site/teaching.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/talks.html" afterPath="$PROJECT_DIR$/talks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teaching.html" afterPath="$PROJECT_DIR$/teaching.html" />
     </list>
     <ignored path="ngopal.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -157,6 +103,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="2018-08-12-landint-a-data-science-role.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-08-12-landint-a-data-science-role.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="180">
+                <caret line="14" column="144" lean-forward="false" selection-start-line="14" selection-start-column="144" selection-end-line="14" selection-end-column="144" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -176,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lab.html" />
         <option value="$PROJECT_DIR$/_extras/lab.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -194,7 +152,6 @@
         <option value="$PROJECT_DIR$/publications.html" />
         <option value="$PROJECT_DIR$/consulting.html" />
         <option value="$PROJECT_DIR$/teaching.html" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/talks.html" />
         <option value="$PROJECT_DIR$/_posts/2010-12-23-efficiently-reading-in-and-iterating-through-large-files-with-python.html" />
@@ -224,9 +181,11 @@
         <option value="$PROJECT_DIR$/_posts/2014-03-31-visualizing-look-and-say-sequences-with-d3.html" />
         <option value="$PROJECT_DIR$/_posts/2014-11-13-applying-a-divergent-color-scale-to-a-gene-expression-heat-map.html" />
         <option value="$PROJECT_DIR$/_posts/2017-06-23-pca.html" />
-        <option value="$PROJECT_DIR$/_posts/2018-08-12-landint-a-data-science-role.html" />
         <option value="$PROJECT_DIR$/_posts/2015-05-12-network-visualization-library-round-up.html" />
         <option value="$PROJECT_DIR$/_posts/2015-01-05-visualizing-alzheimer-s-disease-using-reactome-data-in-d3.html" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-12-landint-a-data-science-role.html" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-12-landint-a-data-science-role.md" />
       </list>
     </option>
   </component>
@@ -237,8 +196,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="138" />
-    <option name="y" value="24" />
+    <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="760" />
   </component>
@@ -257,6 +215,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -285,9 +246,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -439,6 +397,17 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local">
@@ -958,16 +927,19 @@
       <workItem from="1533511900987" duration="5276000" />
       <workItem from="1535907698766" duration="657000" />
       <workItem from="1540153296619" duration="633000" />
-      <workItem from="1542776744127" duration="2525000" />
+      <workItem from="1542776744127" duration="3015000" />
+      <workItem from="1548629703628" duration="1534000" />
+      <workItem from="1550953375838" duration="671000" />
+      <workItem from="1553374662487" duration="382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18478000" />
+    <option name="totallyTimeSpent" value="21555000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="138" y="24" width="1260" height="760" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1260" height="760" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1067,7 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,22 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consulting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1131,19 +1086,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/talks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="93" lean-forward="false" selection-start-line="28" selection-start-column="93" selection-end-line="28" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2010-12-23-efficiently-reading-in-and-iterating-through-large-files-with-python.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,7 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,7 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,7 +1111,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1175,7 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,7 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,7 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,7 +1139,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,7 +1146,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,7 +1153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,7 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,7 +1167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,7 +1174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,7 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,7 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1263,7 +1195,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,7 +1202,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1279,7 +1209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1287,7 +1216,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1295,7 +1223,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1303,7 +1230,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,7 +1237,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,7 +1244,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1327,7 +1251,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1335,7 +1258,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1343,7 +1265,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1351,7 +1272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1359,7 +1279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,7 +1286,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1381,19 +1299,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-12-landint-a-data-science-role.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-05-12-network-visualization-library-round-up.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1401,15 +1310,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consulting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/talks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="93" lean-forward="false" selection-start-line="28" selection-start-column="93" selection-end-line="28" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-12-landint-a-data-science-role.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="181" column="159" lean-forward="false" selection-start-line="181" selection-start-column="159" selection-end-line="181" selection-end-column="159" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="14" column="144" lean-forward="false" selection-start-line="14" selection-start-column="144" selection-end-line="14" selection-end-column="144" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

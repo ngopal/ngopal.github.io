@@ -1,19 +1,20 @@
 ---
 layout: post
-title: 'Tips for Landing Your First Data Science Role'
+title: 'Jump!'
 date: 2018-12-22 20:12:55.000000000 -08:00
 categories: []
 tags: []
-status: draft
+status: publish
 type: post
 published: true
 ---
-Tips for Landing Your First Data Science Role
-
-Why I’m writing this
+### Why I’m writing this
 Now that I’ve been working as a data scientist for over a year, I’ve been asked a few times to speak about my experiences, specifically about my journey from academic researcher to data scientist. I hope you read this and perhaps find inspiration to make the jump yourself, and preferably you can avoid the same traps that I fell into on the way. Although I share my experiences as an interviewer later in the post, I’m sharing my overall experience over the years, and do not cover company-specific details.
 
-Why I left academia
+### Who this is for
+Academics contemplating making the switch to industry, and anyone interested in learning about landing their first data science role in general.
+
+### Why I left academia
 I’ll keep this section brief. I actually enjoyed my life as an academic, but in short, I felt I could be making a more meaningful impact outside of it.
 
 In a sense, academia can also be viewed through the lens of a business model, although many professors don’t look at it this way. Papers → Grants → Overhead for university. Grant institutions also need to divide funds up among a list of potential researchers they think will eventually yield substantial positive scientific results. One of the primary ways these grant institutions seem to evaluate applicants is through their expertise in the research field, and that is typically demonstrated via past grants and research publications. I think this is why academic departments use publication records (and ultimately grant records) to assess tenure.
@@ -24,12 +25,12 @@ Combine all of this with decreased year-over-year funding for the sciences for t
 
 There seem to be endless articles about this topic, and I not writing this blog post to highlight any of that necessarily. This post, actually, is about data science :-)
 
-What I like about working for a company
+### What I like about working for a company
 I can work on projects that are unique to the company I’m working at -- unique data, unique resources, unique problems to solve, unique opportunities. Although I personally weigh this aspect quite heavily when I’m searching for a new role, I realize that not everyone shares the same interest or prioritization.
 
 Many of the questions I’ve received about being a data scientist have to do in some form or another with compensation. And yes, compensation can be leaps and bounds better than a postdoc salary. A ballpark data scientist salary range would be 2-3x a postdoc salary, not including signing bonuses, stock, retirement matching, and additional benefits (transportation, discounts, etc.), all of which factor into overall compensation. There are plenty of resources that collate this information -- glassdoor.com is a reasonable place to start.
 
-Skills and Experience I had prior to making the switch
+### Skills and Experience I had prior to making the switch
 Another reason I’m writing this is because I’ve seen a few articles about how to “get into” data science, but those seem to be intended for professionals who work with data (software engineers, data engineers, data analysts, etc). This post will likely be most helpful to those who are in the same situation I was in, where I had the majority of the skills and knowledge required for the role, but I was missing a couple of key attributes.
 
 When I made the switch from Illumina to graduate school, I essentially traded Python2 for R, Javascript, and Java. Since most of my apps were biological data visualizations, I made thorough use of D3.js -- so much so I did a video set of O’Reilly, helping those with a background in Python learn how to use Javascript and D3.js.
@@ -39,7 +40,7 @@ ML/AI/Stats are skills I learned through classes over the years, from high schoo
 
 Naturally, I also had a background in biology, which isn’t so useful for general data science so I won’t harp too much on it. Suffice it to say, there are some very interesting computer applications/methodologies in the field of biomedicine, so coding on those projects helped me learn and grow my software engineering skills.
 
-What helped me along the way
+### What helped me along the way
 Insight Data Science
 If you fit the same profile I did prior to landing a data science role, then perhaps like me, it could be worth investing in SQL skills, and knowledge of business models. A book I found to be enormously helpful for the “business side” was Lean Analytics. I feel this book provides the scaffolding/roadmap necessary to “speak the language,” if you will (KPIs, SaaS, CLV, churn, etc.). This might seem unnecessary, but I assure you it is vital. Put yourself in the shoes of a hiring manager or employer -- if you ran a business, would you want to hire someone with little to no business training to run an essential part of your company?
 
@@ -54,7 +55,7 @@ Note: Since some people have asked, one of the recruiters I had a wonderful expe
 
 Another Note: I registered for a few recruiting services, such as Hired, TheLadders, and LinkedIn Premium. I didn’t have much luck with Hired or TheLadders, but LinkedIn Premium seemed to do reasonably well at connecting me with the right recruiters.
 
-Practice, practice, practice! Especially to perform under pressure!
+### Practice, practice, practice! Especially to perform under pressure!
 Think about a concept you have read about -- one that is fundamental, and you think you might know like the back of your hand. If you need ideas, try the central limit theorem, or stochastic gradient descent. Got one? Good. Now explain this concept succinctly, but accurately, in less than 60 seconds. If you are reading this on your phone, or in the office, and you feel self-conscious, whisper it under your breath. I think you’ll find it’s more difficult than you thought.
 Here is the interesting part: You very likely actually do know this concept. Whether it’s over the phone, Skype, or in-person, perhaps you just need some practice explaining concepts well!
 
@@ -62,7 +63,7 @@ Since my own background is in a technical field like biomedical informatics, as 
 
 Note: This reminds me of an excerpt from the book, “Bayes Theorem: the theory that wouldn’t die.” When a number of planes that were shot down in WWII were analyzed for bullet holes, the scientist that was making suggestions to the military counter-intuitively suggested covering the parts of the plane without bullet holes. This is because of selection bias, where planes that were shot down were thought to have exploded, thus making the parts of the plane with bullet holes more resilient, and less in need of armor, than the parts without bullet holes!
 
-A very challenging job search
+### A very challenging job search
 -range of interview questions and experiences
 Data science seems to look at least a little different at each company. Depending on that company’s business model, and current challenges, certain skill sets may be more or less useful than others. In my current team at Microsoft, we have a team of specialists. Each data scientist has a specialty -- natural language processing, time series forecasting, classification, clustering and matrix factorization. We all overlap in each others’ area of expertise, and ultimately are able to make valuable contributions in a particular area.
 
@@ -70,18 +71,18 @@ To highlight a few, *.
 
 Interestingly, I think we can tell what data science might look like at a company depending on the interview questions you receive. For instance, if you feel you are receiving ridiculous programming interview question(s), there is a good chance that role is actually a software engineering role disguised as a data science role. If you feel you are receiving many business-oriented questions, then perhaps that role is less technical, which may not may not be what you want.
 
-Questions you should ask
+### Questions you should ask
 This is one of the most underrated parts of an interview, and at least some of the onus on finding the right fit is on you, not just the companies you are interviewing at. People have varying opinions on this, but personally, I like to ask the questions below. I think they are relevant, tough, and provide a reasonable approximation of the culture of the company.
 
-What is the gender ratio of your the group, and at the office?
-Who was the last person that was fired from the group and why?
-Do people typically eat lunch at their desks?
-What was the last data science / engineering mishap you had and how do you hope to prevent it from happening again?
-What percent of employees leave the company within 1 year? 2 years? 4 years?
+* What is the gender ratio of your the group, and at the office?
+* Who was the last person that was fired from the group and why?
+* Do people typically eat lunch at their desks?
+* What was the last data science / engineering mishap you had and how do you hope to prevent it from happening again?
+* What percent of employees leave the company within 1 year? 2 years? 4 years?
 
 It may feel scary to ask these important questions, but I can assure you that as an interviewer, it’s also scary to receive them. Furthermore, there are a number of trite, softball questions I’ve been asked as an interviewer, and many of these can be found in web pages scattered across the Internet. For instance, if you ask anyone, “Why do you love working here?”, I’d say there is a decent chance the reply might be, “the people!” I’d suggest asking something more specific in the same vein, such as, “Could you tell me about a time you felt like you were overextended, and your team came to your rescue?”
 
-I Applied for at least 57 jobs in a 12 month period
+### I Applied for at 57 jobs in a 12 month period
 Here is an excel sheet I used to track my job search in 2017. Most of these companies did not provide feedback along with their decision. There was only one company I interviewed with that did provide feedback, which reflected very positively on them -- General Assembly. The company I had the most negative experience with was Facebook (the interviewer mixed up permutations and combinations, leading to an appropriate solution, but incorrect answer). The company I felt was most unprofessional was KPMG (they claimed they would reimburse for interviewing expenses, but never did).
 
 When I was at Insight, the program directors had me keep track of companies I had in my pipeline in Trello, which seemed to work well. My board was quite sparse though, as I converged good fit rather quickly.
@@ -92,48 +93,48 @@ Data science is still a very young field (although, I remember learning about it
 -Conferences
 I attended CascadiaRconf in 2017, and I ended up meeting people who I inevitably ran into again while searching for a data science role.
 
-Job Boards
+### Job Boards
 Here is a list of data science job boards I collected. It’s obviously not exhaustive, and likely has some cross-posted requistions, but was useful for me when I was searching for the right data science role:
 
-https://www.kaggle.com/jobs
-https://www.r-users.com/jobs/
-http://www.startuphire.com/
-WeWorkRemotely
-FlexJobs
-Github Jobs
-LinkedIn
-http://jobs.qb3.org/careers_home.php
-http://jobs.sciencecareers.org/jobs/bioinformatics/faculty/
-http://workintech.io/
-https://www.analyticsvidhya.com/jobs/#/
-https://www.cybercoders.com/?logo=1
-http://www.geekwire.com/jobs/
-https://www.roberthalf.com/technology/jobs/data-scientist/seattle-wa
-Github Careers - Data Science Analyst
-Biospace
-http://kellymitchell.com/
-http://www.kdnuggets.com/jobs/index.html
-https://www.datawerq.com/seattle/
-https://datajobs.com/Big-Data-Jobs/Seattle-WA~3
-http://datasciencereport.com/datascience-jobs/
-https://remoteok.io/remote-clojure-jobs
-https://www.insightglobal.net/careers/job-search/placement-process/
+* https://www.kaggle.com/jobs
+* https://www.r-users.com/jobs/
+* http://www.startuphire.com/
+* WeWorkRemotely
+* FlexJobs
+* Github Jobs
+* LinkedIn
+* http://jobs.qb3.org/careers_home.php
+* http://jobs.sciencecareers.org/jobs/bioinformatics/faculty/
+* http://workintech.io/
+* https://www.analyticsvidhya.com/jobs/#/
+* https://www.cybercoders.com/?logo=1
+* http://www.geekwire.com/jobs/
+* https://www.roberthalf.com/technology/jobs/data-scientist/seattle-wa
+* Github Careers - Data Science Analyst
+* Biospace
+* http://kellymitchell.com/
+* http://www.kdnuggets.com/jobs/index.html
+* https://www.datawerq.com/seattle/
+* https://datajobs.com/Big-Data-Jobs/Seattle-WA~3
+* http://datasciencereport.com/datascience-jobs/
+* https://remoteok.io/remote-clojure-jobs
+* https://www.insightglobal.net/careers/job-search/placement-process/
 
-Bioinformatics at Illumina (i.e. Biological Data Science)
+#### Bioinformatics at Illumina (i.e. Biological Data Science)
 For those who don’t know what a bioinformatics scientist is, it is basically a data scientist that works with molecular biology data. The role I had from 2009 to 2012 has substantial overlap with my current role in terms of fundamental skills. However, domain expertise is a significant factor, and I would say there it is less of a challenge for a bioinformatician to transition into data science, than there is for a data scientist to transition into bioinformatics (unless you already have a background in biology that is).
 
-Data Science at RealSelf
+#### Data Science at RealSelf
 -Business-focused, PM attributes, Data Engineering attributes. This was a super-fun place to work, and I miss being there. I would say it was my first “true” data science role, in that the decisions I made directly affected business decisions. Colleagues have asked me how my current role at Microsoft is different from RealSelf. The short of it is, at RealSelf, I needed to be a bit more of a data engineer and product manager in addition to my data science role.
 
-Data Science at Microsoft
+#### Data Science at Microsoft
 -My role at microsoft is also very business-focused. However, I would say 80% of it is data science. There are still some data engineering and PM tasks I need to dive into, but I have the support of a dedicated data engineer and project manager on my team. Since we all work well together, this leads to a very productive and happy work environment.
 
-Data Science is inaccessible
+### Data Science is inaccessible
 Data science still seems inaccessible, although I do think democratization of data science is the future. I’ve thought about why this might be the case, beyond just “hiring is broken,” and one of the reasons this might be is because there are very few entry-level data science roles. And I think this might be because the stakes are too high. Imagine putting a multi-million dollar business decision in the hands of a freshly-minted data science grad. Imagine allowing a entry-level data scientist provide advisory to a multi-million dollar client. The margin of error is quite small, and in a sense, the jobs of your co-workers, and revenue that families depend on may be affected as a consequence of your work/decisions.
 
 Another reason why may be that it is too draconian to label an entry-level data scientist “incompetent”. After all, they are just starting their career! However, the performance of a model, or the deliverables produced as a result of it, are products we are accountable for. If your forecast is off by a percentage point, you will get questions about why it was wrong, what the cost of the error was, and perhaps why the company should trust your work at all. In harsh cases you may even find that those affected are able to attach dollar values to the consequences of your decision. These are tough questions, and they can catch even experienced data scientists a little off guard. Not to scare you off, but don’t be surprised if you feel like you are betting your badge on your work.
 
-How to get into data science if you don’t have a PhD
+### "How can I succeed in data science if I don’t have a PhD?"
 At this point, I would suggest the following: pick 1-2 areas you can become an expert in (classification, A/B testing, etc), and make that your primary skill. Then find a startup job that needs that skill in particular. Why a startup? Because they generally have a difficult time recruiting. Why 1-2 areas you can be an expert in? Because you have to compete with experienced data scientists.
 
 Every now and then, people reach out to me on LinkedIn, alumni networks, etc and ask me about how they can get into data science. I think a bit of advice that I’ll provide that you are unlikely to hear anywhere else, is to start with a data science role that is “low stakes”. If you see a data science job posting at a company, and if you can already tell it is going to be an impactful role, then that might not be for you -- at least just yet. The stakes can be quite high with data science projects -- an inflated error rate can mean millions of dollars in lost revenue, being unable to properly interpret a model may lead to a fundamentally bad business decision, etc. Think about this carefully -- this means people’s jobs, people’s retirement funds, etc.
@@ -142,50 +143,30 @@ The question I ask myself before I deploy a model into production is: am I willi
 
 It might be worth asking yourself the question about whether you truly want to do the work of a data scientist, or if you are simply infatuated with the title. I’ve noticed many roles that have a skills overlap with data scientist roles -- quantitative analyst, data analyst, etc. I know people with these titles, I consider them my peers and learn frequently from them, and they are very happy doing what they are doing because they are doing what they love! Today, data scientists may be called data scientists, and tomorrow they may be rebranded as data astronauts (c’mon now, it’s totally in the realm of possibilities :-D). One way to determine this might be the following: Would you continue in the role you have right now if your title was changed to data scientist overnight?
 
-More Advice:
+### More Advice:
 A useful bit of advice would be to think about the economics of the company you are interviewing at. For instance, startups tend to have short financial runways, so the likelihood of a startup willing to take a chance on someone who has solid fundamentals but lacks practical experience may be low, because it is risky for them. Whereas a larger company may appreciate the idea of hiring someone completely new, and teaching them their best practices, etc. At the same time, recruiting is difficult for startups, so the likelihood of getting further down the interview process more quickly is higher versus larger companies.
 
 Also realize that as a job seeker, startups are risky. It’s very possible the startup you are going to work for may not receive their Series A, or end up being acquired by a larger company, which means you may be job searching yet again, and much sooner than anticipated.
 
-What It’s like being on the other side (being the interviewer):
--I can appreciate now how difficult interviewing is for the interviewer as well. Imagine having to make a decision on whether someone will be a good fit for the group, have the opportunity to grow, is truly interested in the job, is competent, is reliable, can work under pressure, etc. in 30-60 minutes. Most interviewers aren’t going to doubt your ability, but will want to see you demonstrate it to see if he/she can follow your thought process -- we are sharing work with each other after all, and we need to have mutual confidence in each other’s work.
+## What It’s like being on the other side (being the interviewer):
+I can appreciate now how difficult interviewing is for the interviewer as well. Imagine having to make a decision on whether someone will be a good fit for the group, have the opportunity to grow, is truly interested in the job, is competent, is reliable, can work under pressure, etc. in 30-60 minutes. Most interviewers aren’t going to doubt your ability, but will want to see you demonstrate it to see if he/she can follow your thought process -- we are sharing work with each other after all, and we need to have mutual confidence in each other’s work.
 
-Rise of the Data Science Manager
+## Rise of the Data Science Manager
 -Trey Causey’s post
 -What we are looking for, and what we’ve been finding
 
 After interviewing no less than 7 data science managers, I’ve found that they generally fall into 4 buckets. This may be true for those seeking data scientist positions too. I’ll summarize these in three personas:
 
-The Machinist - Someone who is technically strong, but has little to no business acumen or product sense
-The Visionary - Someone who has a strong product sense / business acumen, but is not technically strong
-The Consultant - Someone who has had exposure to a wide breadth of experience
-The Professor - A domain specialist who has been working on the same problem for 10-20 years. Think Depth.
-
-I’ve seen that some data scientists don’t have PhDs. Do I have to get a PhD to be a data scientist?
-Yes and no.
-
-*Notes to self: include footnotes or blockquote sections calling out to the reader:
-“Advice:” Work with recruiters
-“Caution:”
+* The Machinist - Someone who is technically strong, but has little to no business acumen or product sense
+* The Visionary - Someone who has a strong product sense / business acumen, but is not technically strong
+* The Consultant - Someone who has had exposure to a wide breadth of experience
+* The Professor - A domain specialist who has been working on the same problem for 10-20 years. Think Depth.
 
 
-
-Choking and Yips:
+### Addendum on Choking and Yips:
 https://www.youtube.com/watch?v=CqgmozFr_GM
 
-I might also consider coming at this from a different angle -- how to land your first DS role, or something like that.
-
-Others Topics
-Home Buying in Seattle, what I don’t like about Zillow
-Skills decay curve
-Reproducible research (UW DS/eScience)
-
-
+### Good Luck
+Hopefully all of this information is helpful! As time passes, I'm sure some of this information will be changing over time, so please use your best judgement. Best of luck on your search.
 
 -------
-
-Git - software version control
-Conda - software library and interpreter management (install/update/compatibility)
-Jupyter - communication tool
-Docker - Environment “standardization”
-
