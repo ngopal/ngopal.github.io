@@ -8,28 +8,6 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  blogger_blog: www.nikhilgopal.com
-  blogger_author: Nikhil Gopal
-  blogger_permalink: /2013/05/the-guerilla-guide-to-r.html
-  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/9065341080674365162
-  _edit_last: '1'
-  show_client_logos: show_client_logos-no
-  disable_featured_image: disable_featured_image-no
-  single_format_link_url: ''
-  single_format_video: ''
-  single_format_audio: ''
-  single_format_audio_oga: ''
-  single_format_quote: ''
-  single_format_quote_url: ''
-author:
-  login: nikhilgopal@gmail.com
-  email: nikhilgopal@gmail.com
-  display_name: Nikhil Gopal
-  first_name: ''
-  last_name: ''
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <p><b>Update: </b>Okay. I've uploaded a new template and things seem to be fine now.<b> </b></p>
 <p><b>Update:</b> I am aware the table of contents is not being displayed in bullet form as I intended. The web template I'm using seems to be buggy. It also seems to think this page is in Indonesian...Working on it!<b></b></p>
