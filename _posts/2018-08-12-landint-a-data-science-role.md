@@ -8,13 +8,13 @@ status: publish
 type: post
 published: true
 ---
-### Why I’m writing this
+### Why I’m Writing This
 Now that I’ve been working as a data scientist for over a year, I’ve been asked a few times to speak about my experiences, specifically about my journey from academic researcher to data scientist. I hope you read this and perhaps find inspiration to make the jump yourself, and preferably you can avoid the same traps that I fell into on the way. Although I share my experiences as an interviewer later in the post, I’m sharing my overall experience over the years, and do not cover company-specific details.
 
-### Who this is for
+### Who This Is For
 Academics contemplating making the switch to industry, and anyone interested in learning about landing their first data science role in general.
 
-### Why I left academia
+### Why I Left Academia
 I’ll keep this section brief. I actually enjoyed my life as an academic, but in short, I felt I could be making more meaningful contributions outside of the ivory tower.
 
 In a sense, academia can also be viewed through the lens of a business model, although many professors don’t look at it this way. Papers → Grants → Overhead for university. Institutions that provide grants also need to "invest" funds among a list of potential researchers they think will eventually yield substantial positive scientific returns (i.e. scientific breakthroughs). One of the primary ways these grant institutions seem to evaluate applicants is through their expertise in the research field, and that is typically demonstrated via past grants and research publications. This is why academic departments use publication records (and ultimately grant records) to assess tenure.
@@ -27,12 +27,12 @@ There seem to be endless articles about this topic, and I am actually not writin
 
 This post, actually, is about data science :-)
 
-### What I like about working for a company
+### What I Enjoy About Working For A Company
 I can work on projects that are unique to the company I’m working at -- unique data, unique resources, unique problems to solve, unique opportunities. Although I personally weigh this aspect quite heavily when I’m searching for a new role, I realize that not everyone shares the same interest or prioritization.
 
 Many of the questions I’ve received about being a data scientist have to do in some form or another with compensation. And yes, compensation can be leaps and bounds better than a postdoc salary. A ballpark data scientist salary range would be 2-3x a postdoc salary, not including signing bonuses, stock, retirement matching, and additional benefits (transportation, discounts, etc.), all of which factor into overall compensation. There are plenty of resources that collate this information -- glassdoor.com is a reasonable place to start.
 
-### Skills and Experience I had prior to making the switch
+### My Skills and Experience Prior To Switching
 Another reason I’m writing this is because I’ve seen a few articles about how to “get into” data science, but those seem to be intended for professionals who work with data (software engineers, data engineers, data analysts, etc). This post will likely be most helpful to those who are in the same situation I was in, where I had the majority of the skills and knowledge required for the role, but I was missing a couple of key attributes.
 
 When I made the switch from Illumina to graduate school, I essentially traded Python2 for R, Javascript, and Java. Since most of my apps were biological data visualizations, I made thorough use of D3.js -- so much so I did a video set of O’Reilly, helping those with a background in Python learn how to use Javascript and D3.js.
@@ -42,8 +42,8 @@ ML/AI/Stats are skills I learned through classes over the years, from high schoo
 
 Naturally, I also had a background in biology, which isn’t so useful for general data science so I won’t harp too much on it. Suffice it to say, there are some very interesting computer applications/methodologies in the field of biomedicine, so coding on those projects helped me learn and grow my software engineering skills.
 
-### What helped me along the way
-Insight Data Science
+### What Helped Me Along The Way
+Insight Data Science:
 If you fit the same profile I did prior to landing a data science role, then perhaps like me, it could be worth investing in SQL skills, and knowledge of business models. A book I found to be enormously helpful for the “business side” was Lean Analytics. I feel this book provides the scaffolding/roadmap necessary to “speak the language,” if you will (KPIs, SaaS, CLV, churn, etc.). This might seem unnecessary, but I assure you it is vital. Put yourself in the shoes of a hiring manager or employer -- if you ran a business, would you want to hire someone with little to no business training to run an essential part of your company?
 
 As far a SQL goes, it seems every business I’ve ever interacted with uses SQL in some capacity. And as a data scientist, you need to be able to retrieve, format, transform, and clean data. Bioinformatics may be somewhat unique in that it is an NLP-heavy domain, working primarily with text data, sometimes stored as inconsistent flat files, and because of this, SQL is not a skill that I was accustomed to using.
@@ -57,7 +57,7 @@ Note: Since some people have asked, one of the recruiters I had a wonderful expe
 
 Another Note: I registered for a few recruiting services, such as Hired, TheLadders, and LinkedIn Premium. I didn’t have much luck with Hired or TheLadders, but LinkedIn Premium seemed to do reasonably well at connecting me with the right recruiters. More importantly than that, LinkedIn Premium provides some interesting information on which roles I may be a particularly good fit for and why. Personally, I think this is worth the value of the free trial :-D
 
-### Practice, practice, practice! Especially to perform under pressure!
+### Practice, Practice, Practice! Especially To Perform Under Pressure!
 Think about a concept you have read about -- one that is fundamental, and you think you might know like the back of your hand. If you need ideas, try the central limit theorem, or stochastic gradient descent. Got one? Good. Now explain this concept succinctly, but accurately, in less than 60 seconds. If you are reading this on your phone, or in the office, and you feel self-conscious, whisper it under your breath. I think you’ll find it’s more difficult than you thought.
 Here is the interesting part: You very likely actually do know this concept. Whether it’s over the phone, Skype, or in-person, perhaps you just need some practice explaining concepts well!
 
@@ -65,7 +65,7 @@ Since my own background is in a technical field like biomedical informatics, as 
 
 Note: This reminds me of an excerpt from the book, “Bayes Theorem: the theory that wouldn’t die.” When a number of planes that were shot down in WWII were analyzed for bullet holes, the scientist that was making suggestions to the military counter-intuitively suggested covering the parts of the plane without bullet holes. This is because of selection bias, where planes that were shot down were thought to have exploded, thus making the parts of the plane with bullet holes more resilient, and less in need of armor, than the parts without bullet holes!
 
-### A very challenging job search
+### A Challenging Job Search
 The range of interview questions I was asked and my overall experiences seemed to look very different at each company. Depending on that company’s business model, and current challenges, certain skill sets may be more or less useful than others. In my current team at Microsoft, we have a team of specialists. Each data scientist has a specialty -- natural language processing, time series forecasting, classification, clustering and matrix factorization. We all overlap in each others’ area of expertise, and ultimately are able to make valuable contributions in a particular area.
 
 I won't be going into specifics about each and every interview I went through. I will say, however, that I felt like the whole interview process was rather unfair. 
@@ -74,7 +74,7 @@ I have a particular dislike for "take-home" interviews. I imagine these are usef
 
 Interestingly, I think we can tell what data science might look like at a company depending on the interview questions you receive. For instance, if you feel you are receiving ridiculous programming interview question(s), there is a good chance that role is actually a software engineering role disguised as a data science role. If you feel you are receiving many business-oriented questions, then perhaps that role is less technical, which may not may not be what you want.
 
-### Questions you should ask
+### Questions You Should Ask
 This is one of the most underrated parts of an interview, and at least some of the onus on finding the right fit is on you, not just the companies you are interviewing at. People have varying opinions on this, but personally, I like to ask the questions below. I think they are relevant, tough, and provide a reasonable approximation of the culture of the company.
 
 * What is the gender ratio of your the group, and at the office?
@@ -85,7 +85,7 @@ This is one of the most underrated parts of an interview, and at least some of t
 
 It may feel scary to ask these important questions, but I can assure you that as an interviewer, it’s also scary to receive them. Furthermore, there are a number of trite, softball questions I’ve been asked as an interviewer, and many of these can be found in web pages scattered across the Internet. For instance, if you ask anyone, “Why do you love working here?”, I’d say there is a decent chance the reply might be, “the people!” I’d suggest asking something more specific in the same vein, such as, “Could you tell me about a time you felt like you were overextended, and your team came to your rescue?”
 
-### I Applied for at 57 jobs in a 12 month period
+### I Applied For 57 jobs in a 12 Month Period
 Here is an excel sheet I used to track my job search in 2017. Most of these companies did not provide feedback along with their decision. There was only one company I interviewed with that did provide constructive feedback, which reflected very positively on them (General Assembly). My most negative interview experiences were with large companies like Facebook and KPMG.
 
 When I was at Insight, the program directors had me keep track of companies I had in my pipeline in Trello, which seemed to work well. My board was quite sparse though, as I converged good fit rather quickly.
