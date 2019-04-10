@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Jump!'
+title: 'Make Your Jump!'
 date: 2018-02-22 20:12:55.000000000 -08:00
 categories: []
 tags: []
@@ -86,7 +86,7 @@ This is one of the most underrated parts of an interview, and at least some of t
 It may feel scary to ask these important questions, but I can assure you that as an interviewer, it’s also scary to receive them. Furthermore, there are a number of trite, softball questions I’ve been asked as an interviewer, and many of these can be found in web pages scattered across the Internet. For instance, if you ask anyone, “Why do you love working here?”, I’d say there is a decent chance the reply might be, “the people!” I’d suggest asking something more specific in the same vein, such as, “Could you tell me about a time you felt like you were overextended, and your team came to your rescue?”
 
 ### I Applied For 57 jobs in a 12 Month Period
-Here is an excel sheet I used to track my job search in 2017. Most of these companies did not provide feedback along with their decision. There was only one company I interviewed with that did provide constructive feedback, which reflected very positively on them (General Assembly). My most negative interview experiences were with large companies like Facebook and KPMG.
+I used an excel sheet I used to track my job search in 2017. Most of these companies did not provide feedback along with their decision. There was only one company I interviewed with that did provide constructive feedback, which reflected very positively on them (General Assembly). My most negative interview experiences were with large companies like Facebook and KPMG.
 
 When I was at Insight, the program directors had me keep track of companies I had in my pipeline in Trello, which seemed to work well. My board was quite sparse though, as I converged good fit rather quickly.
 
