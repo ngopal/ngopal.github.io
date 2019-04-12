@@ -199,7 +199,7 @@ After interviewing no less than 7 data science managers, I’ve found that they 
 
 
 ### Addendum on Choking and Yips:
-https://www.youtube.com/watch?v=CqgmozFr_GM
+[https://www.youtube.com/watch?v=CqgmozFr_GM](https://www.youtube.com/watch?v=CqgmozFr_GM)
 
 ### Good Luck
 Hopefully all of this information is helpful! As time passes, I'm sure some of this information will be changing over time, so please use your best judgement. Best of luck on your search.

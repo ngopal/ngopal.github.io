@@ -8,20 +8,7 @@ categories:
 tags: []
 status: publish
 type: post
-published: false
-meta:
-  blogger_blog: www.nikhilgopal.com
-  blogger_author: Nikhil Gopal
-  blogger_permalink: /2011/08/show-and-tell-applescript-spotify-alarm.html
-  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/2368570494367484497
-author:
-  login: nikhilgopal@gmail.com
-  email: nikhilgopal@gmail.com
-  display_name: Nikhil Gopal
-  first_name: ''
-  last_name: ''
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
+published: true
 ---
 <p><span>I don't know about you guys, but I've really been enjoying Spotify. Being one of the first American users has been a real treat. Making the switch from iTunes wasn't painful at all. Sorry iTunes, sometimes the best things in life are free...</span><br /><span><br /></span><br /><span>A few weeks ago, I used <a href="http://www.seevishal.com/?p=226">this applescript tutorial</a> to setup iTunes to be my morning alarm clock. I love this. Nothing makes it easier to get out of bed than waking up to a song that energizes you.</span><br /><span><br /></span><br /><span>I've found a way to use Spotify instead of iTunes in the alarm clock script, and this post is going to be a quick show and tell. It's not as easy as just replacing "iTunes" with "Spotify" in the iTunes alarm clock script.</span><br /><span><br /></span><br /><span>I would suggest following the tutorial in the link I provided earlier, substituting the script provided for the one I provide in step 1 below. Otherwise, you can follow my attempt at a walkthrough.</span>
 <div>

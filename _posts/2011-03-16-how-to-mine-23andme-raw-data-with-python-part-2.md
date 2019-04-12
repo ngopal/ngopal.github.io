@@ -8,20 +8,7 @@ categories:
 tags: []
 status: publish
 type: post
-published: false
-meta:
-  blogger_blog: www.nikhilgopal.com
-  blogger_author: Nikhil Gopal
-  blogger_permalink: /2011/03/how-to-mine-23andme-raw-data-with.html
-  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/5618292967961730299
-author:
-  login: nikhilgopal@gmail.com
-  email: nikhilgopal@gmail.com
-  display_name: Nikhil Gopal
-  first_name: ''
-  last_name: ''
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
+published: true
 ---
 <p><span><b><u><br /></u></b></span><br /><span><b><u>Creating A Family Tree With 23andMe Raw Data:</u></b></span><br /><span><br /></span><br /><span>If you missed part one, here is the </span><span><a href="http://www.nikhilgopal.com/2011/02/how-to-mine-23andme-raw-data-with.html">link</a></span><span>. It's probably a good idea to peruse that post before moving onto this one. In this post I am going to see if I can create a family tree using the same 23andMe raw datasets I used in my last post.</span><br /><span><br /></span><br /><span>Again, the module is freely available for download on <a href="https://github.com/ngopal/23andMe">github</a>.</span><br /><span><br /></span><br /><span><u><b>A Note About The Algorithm:</b></u></span><br /><span><br /></span><br /><span>Computer Scientists call this hierarchical clustering. </span><span>Biologists know this as creating a phylogenetic tree. </span><span>These are essentially the same thing. However, I am going to simplify and refine the algorithm to suit my needs. It may even be apt to call this a "quick and dirty," or "pseudo" implementation. Perhaps I will program a full implementation in the future.</span><br /><span><br /></span><br /><span><b><u>Setting Up Metrics And Controls:</u></b></span><br /><span><br /></span><br /><span>In my last post, I used % identity between individuals to determine how closely related one person is to another. Although it is a rather casual measure of similarity, I am going to continue using this metric because it is easy to implement. I encourage you to create and implement your own metrics as this really helps you get a better understanding of your data.</span><br /><span><br /></span><br /><span>Since this is the second time I've used this metric, I went ahead and created a function for it. Continuing from the coding example in my last post:</span><br /><span><br /></span><br /><span>>> Datasets.identity()</span><br /><span>>> len(Datasets.identity(Datasets.intersectionData['Nikhil.txt'],Datasets.intersectionData['Person3.txt']))</span><br /><span>>> 267194</span><br /><span><br /></span><br /><span>I've also added a function to find the genotypes that are not both identical, but only share one identical SNP.</span><br /><span><br /></span><br /><span>>> Datasets.halfIdentity()</span><br /><span></span>
 <div><span><span>>> len(Datasets.halfIdentity(Datasets.intersectionData['Nikhil.txt'],Datasets.intersectionData['Person3.txt']))</span></span></div>

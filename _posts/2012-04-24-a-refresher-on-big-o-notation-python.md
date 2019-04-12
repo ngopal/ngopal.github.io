@@ -8,20 +8,7 @@ categories:
 tags: []
 status: publish
 type: post
-published: false
-meta:
-  blogger_blog: www.nikhilgopal.com
-  blogger_author: Nikhil Gopal
-  blogger_permalink: /2012/04/refresher-on-big-o-notation-python.html
-  _blogger_self: https://www.blogger.com/feeds/3320739517310204273/posts/default/1344591789845942671
-author:
-  login: nikhilgopal@gmail.com
-  email: nikhilgopal@gmail.com
-  display_name: Nikhil Gopal
-  first_name: ''
-  last_name: ''
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
+published: true
 ---
 <p><span>It's well known that asymptotic notation is used to convey the speed and efficiency of code blocks in computer programs. I haven't used them very much while working with Python, so I needed to refresh my memory before trying to use this great tool.</span><br /><span><br /></span><br /><b><span>Cardinal Rule: Focus primarily the largest value in the equation of time complexity. All other factors in the time complexity equation are essentially trumped.</span></b><br /><span><br /></span><br /><span>O(n^4+n^2+n^3+nm+100) ~= O(n^4)</span><br /><span><i>Update: assuming m is linear.</i></span><br /><span><br /></span><br /><b><u><span>Trump Rules for Time Complexity:</span></u></b></p>
 <ul>
