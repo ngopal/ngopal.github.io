@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 ### Why I’m Writing This
-Now that I’ve been working as a data scientist for over a year, I’ve been asked a few times to speak about my experiences, specifically about my journey from academic researcher to data scientist. I hope you read this and perhaps find inspiration to make the jump yourself, and preferably you can avoid the same traps that I fell into on the way. Although I share my experiences as an interviewer later in the post, I’m sharing my overall experience over the years, and do not cover company-specific details.
+I’ve been asked a few times to speak about my experiences, specifically about my journey from academic researcher to data scientist. I hope you read this and perhaps find inspiration to make the jump yourself, and preferably you can avoid the same traps that I fell into on the way. Although I share my experiences as an interviewer later in the post, I’m sharing my overall experience over the years, and do not cover company-specific details.
 
 ### Who This Is For
 Academics contemplating making the switch to industry, and anyone interested in learning about landing their first data science role in general.
