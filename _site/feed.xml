@@ -3,37 +3,39 @@
   <channel>
     <title>Nikhil Gopal, PhD</title>
     <description></description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 Mar 2019 10:36:09 -0700</pubDate>
-    <lastBuildDate>Sun, 31 Mar 2019 10:36:09 -0700</lastBuildDate>
-    <generator>Jekyll v3.5.0</generator>
+    <link>http://nikhilgopal.com/</link>
+    <atom:link href="http://nikhilgopal.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 01 Oct 2019 12:40:09 -0700</pubDate>
+    <lastBuildDate>Tue, 01 Oct 2019 12:40:09 -0700</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>Jump!</title>
-        <description>&lt;h3 id=&quot;why-im-writing-this&quot;&gt;Why I’m writing this&lt;/h3&gt;
-&lt;p&gt;Now that I’ve been working as a data scientist for over a year, I’ve been asked a few times to speak about my experiences, specifically about my journey from academic researcher to data scientist. I hope you read this and perhaps find inspiration to make the jump yourself, and preferably you can avoid the same traps that I fell into on the way. Although I share my experiences as an interviewer later in the post, I’m sharing my overall experience over the years, and do not cover company-specific details.&lt;/p&gt;
+        <title>Make Your Jump!</title>
+        <description>&lt;h3 id=&quot;why-im-writing-this&quot;&gt;Why I’m Writing This&lt;/h3&gt;
+&lt;p&gt;I’ve been asked a few times to speak about my experiences, specifically about my journey from academic researcher to data scientist. I hope you read this and perhaps find inspiration to make the jump yourself, and preferably you can avoid the same traps that I fell into on the way. Although I share my experiences as an interviewer later in the post, I’m sharing my overall experience over the years, and do not cover company-specific details.&lt;/p&gt;
 
-&lt;h3 id=&quot;who-this-is-for&quot;&gt;Who this is for&lt;/h3&gt;
+&lt;h3 id=&quot;who-this-is-for&quot;&gt;Who This Is For&lt;/h3&gt;
 &lt;p&gt;Academics contemplating making the switch to industry, and anyone interested in learning about landing their first data science role in general.&lt;/p&gt;
 
-&lt;h3 id=&quot;why-i-left-academia&quot;&gt;Why I left academia&lt;/h3&gt;
-&lt;p&gt;I’ll keep this section brief. I actually enjoyed my life as an academic, but in short, I felt I could be making a more meaningful impact outside of it.&lt;/p&gt;
+&lt;h3 id=&quot;why-i-left-academia&quot;&gt;Why I Left Academia&lt;/h3&gt;
+&lt;p&gt;I’ll keep this section brief. I actually enjoyed my life as an academic, but in short, I felt I could be making more meaningful contributions outside of the ivory tower.&lt;/p&gt;
 
-&lt;p&gt;In a sense, academia can also be viewed through the lens of a business model, although many professors don’t look at it this way. Papers → Grants → Overhead for university. Grant institutions also need to divide funds up among a list of potential researchers they think will eventually yield substantial positive scientific results. One of the primary ways these grant institutions seem to evaluate applicants is through their expertise in the research field, and that is typically demonstrated via past grants and research publications. I think this is why academic departments use publication records (and ultimately grant records) to assess tenure.&lt;/p&gt;
+&lt;p&gt;In a sense, academia can also be viewed through the lens of a business model, although many professors don’t look at it this way. Papers → Grants → Overhead for university. Institutions that provide grants also need to “invest” funds among a list of potential researchers they think will eventually yield substantial positive scientific returns (i.e. scientific breakthroughs). One of the primary ways these grant institutions seem to evaluate applicants is through their expertise in the research field, and that is typically demonstrated via past grants and research publications. This is why academic departments use publication records (and ultimately grant records) to assess tenure.&lt;/p&gt;
 
-&lt;p&gt;There has been discussion about focusing too heavily on short-term productivity metrics like paper publications. Nobel laureates recently spoke out against the use of impact factors.&lt;/p&gt;
+&lt;p&gt;I’ve previously discussed the pitfalls of focusing too heavily on short-term productivity metrics like paper publications. Even Nobel laureates have spoken out against the use of impact factors.&lt;/p&gt;
 
 &lt;p&gt;Combine all of this with decreased year-over-year funding for the sciences for three political administrations in a row, and we have an environment where it behooves researchers to seek new routes.&lt;/p&gt;
 
-&lt;p&gt;There seem to be endless articles about this topic, and I not writing this blog post to highlight any of that necessarily. This post, actually, is about data science :-)&lt;/p&gt;
+&lt;p&gt;There seem to be endless articles about this topic, and I am actually not writing this blog post to highlight that in particular.&lt;/p&gt;
 
-&lt;h3 id=&quot;what-i-like-about-working-for-a-company&quot;&gt;What I like about working for a company&lt;/h3&gt;
+&lt;p&gt;This post, actually, is about data science :-)&lt;/p&gt;
+
+&lt;h3 id=&quot;what-i-enjoy-about-working-for-a-company&quot;&gt;What I Enjoy About Working For A Company&lt;/h3&gt;
 &lt;p&gt;I can work on projects that are unique to the company I’m working at – unique data, unique resources, unique problems to solve, unique opportunities. Although I personally weigh this aspect quite heavily when I’m searching for a new role, I realize that not everyone shares the same interest or prioritization.&lt;/p&gt;
 
 &lt;p&gt;Many of the questions I’ve received about being a data scientist have to do in some form or another with compensation. And yes, compensation can be leaps and bounds better than a postdoc salary. A ballpark data scientist salary range would be 2-3x a postdoc salary, not including signing bonuses, stock, retirement matching, and additional benefits (transportation, discounts, etc.), all of which factor into overall compensation. There are plenty of resources that collate this information – glassdoor.com is a reasonable place to start.&lt;/p&gt;
 
-&lt;h3 id=&quot;skills-and-experience-i-had-prior-to-making-the-switch&quot;&gt;Skills and Experience I had prior to making the switch&lt;/h3&gt;
+&lt;h3 id=&quot;my-skills-and-experience-prior-to-switching&quot;&gt;My Skills and Experience Prior To Switching&lt;/h3&gt;
 &lt;p&gt;Another reason I’m writing this is because I’ve seen a few articles about how to “get into” data science, but those seem to be intended for professionals who work with data (software engineers, data engineers, data analysts, etc). This post will likely be most helpful to those who are in the same situation I was in, where I had the majority of the skills and knowledge required for the role, but I was missing a couple of key attributes.&lt;/p&gt;
 
 &lt;p&gt;When I made the switch from Illumina to graduate school, I essentially traded Python2 for R, Javascript, and Java. Since most of my apps were biological data visualizations, I made thorough use of D3.js – so much so I did a video set of O’Reilly, helping those with a background in Python learn how to use Javascript and D3.js.
@@ -43,8 +45,8 @@
 
 &lt;p&gt;Naturally, I also had a background in biology, which isn’t so useful for general data science so I won’t harp too much on it. Suffice it to say, there are some very interesting computer applications/methodologies in the field of biomedicine, so coding on those projects helped me learn and grow my software engineering skills.&lt;/p&gt;
 
-&lt;h3 id=&quot;what-helped-me-along-the-way&quot;&gt;What helped me along the way&lt;/h3&gt;
-&lt;p&gt;Insight Data Science
+&lt;h3 id=&quot;what-helped-me-along-the-way&quot;&gt;What Helped Me Along The Way&lt;/h3&gt;
+&lt;p&gt;Insight Data Science:
 If you fit the same profile I did prior to landing a data science role, then perhaps like me, it could be worth investing in SQL skills, and knowledge of business models. A book I found to be enormously helpful for the “business side” was Lean Analytics. I feel this book provides the scaffolding/roadmap necessary to “speak the language,” if you will (KPIs, SaaS, CLV, churn, etc.). This might seem unnecessary, but I assure you it is vital. Put yourself in the shoes of a hiring manager or employer – if you ran a business, would you want to hire someone with little to no business training to run an essential part of your company?&lt;/p&gt;
 
 &lt;p&gt;As far a SQL goes, it seems every business I’ve ever interacted with uses SQL in some capacity. And as a data scientist, you need to be able to retrieve, format, transform, and clean data. Bioinformatics may be somewhat unique in that it is an NLP-heavy domain, working primarily with text data, sometimes stored as inconsistent flat files, and because of this, SQL is not a skill that I was accustomed to using.&lt;/p&gt;
@@ -56,9 +58,9 @@ If you are looking for a data science role, it helps to work with a recruiter. I
 
 &lt;p&gt;Note: Since some people have asked, one of the recruiters I had a wonderful experience with was Richard Marion from CyberCoders.&lt;/p&gt;
 
-&lt;p&gt;Another Note: I registered for a few recruiting services, such as Hired, TheLadders, and LinkedIn Premium. I didn’t have much luck with Hired or TheLadders, but LinkedIn Premium seemed to do reasonably well at connecting me with the right recruiters.&lt;/p&gt;
+&lt;p&gt;Another Note: I registered for a few recruiting services, such as Hired, TheLadders, and LinkedIn Premium. I didn’t have much luck with Hired or TheLadders, but LinkedIn Premium seemed to do reasonably well at connecting me with the right recruiters. More importantly than that, LinkedIn Premium provides some interesting information on which roles I may be a particularly good fit for and why. Personally, I think this is worth the value of the free trial :-D&lt;/p&gt;
 
-&lt;h3 id=&quot;practice-practice-practice-especially-to-perform-under-pressure&quot;&gt;Practice, practice, practice! Especially to perform under pressure!&lt;/h3&gt;
+&lt;h3 id=&quot;practice-practice-practice-especially-to-perform-under-pressure&quot;&gt;Practice, Practice, Practice! Especially To Perform Under Pressure!&lt;/h3&gt;
 &lt;p&gt;Think about a concept you have read about – one that is fundamental, and you think you might know like the back of your hand. If you need ideas, try the central limit theorem, or stochastic gradient descent. Got one? Good. Now explain this concept succinctly, but accurately, in less than 60 seconds. If you are reading this on your phone, or in the office, and you feel self-conscious, whisper it under your breath. I think you’ll find it’s more difficult than you thought.
 Here is the interesting part: You very likely actually do know this concept. Whether it’s over the phone, Skype, or in-person, perhaps you just need some practice explaining concepts well!&lt;/p&gt;
 
@@ -66,15 +68,16 @@ Here is the interesting part: You very likely actually do know this concept. Whe
 
 &lt;p&gt;Note: This reminds me of an excerpt from the book, “Bayes Theorem: the theory that wouldn’t die.” When a number of planes that were shot down in WWII were analyzed for bullet holes, the scientist that was making suggestions to the military counter-intuitively suggested covering the parts of the plane without bullet holes. This is because of selection bias, where planes that were shot down were thought to have exploded, thus making the parts of the plane with bullet holes more resilient, and less in need of armor, than the parts without bullet holes!&lt;/p&gt;
 
-&lt;h3 id=&quot;a-very-challenging-job-search&quot;&gt;A very challenging job search&lt;/h3&gt;
-&lt;p&gt;-range of interview questions and experiences
-Data science seems to look at least a little different at each company. Depending on that company’s business model, and current challenges, certain skill sets may be more or less useful than others. In my current team at Microsoft, we have a team of specialists. Each data scientist has a specialty – natural language processing, time series forecasting, classification, clustering and matrix factorization. We all overlap in each others’ area of expertise, and ultimately are able to make valuable contributions in a particular area.&lt;/p&gt;
+&lt;h3 id=&quot;a-challenging-job-search&quot;&gt;A Challenging Job Search&lt;/h3&gt;
+&lt;p&gt;The range of interview questions I was asked and my overall experiences seemed to look very different at each company. Depending on that company’s business model, and current challenges, certain skill sets may be more or less useful than others. In my current team at Microsoft, we have a team of specialists. Each data scientist has a specialty – natural language processing, time series forecasting, classification, clustering and matrix factorization. We all overlap in each others’ area of expertise, and ultimately are able to make valuable contributions in a particular area.&lt;/p&gt;
 
-&lt;p&gt;To highlight a few, *.&lt;/p&gt;
+&lt;p&gt;I won’t be going into specifics about each and every interview I went through. I will say, however, that I felt like the whole interview process was rather unfair.&lt;/p&gt;
+
+&lt;p&gt;I have a particular dislike for “take-home” interviews. I imagine these are useful for two reasons: (1) to mitigate bias towards extroverts in face-to-face interviews, (2) to mitigate any biases that may be subconsious on the part of the interviewer, (3) to save time (the reviewer of the notebook only need spend a few minutes judging, rather than a whole hour). As the interviewee, these homework assignments are full-day investments, and more often than not, I feel like I’m being manipulated into doing unpaid work. My personal advice is to withdraw from any interview pipelines that make you waste time with these notebooks – you’ll likely not receive much in the way of feedback anyway. But obviously, to each their own.&lt;/p&gt;
 
 &lt;p&gt;Interestingly, I think we can tell what data science might look like at a company depending on the interview questions you receive. For instance, if you feel you are receiving ridiculous programming interview question(s), there is a good chance that role is actually a software engineering role disguised as a data science role. If you feel you are receiving many business-oriented questions, then perhaps that role is less technical, which may not may not be what you want.&lt;/p&gt;
 
-&lt;h3 id=&quot;questions-you-should-ask&quot;&gt;Questions you should ask&lt;/h3&gt;
+&lt;h3 id=&quot;questions-you-should-ask&quot;&gt;Questions You Should Ask&lt;/h3&gt;
 &lt;p&gt;This is one of the most underrated parts of an interview, and at least some of the onus on finding the right fit is on you, not just the companies you are interviewing at. People have varying opinions on this, but personally, I like to ask the questions below. I think they are relevant, tough, and provide a reasonable approximation of the culture of the company.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -87,18 +90,15 @@ Data science seems to look at least a little different at each company. Dependin
 
 &lt;p&gt;It may feel scary to ask these important questions, but I can assure you that as an interviewer, it’s also scary to receive them. Furthermore, there are a number of trite, softball questions I’ve been asked as an interviewer, and many of these can be found in web pages scattered across the Internet. For instance, if you ask anyone, “Why do you love working here?”, I’d say there is a decent chance the reply might be, “the people!” I’d suggest asking something more specific in the same vein, such as, “Could you tell me about a time you felt like you were overextended, and your team came to your rescue?”&lt;/p&gt;
 
-&lt;h3 id=&quot;i-applied-for-at-57-jobs-in-a-12-month-period&quot;&gt;I Applied for at 57 jobs in a 12 month period&lt;/h3&gt;
-&lt;p&gt;Here is an excel sheet I used to track my job search in 2017. Most of these companies did not provide feedback along with their decision. There was only one company I interviewed with that did provide feedback, which reflected very positively on them – General Assembly. The company I had the most negative experience with was Facebook (the interviewer mixed up permutations and combinations, leading to an appropriate solution, but incorrect answer). The company I felt was most unprofessional was KPMG (they claimed they would reimburse for interviewing expenses, but never did).&lt;/p&gt;
+&lt;h3 id=&quot;i-applied-for-57-jobs-in-a-12-month-period&quot;&gt;I Applied For 57 jobs in a 12 Month Period&lt;/h3&gt;
+&lt;p&gt;I used an excel sheet I used to track my job search in 2017. Most of these companies did not provide feedback along with their decision. There was only one company I interviewed with that did provide constructive feedback, which reflected very positively on them (General Assembly). My most negative interview experiences were with large companies like Facebook and KPMG.&lt;/p&gt;
 
 &lt;p&gt;When I was at Insight, the program directors had me keep track of companies I had in my pipeline in Trello, which seemed to work well. My board was quite sparse though, as I converged good fit rather quickly.&lt;/p&gt;
 
 &lt;p&gt;Data science is still a very young field (although, I remember learning about it in 2009 when HBR called it the sexiest job of the 21st century). Moreover, data science looks different at every company, which makes it difficult to anticipate if you are actually a good fit for a data science role at company X. Because of this, I think, I experiencing a wide range of interviews with over 30 companies, and still hadn’t converged on anything I would consider “signal.” In hindsight, I think this was partly on me, because I wasn’t telling companies “no” enough. I now use phone interviews, especially the initial phone calls with someone from the group I’m interviewing with, as an opportunity for me to assess how I can bring value to their team. This means understanding a few aspects about the group: their technology stack, problem-solving approach, team bond, etc. Your goal for this phone call is to get a feel for whether you would accept an offer from this group/company. If it doesn’t seem like a good fit, it’s best to be honest with yourself, acknowledge the place you are interviewing at will likely not be a good fit, and remove yourself from the remainder of the interview process.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Skills gap: Every year, additional methodologies and case studies are accepted into the corpus of data science skills. Although the many of the fundamentals remain unchanged, specific examples that may have an obvious answer may not seem so obvious to those who haven’t studied the phenomenon. In short, there is an evolving culture in the field, and it is difficult to point to any one resource one may follow to stay up to date.
--Conferences
-I attended CascadiaRconf in 2017, and I ended up meeting people who I inevitably ran into again while searching for a data science role.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&quot;skills-gap&quot;&gt;Skills Gap&lt;/h3&gt;
+&lt;p&gt;Every year, additional methodologies and case studies are accepted into the corpus of data science skills. Although the many of the fundamentals remain unchanged, specific examples that may have an obvious answer may not seem so obvious to those who haven’t studied the phenomenon. In short, there is an evolving culture in the field, and it is difficult to point to any one resource one may follow to stay up to date.&lt;/p&gt;
 
 &lt;h3 id=&quot;job-boards&quot;&gt;Job Boards&lt;/h3&gt;
 &lt;p&gt;Here is a list of data science job boards I collected. It’s obviously not exhaustive, and likely has some cross-posted requistions, but was useful for me when I was searching for the right data science role:&lt;/p&gt;
@@ -129,16 +129,52 @@ I attended CascadiaRconf in 2017, and I ended up meeting people who I inevitably
   &lt;li&gt;https://www.insightglobal.net/careers/job-search/placement-process/&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;In fact, if you want, you can sign up for the very same MailChimp list I setup for myself. It lassos all of these sources together and then creates an email that is sent out every Thursday morning:&lt;/p&gt;
+
+&lt;!-- Begin Mailchimp Signup Form --&gt;
+&lt;div id=&quot;mc_embed_signup&quot;&gt;
+&lt;form action=&quot;https://nikhilgopal.us7.list-manage.com/subscribe/post?u=b0b52489b0b8cc0e8222a8c2a&amp;amp;id=ec1aa1c4e5&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate=&quot;&quot;&gt;
+    &lt;div id=&quot;mc_embed_signup_scroll&quot;&gt;
+	&lt;h2&gt;Subscribe to job list&lt;/h2&gt;
+&lt;div class=&quot;indicates-required&quot;&gt;&lt;span class=&quot;asterisk&quot;&gt;*&lt;/span&gt; indicates required&lt;/div&gt;
+&lt;div class=&quot;mc-field-group&quot;&gt;
+	&lt;label for=&quot;mce-EMAIL&quot;&gt;Email Address  &lt;span class=&quot;asterisk&quot;&gt;*&lt;/span&gt;
+&lt;/label&gt;
+	&lt;input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;required email&quot; id=&quot;mce-EMAIL&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mc-field-group&quot;&gt;
+	&lt;label for=&quot;mce-FNAME&quot;&gt;First Name &lt;/label&gt;
+	&lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;FNAME&quot; class=&quot;&quot; id=&quot;mce-FNAME&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mc-field-group&quot;&gt;
+	&lt;label for=&quot;mce-LNAME&quot;&gt;Last Name &lt;/label&gt;
+	&lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;LNAME&quot; class=&quot;&quot; id=&quot;mce-LNAME&quot; /&gt;
+&lt;/div&gt;
+	&lt;div id=&quot;mce-responses&quot; class=&quot;clear&quot;&gt;
+		&lt;div class=&quot;response&quot; id=&quot;mce-error-response&quot; style=&quot;display:none&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;response&quot; id=&quot;mce-success-response&quot; style=&quot;display:none&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;    &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;
+    &lt;div style=&quot;position: absolute; left: -5000px;&quot; aria-hidden=&quot;true&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;b_b0b52489b0b8cc0e8222a8c2a_ec1aa1c4e5&quot; tabindex=&quot;-1&quot; value=&quot;&quot; /&gt;&lt;/div&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;input type=&quot;submit&quot; value=&quot;Subscribe&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot; /&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+
+&lt;!--End mc_embed_signup--&gt;
+
+&lt;h2 id=&quot;a-short-selection-of-what-data-science-looks-like-at-various-companies&quot;&gt;A Short Selection of What Data Science “Looks Like” At Various Companies&lt;/h2&gt;
+&lt;p&gt;I’ll leave some brief notes here on my data science experiences at some of the companies where I feel I gained substantial data science skills.&lt;/p&gt;
+
 &lt;h4 id=&quot;bioinformatics-at-illumina-ie-biological-data-science&quot;&gt;Bioinformatics at Illumina (i.e. Biological Data Science)&lt;/h4&gt;
 &lt;p&gt;For those who don’t know what a bioinformatics scientist is, it is basically a data scientist that works with molecular biology data. The role I had from 2009 to 2012 has substantial overlap with my current role in terms of fundamental skills. However, domain expertise is a significant factor, and I would say there it is less of a challenge for a bioinformatician to transition into data science, than there is for a data scientist to transition into bioinformatics (unless you already have a background in biology that is).&lt;/p&gt;
 
 &lt;h4 id=&quot;data-science-at-realself&quot;&gt;Data Science at RealSelf&lt;/h4&gt;
-&lt;p&gt;-Business-focused, PM attributes, Data Engineering attributes. This was a super-fun place to work, and I miss being there. I would say it was my first “true” data science role, in that the decisions I made directly affected business decisions. Colleagues have asked me how my current role at Microsoft is different from RealSelf. The short of it is, at RealSelf, I needed to be a bit more of a data engineer and product manager in addition to my data science role.&lt;/p&gt;
+&lt;p&gt;This role was very business-focused, PM attributes, Data Engineering attributes. This was a super-fun place to work, and I miss being there. I would say it was my first “true” data science role, in that the decisions I made directly affected business decisions. Colleagues have asked me how my current role at Microsoft is different from RealSelf. The short of it is, at RealSelf, I needed to be a bit more of a data engineer and product manager in addition to my data science role.&lt;/p&gt;
 
 &lt;h4 id=&quot;data-science-at-microsoft&quot;&gt;Data Science at Microsoft&lt;/h4&gt;
-&lt;p&gt;-My role at microsoft is also very business-focused. However, I would say 80% of it is data science. There are still some data engineering and PM tasks I need to dive into, but I have the support of a dedicated data engineer and project manager on my team. Since we all work well together, this leads to a very productive and happy work environment.&lt;/p&gt;
+&lt;p&gt;My role at microsoft is also very business-focused. However, I would say 80% of it is data science. There are still some data engineering and PM tasks I need to dive into, but I have the support of a dedicated data engineer and project manager on my team. Since we all work well together, this leads to a very productive and happy work environment.&lt;/p&gt;
 
-&lt;h3 id=&quot;data-science-is-inaccessible&quot;&gt;Data Science is inaccessible&lt;/h3&gt;
+&lt;h3 id=&quot;data-science-feels-inaccessible-to-newcomers&quot;&gt;Data Science Feels Inaccessible to Newcomers&lt;/h3&gt;
 &lt;p&gt;Data science still seems inaccessible, although I do think democratization of data science is the future. I’ve thought about why this might be the case, beyond just “hiring is broken,” and one of the reasons this might be is because there are very few entry-level data science roles. And I think this might be because the stakes are too high. Imagine putting a multi-million dollar business decision in the hands of a freshly-minted data science grad. Imagine allowing a entry-level data scientist provide advisory to a multi-million dollar client. The margin of error is quite small, and in a sense, the jobs of your co-workers, and revenue that families depend on may be affected as a consequence of your work/decisions.&lt;/p&gt;
 
 &lt;p&gt;Another reason why may be that it is too draconian to label an entry-level data scientist “incompetent”. After all, they are just starting their career! However, the performance of a model, or the deliverables produced as a result of it, are products we are accountable for. If your forecast is off by a percentage point, you will get questions about why it was wrong, what the cost of the error was, and perhaps why the company should trust your work at all. In harsh cases you may even find that those affected are able to attach dollar values to the consequences of your decision. These are tough questions, and they can catch even experienced data scientists a little off guard. Not to scare you off, but don’t be surprised if you feel like you are betting your badge on your work.&lt;/p&gt;
@@ -146,11 +182,11 @@ I attended CascadiaRconf in 2017, and I ended up meeting people who I inevitably
 &lt;h3 id=&quot;how-can-i-succeed-in-data-science-if-i-dont-have-a-phd&quot;&gt;“How can I succeed in data science if I don’t have a PhD?”&lt;/h3&gt;
 &lt;p&gt;At this point, I would suggest the following: pick 1-2 areas you can become an expert in (classification, A/B testing, etc), and make that your primary skill. Then find a startup job that needs that skill in particular. Why a startup? Because they generally have a difficult time recruiting. Why 1-2 areas you can be an expert in? Because you have to compete with experienced data scientists.&lt;/p&gt;
 
-&lt;p&gt;Every now and then, people reach out to me on LinkedIn, alumni networks, etc and ask me about how they can get into data science. I think a bit of advice that I’ll provide that you are unlikely to hear anywhere else, is to start with a data science role that is “low stakes”. If you see a data science job posting at a company, and if you can already tell it is going to be an impactful role, then that might not be for you – at least just yet. The stakes can be quite high with data science projects – an inflated error rate can mean millions of dollars in lost revenue, being unable to properly interpret a model may lead to a fundamentally bad business decision, etc. Think about this carefully – this means people’s jobs, people’s retirement funds, etc.&lt;/p&gt;
+&lt;p&gt;Every now and then, people reach out to me on LinkedIn, alumni networks, etc and ask me about how they can get into data science. I think a bit of advice that I’ll provide that you are unlikely to hear anywhere else, is to start with a data science role that is “low stakes”. If you see a data science job posting at a company, and if you can already tell it is going to be an impactful role, then that might not be for you – at least just yet. The stakes can be quite high with data science projects. An inflated error rate can mean millions of dollars in lost revenue, being unable to properly interpret a model may lead to a fundamentally poor business decision, etc. Think about this carefully – this means people’s jobs, people’s retirement funds, etc. Many tutorials seem to make data science seem like the job is primarily “painting with data” and that we can pull down off-the-shelf sci-kit learn solutions to solve business problems, but I promise you there is the very small tip of a very large iceberg.&lt;/p&gt;
 
-&lt;p&gt;The question I ask myself before I deploy a model into production is: am I willing to bet my badge on this? And sometimes you will have to regardless due to circumstantial pressures.&lt;/p&gt;
+&lt;p&gt;The question I ask myself before I deploy a model into production is: Am I willing to bet my badge on this? And sometimes you will have to regardless due to circumstances outside of your control.&lt;/p&gt;
 
-&lt;p&gt;It might be worth asking yourself the question about whether you truly want to do the work of a data scientist, or if you are simply infatuated with the title. I’ve noticed many roles that have a skills overlap with data scientist roles – quantitative analyst, data analyst, etc. I know people with these titles, I consider them my peers and learn frequently from them, and they are very happy doing what they are doing because they are doing what they love! Today, data scientists may be called data scientists, and tomorrow they may be rebranded as data astronauts (c’mon now, it’s totally in the realm of possibilities :-D). One way to determine this might be the following: Would you continue in the role you have right now if your title was changed to data scientist overnight?&lt;/p&gt;
+&lt;p&gt;It might be worth asking yourself the question about whether you truly want to do the work of a data scientist. I’ve noticed many roles that have a skills overlap with data scientist roles – quantitative analyst, data analyst, etc. I know people with these titles, I consider them my peers, learn frequently from them, and they are very happy doing what they are doing because they are doing what they love! Today, data scientists may be called data scientists, and tomorrow they may be rebranded as something else. One way to determine this might be the following: Would you continue in the role you have right now if your title was changed to data scientist overnight?&lt;/p&gt;
 
 &lt;h3 id=&quot;more-advice&quot;&gt;More Advice:&lt;/h3&gt;
 &lt;p&gt;A useful bit of advice would be to think about the economics of the company you are interviewing at. For instance, startups tend to have short financial runways, so the likelihood of a startup willing to take a chance on someone who has solid fundamentals but lacks practical experience may be low, because it is risky for them. Whereas a larger company may appreciate the idea of hiring someone completely new, and teaching them their best practices, etc. At the same time, recruiting is difficult for startups, so the likelihood of getting further down the interview process more quickly is higher versus larger companies.&lt;/p&gt;
@@ -160,10 +196,7 @@ I attended CascadiaRconf in 2017, and I ended up meeting people who I inevitably
 &lt;h2 id=&quot;what-its-like-being-on-the-other-side-being-the-interviewer&quot;&gt;What It’s like being on the other side (being the interviewer):&lt;/h2&gt;
 &lt;p&gt;I can appreciate now how difficult interviewing is for the interviewer as well. Imagine having to make a decision on whether someone will be a good fit for the group, have the opportunity to grow, is truly interested in the job, is competent, is reliable, can work under pressure, etc. in 30-60 minutes. Most interviewers aren’t going to doubt your ability, but will want to see you demonstrate it to see if he/she can follow your thought process – we are sharing work with each other after all, and we need to have mutual confidence in each other’s work.&lt;/p&gt;
 
-&lt;h2 id=&quot;rise-of-the-data-science-manager&quot;&gt;Rise of the Data Science Manager&lt;/h2&gt;
-&lt;p&gt;-Trey Causey’s post
--What we are looking for, and what we’ve been finding&lt;/p&gt;
-
+&lt;h2 id=&quot;hiring-a-data-science-manager&quot;&gt;Hiring a Data Science Manager&lt;/h2&gt;
 &lt;p&gt;After interviewing no less than 7 data science managers, I’ve found that they generally fall into 4 buckets. This may be true for those seeking data scientist positions too. I’ll summarize these in three personas:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -174,24 +207,61 @@ I attended CascadiaRconf in 2017, and I ended up meeting people who I inevitably
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;addendum-on-choking-and-yips&quot;&gt;Addendum on Choking and Yips:&lt;/h3&gt;
-&lt;p&gt;https://www.youtube.com/watch?v=CqgmozFr_GM&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=CqgmozFr_GM&quot;&gt;https://www.youtube.com/watch?v=CqgmozFr_GM&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;good-luck&quot;&gt;Good Luck&lt;/h3&gt;
 &lt;p&gt;Hopefully all of this information is helpful! As time passes, I’m sure some of this information will be changing over time, so please use your best judgement. Best of luck on your search.&lt;/p&gt;
 
+&lt;h3 id=&quot;sign-up-for-updates&quot;&gt;Sign Up For Updates:&lt;/h3&gt;
+&lt;p&gt;Congratulations on making it this far! You got through approximately 4,246 words (25,946 characters). This is perhaps 10x longer than most blog posts on the internet :-D. Please consider signing up so I can send you email updates when I make more blog posts. You can hit reply and get in touch with me directly as well.&lt;/p&gt;
+
+&lt;link href=&quot;//cdn-images.mailchimp.com/embedcode/classic-10_7.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+
+&lt;div id=&quot;mc_embed_signup&quot;&gt;
+&lt;form action=&quot;https://nikhilgopal.us7.list-manage.com/subscribe/post?u=b0b52489b0b8cc0e8222a8c2a&amp;amp;id=7c04e611ce&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate=&quot;&quot;&gt;
+    &lt;div id=&quot;mc_embed_signup_scroll&quot;&gt;
+	&lt;h2&gt;Subscribe&lt;/h2&gt;
+&lt;div class=&quot;indicates-required&quot;&gt;&lt;span class=&quot;asterisk&quot;&gt;*&lt;/span&gt; indicates required&lt;/div&gt;
+&lt;div class=&quot;mc-field-group&quot;&gt;
+	&lt;label for=&quot;mce-EMAIL&quot;&gt;Email Address  &lt;span class=&quot;asterisk&quot;&gt;*&lt;/span&gt;
+&lt;/label&gt;
+	&lt;input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;required email&quot; id=&quot;mce-EMAIL&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mc-field-group&quot;&gt;
+	&lt;label for=&quot;mce-FNAME&quot;&gt;First Name &lt;/label&gt;
+	&lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;FNAME&quot; class=&quot;&quot; id=&quot;mce-FNAME&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mc-field-group&quot;&gt;
+	&lt;label for=&quot;mce-LNAME&quot;&gt;Last Name &lt;/label&gt;
+	&lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;LNAME&quot; class=&quot;&quot; id=&quot;mce-LNAME&quot; /&gt;
+&lt;/div&gt;
+	&lt;div id=&quot;mce-responses&quot; class=&quot;clear&quot;&gt;
+		&lt;div class=&quot;response&quot; id=&quot;mce-error-response&quot; style=&quot;display:none&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;response&quot; id=&quot;mce-success-response&quot; style=&quot;display:none&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;    &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;
+    &lt;div style=&quot;position: absolute; left: -5000px;&quot; aria-hidden=&quot;true&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;b_b0b52489b0b8cc0e8222a8c2a_7c04e611ce&quot; tabindex=&quot;-1&quot; value=&quot;&quot; /&gt;&lt;/div&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;input type=&quot;submit&quot; value=&quot;Subscribe&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot; /&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]=&#39;EMAIL&#39;;ftypes[0]=&#39;email&#39;;fnames[1]=&#39;FNAME&#39;;ftypes[1]=&#39;text&#39;;fnames[2]=&#39;LNAME&#39;;ftypes[2]=&#39;text&#39;;fnames[3]=&#39;ADDRESS&#39;;ftypes[3]=&#39;address&#39;;fnames[4]=&#39;PHONE&#39;;ftypes[4]=&#39;phone&#39;;}(jQuery));var $mcj = jQuery.noConflict(true);&lt;/script&gt;
+
+&lt;!--End mc_embed_signup--&gt;
+
 &lt;hr /&gt;
 </description>
-        <pubDate>Sat, 22 Dec 2018 20:12:55 -0800</pubDate>
-        <link>http://localhost:4000/2018/12/22/landint-a-data-science-role.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/12/22/landint-a-data-science-role.html</guid>
+        <pubDate>Thu, 22 Feb 2018 20:12:55 -0800</pubDate>
+        <link>http://nikhilgopal.com/2018/02/22/landint-a-data-science-role.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/2018/02/22/landint-a-data-science-role.html</guid>
         
         
       </item>
     
       <item>
         <title>The Guerilla Guide to R</title>
-        <description>&lt;p&gt;&lt;b&gt;Update: &lt;/b&gt;Okay. I've uploaded a new template and things seem to be fine now.&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Update:&lt;/b&gt; I am aware the table of contents is not being displayed in bullet form as I intended. The web template I'm using seems to be buggy. It also seems to think this page is in Indonesian...Working on it!&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;b&gt;Update: &lt;/b&gt;Okay. I&#39;ve uploaded a new template and things seem to be fine now.&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Update:&lt;/b&gt; I am aware the table of contents is not being displayed in bullet form as I intended. The web template I&#39;m using seems to be buggy. It also seems to think this page is in Indonesian...Working on it!&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Table of Contents:&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;b&gt;Reading/Writing Files&lt;/b&gt;
@@ -229,14 +299,14 @@ I attended CascadiaRconf in 2017, and I ended up meeting people who I inevitably
 &lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Exceptions and Gotchas&lt;/b&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/1535021/whats-the-biggest-r-gotcha-youve-run-across&quot; target=&quot;_blank&quot;&gt;What is the biggest R gotcha you've run across?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/1535021/whats-the-biggest-r-gotcha-youve-run-across&quot; target=&quot;_blank&quot;&gt;What is the biggest R gotcha you&#39;ve run across?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/2622777/exception-handling-in-r&quot; target=&quot;_blank&quot;&gt;Exception handling in R&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/2151212/how-can-i-read-command-line-parameters-from-an-r-script&quot; target=&quot;_blank&quot;&gt;Reading commandline parameters from an R script&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/1741820/assignment-operators-in-r-and&quot; target=&quot;_blank&quot;&gt;Assignment operators in R: '=' vs ' &lt;!-----&gt;&lt;!-----&gt;&lt;!-----&gt;&lt;!-----&gt;&lt;!-----&gt;&lt;!-----&gt;&lt;!-----&gt;-&amp;gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/1741820/assignment-operators-in-r-and&quot; target=&quot;_blank&quot;&gt;Assignment operators in R: &#39;=&#39; vs &#39; &lt;!-----&gt;&lt;!-----&gt;&lt;!-----&gt;&lt;!-----&gt;&lt;!-----&gt;&lt;!-----&gt;&lt;!-----&gt;-&amp;gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/11738823/explicitly-calling-return-in-a-function-or-not&quot; target=&quot;_blank&quot;&gt;Why is not (explicitly) calling return faster or better, and thus preferable? &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/14932015/why-does-true-true-in-r&quot; target=&quot;_blank&quot;&gt;Why does TRUE == &quot;TRUE&quot; in R?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/7014387/whats-the-difference-between-1l-and-1&quot; target=&quot;_blank&quot;&gt;What is the difference between '1L' and '1'? &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/11700748/why-does-the-number-1e9999-31-9s-cause-problems-in-r&quot; target=&quot;_blank&quot;&gt;Why does the number 1e99999 (31 9's) cause problems?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/7014387/whats-the-difference-between-1l-and-1&quot; target=&quot;_blank&quot;&gt;What is the difference between &#39;1L&#39; and &#39;1&#39;? &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/11700748/why-does-the-number-1e9999-31-9s-cause-problems-in-r&quot; target=&quot;_blank&quot;&gt;Why does the number 1e99999 (31 9&#39;s) cause problems?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/5526322/examples-of-the-perils-of-globals-in-r-and-stata&quot; target=&quot;_blank&quot;&gt;Examples of the perils of globals in R and Stata&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/2190756/in-r-how-to-count-true-values-in-a-logical-vector&quot; target=&quot;_blank&quot;&gt;How to count TRUE values in a logical vector&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -270,7 +340,7 @@ I attended CascadiaRconf in 2017, and I ended up meeting people who I inevitably
 &lt;li&gt;&lt;b&gt;Grouping Functions and Speed&lt;/b&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/3505701/r-grouping-functions-sapply-vs-lapply-vs-apply-vs-tapply-vs-by-vs-aggrega&quot; target=&quot;_blank&quot;&gt;R grouping functions: sapply vs lapply vs apply vs tapply vs etc.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/9860090/in-r-why-is-better-than-subset&quot; target=&quot;_blank&quot;&gt;Why is '[' better than the subset function?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/9860090/in-r-why-is-better-than-subset&quot; target=&quot;_blank&quot;&gt;Why is &#39;[&#39; better than the subset function?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/12523548/confused-by&quot; target=&quot;_blank&quot;&gt;Confused by ...()&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/3685492/r-speeding-up-group-by-operations&quot; target=&quot;_blank&quot;&gt;Speeding up &quot;group by&quot; functions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/7262485/options-for-caching-memoization-hashing-in-r&quot; target=&quot;_blank&quot;&gt;Options for caching/memoization/hashing in R&lt;/a&gt;&lt;/li&gt;
@@ -307,19 +377,248 @@ I attended CascadiaRconf in 2017, and I ended up meeting people who I inevitably
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;b&gt;About:&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Stack Overflow is awesome. Some of the worlds most brilliant programmers frequent the website and answertough questions. Wouldn't that make it a great place to learn from? Yeah, I think so too.&lt;/p&gt;
-&lt;p&gt;This is why I've collated, &lt;b&gt;The Guerilla Cookbook for R&lt;/b&gt;. It's basically a number of Stack Overflow links organized and ordered in a way to help R programmers learn their way to the next level. If you are proficient in R, I hope these resources will help you get closer to being amazing. If you are just getting started with R, I'd suggest adding this page to your bookmarks and returning when you are familiar with the basics of R programming.&lt;/p&gt;
+&lt;p&gt;Stack Overflow is awesome. Some of the worlds most brilliant programmers frequent the website and answertough questions. Wouldn&#39;t that make it a great place to learn from? Yeah, I think so too.&lt;/p&gt;
+&lt;p&gt;This is why I&#39;ve collated, &lt;b&gt;The Guerilla Cookbook for R&lt;/b&gt;. It&#39;s basically a number of Stack Overflow links organized and ordered in a way to help R programmers learn their way to the next level. If you are proficient in R, I hope these resources will help you get closer to being amazing. If you are just getting started with R, I&#39;d suggest adding this page to your bookmarks and returning when you are familiar with the basics of R programming.&lt;/p&gt;
 &lt;p&gt;The cool thing is, this &quot;book&quot; essentially writes itself since most of the experts (and peer-reviewers) are answering the questions. Most of the questions are &quot;real-world&quot; and are asked by novice or intermediate programmers. We can easily add/remove/reorganize the contents as necessary.&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;b&gt;How Was The Content Selected?:&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;I personally searched through Stack Overflow to find my favorite questions and shared them here.&lt;/p&gt;
 &lt;p&gt;The table of contents will have to be updated/reorganized over time as links are added and removed. But use whatever you can for now!&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 May 2013 00:39:00 -0700</pubDate>
-        <link>http://localhost:4000/r/2013/05/13/the-guerilla-guide-to-r.html</link>
-        <guid isPermaLink="true">http://localhost:4000/r/2013/05/13/the-guerilla-guide-to-r.html</guid>
+        <link>http://nikhilgopal.com/r/2013/05/13/the-guerilla-guide-to-r.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/r/2013/05/13/the-guerilla-guide-to-r.html</guid>
         
         
         <category>R</category>
+        
+      </item>
+    
+      <item>
+        <title>A Refresher on &quot;Big O&quot; Notation (Python)</title>
+        <description>&lt;p&gt;&lt;span&gt;It&#39;s well known that asymptotic notation is used to convey the speed and efficiency of code blocks in computer programs. I haven&#39;t used them very much while working with Python, so I needed to refresh my memory before trying to use this great tool.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;b&gt;&lt;span&gt;Cardinal Rule: Focus primarily the largest value in the equation of time complexity. All other factors in the time complexity equation are essentially trumped.&lt;/span&gt;&lt;/b&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;O(n^4+n^2+n^3+nm+100) ~= O(n^4)&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;i&gt;Update: assuming m is linear.&lt;/i&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;b&gt;&lt;u&gt;&lt;span&gt;Trump Rules for Time Complexity:&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Notes&lt;/span&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Remember that we care most about the upper bound and are not so concerned with the lower (in general)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;The smaller the upper bound number the better (and consequently, faster)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;&lt;span&gt;The Ladder&lt;/span&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Constants are less than logarithms&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Logarithms are less than polynomials&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Polynomials are less than exponentials&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Exponentials are less than factorials&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;u&gt;&lt;b&gt;&lt;span&gt;Notation and Hierarchy (Smaller Is Better):&lt;/span&gt;&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;span&gt;Constant Θ&lt;/span&gt;(1)&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;span&gt;Logarithmic Θ&lt;/span&gt;(lg n) &lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;span&gt;Linear Θ&lt;/span&gt;(n) &lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;span&gt;Loglinear Θ&lt;/span&gt;(n lg n) &lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;span&gt;QuadraticΘ&lt;/span&gt;(n^&lt;span&gt;2&lt;/span&gt;) &lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;span&gt;Cubic Θ&lt;/span&gt;(n^&lt;span&gt;3&lt;/span&gt;) &lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;Polynomial O(n^&lt;span&gt;k&lt;/span&gt;) &lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;span&gt;Exponential O&lt;/span&gt;(k^&lt;span&gt;n&lt;/span&gt;) &lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;span&gt;Factorial Θ&lt;/span&gt;(n!)&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;b&gt;&lt;u&gt;&lt;span&gt;Quick Examples:&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;[i for i in list] &lt;b&gt;{linear}&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;i&gt;Functions that generally operate on lists or generators (sum, map, filter, reduce, min, max, etc) tend to be linear in time complexity&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;[i+k for i in list for k in list] &lt;b&gt;{quadratic}&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;[i+k for i in list1 for k in list2] &lt;b&gt;O(list1*list2) {quadratic I think, since it&#39;s linear*linear}&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;i&gt;Add 1 to the exponent value for each nested loop. For example. [j+i+k+n for j in list1 for i in list1 for k in list1 for n in list1] would have a time complexity of O(n^4)&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;Note: Some programmers reduce quadratic time complexity a bit when using nested loops with sorted lists by ensuring that calculations aren&#39;t performed more than once. Consequently, that code block runs faster and faster and less and less has to be evaluated through each iteration of the loop. For example:&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;list1 = [i for i in range(10)]&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;size = len(list1)&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;number=100&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;for n in range(size-1):&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;    for k in range(n+1, size):&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;        print number*(n+k)&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 24 Apr 2012 15:22:00 -0700</pubDate>
+        <link>http://nikhilgopal.com/code%20optimization/python/2012/04/24/a-refresher-on-big-o-notation-python.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/code%20optimization/python/2012/04/24/a-refresher-on-big-o-notation-python.html</guid>
+        
+        
+        <category>code optimization</category>
+        
+        <category>python</category>
+        
+      </item>
+    
+      <item>
+        <title>Show and Tell: &quot;AppleScript&quot; a Spotify Alarm Clock on Mac</title>
+        <description>&lt;p&gt;&lt;span&gt;I don&#39;t know about you guys, but I&#39;ve really been enjoying Spotify. Being one of the first American users has been a real treat. Making the switch from iTunes wasn&#39;t painful at all. Sorry iTunes, sometimes the best things in life are free...&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;A few weeks ago, I used &lt;a href=&quot;http://www.seevishal.com/?p=226&quot;&gt;this applescript tutorial&lt;/a&gt; to setup iTunes to be my morning alarm clock. I love this. Nothing makes it easier to get out of bed than waking up to a song that energizes you.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;I&#39;ve found a way to use Spotify instead of iTunes in the alarm clock script, and this post is going to be a quick show and tell. It&#39;s not as easy as just replacing &quot;iTunes&quot; with &quot;Spotify&quot; in the iTunes alarm clock script.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;I would suggest following the tutorial in the link I provided earlier, substituting the script provided for the one I provide in step 1 below. Otherwise, you can follow my attempt at a walkthrough.&lt;/span&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Open up spotlight and open up &quot;AppleScript Editor.&quot; Copy the code below into your editor and save it (with an easy-to-remember name). &lt;/span&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Edit out my username with yours&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Edit out my playlist &quot;muzic&quot; with the name of your playlist&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Press the Run button to make sure it actually works.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;&lt;b&gt;Update 8/13/2012:&lt;/b&gt; I&#39;ve added the code in the image below to github as a &lt;a href=&quot;https://gist.github.com/3344086&quot;&gt;gist&lt;/a&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://4.bp.blogspot.com/-3DkSqt519tg/Tjed1AubCpI/AAAAAAAAACg/vgnJg3HxwOw/s1600/Screen+shot+2011-08-01+at+7.08.27+PM.png&quot; imageanchor=&quot;1&quot;&gt;&lt;span&gt;&lt;img border=&quot;0&quot; height=&quot;400&quot; src=&quot;http://nikhilgopal.com/assets/Screen+shot+2011-08-01+at+7.08.27+PM.png&quot; width=&quot;371&quot; /&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Next, pop open your terminal window and type in &quot;crontab -e&quot; without the quotes&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://2.bp.blogspot.com/-uVEjTcfhxqE/TjeeXJdxxkI/AAAAAAAAACk/WJSqdZmXirM/s1600/Screen+shot+2011-08-01+at+7.05.56+PM.png&quot; imageanchor=&quot;1&quot;&gt;&lt;span&gt;&lt;img border=&quot;0&quot; height=&quot;267&quot; src=&quot;http://nikhilgopal.com/assets/Screen+shot+2011-08-01+at+7.05.56+PM.png&quot; width=&quot;400&quot; /&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Now you will be in VI editor, so press &quot;i&quot; on your keyboard to &quot;insert,&quot; and type in the following line (the one line at the bottom is all you need). Make sure the path points to the script you just made in step 1. Also note that the pound sign on the first line &quot;comments out&quot; the line, so that line of code is ignored.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-PHBKSydGvWY/Tjee7nRDJ0I/AAAAAAAAACo/rz08zQWrN4w/s1600/Screen+shot+2011-08-01+at+7.05.44+PM.png&quot; imageanchor=&quot;1&quot;&gt;&lt;span&gt;&lt;img border=&quot;0&quot; height=&quot;267&quot; src=&quot;http://nikhilgopal.com/assets/Screen+shot+2011-08-01+at+7.05.44+PM.png&quot; width=&quot;400&quot; /&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;After you are done typing in the code, press &quot;esc&quot; so that a colon show up in the bottom left corner of the screen. Then type in &quot;wq!&quot; to save and quit the editor.&lt;/span&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;As a note, my alarm confguration (shared in the image above) is set to wake me up at 6:01AM. I would &lt;a href=&quot;http://adminschoice.com/crontab-quick-reference&quot;&gt;look here&lt;/a&gt; to find out how to edit the cron job to awaken you at a time of your own choosing.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;&lt;span&gt;Next, you have to make sure your computer is on maybe 5 minutes before your alarm goes off. This can be done in the &quot;System Preferences&quot; application. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-JbGcP3GNkX4/TjehBn047eI/AAAAAAAAADA/newtIshICog/s1600/Screen+shot+2011-08-01+at+7.14.19+PM.png&quot; imageanchor=&quot;1&quot;&gt;&lt;span&gt;&lt;img border=&quot;0&quot; height=&quot;340&quot; src=&quot;http://nikhilgopal.com/assets/Screen+shot+2011-08-01+at+7.14.19+PM.png&quot; width=&quot;400&quot; /&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Click on the &quot;Energy Saver&quot; option&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-5CqODLJGYPQ/TjehB9cs08I/AAAAAAAAADE/HdMVU8-NAC8/s1600/Screen+shot+2011-08-01+at+7.14.36+PM.png&quot; imageanchor=&quot;1&quot;&gt;&lt;span&gt;&lt;img border=&quot;0&quot; height=&quot;300&quot; src=&quot;http://nikhilgopal.com/assets/Screen+shot+2011-08-01+at+7.14.36+PM.png&quot; width=&quot;400&quot; /&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;You don&#39;t have to mess with your sleep and display configuration, but you do need to click the &quot;Schedule...&quot; button on the bottom right hand corner&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://4.bp.blogspot.com/-Alk3mpmYMPA/TjehCMxkNDI/AAAAAAAAADI/TiXcTXOivnA/s1600/Screen+shot+2011-08-01+at+7.14.40+PM.png&quot; imageanchor=&quot;1&quot;&gt;&lt;span&gt;&lt;img border=&quot;0&quot; height=&quot;178&quot; src=&quot;http://nikhilgopal.com/assets/Screen+shot+2011-08-01+at+7.14.40+PM.png&quot; width=&quot;400&quot; /&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Set your mac to wake up or start up 5 minutes before your cron job kicks off. You&#39;re all done!&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;b&gt;Congratulations, you&#39;ve just setup your own Spotify alarm clock!&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 Aug 2011 06:34:00 -0700</pubDate>
+        <link>http://nikhilgopal.com/applescript/utility/2011/08/03/show-and-tell-applescript-a-spotify-alarm-clock-on-mac.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/applescript/utility/2011/08/03/show-and-tell-applescript-a-spotify-alarm-clock-on-mac.html</guid>
+        
+        
+        <category>applescript</category>
+        
+        <category>utility</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Mine 23andMe Data: Part 3</title>
+        <description>&lt;p&gt;&lt;span&gt;&lt;b&gt;&lt;u&gt;A Note on Choice of Language:&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;b&gt;&lt;u&gt;&lt;br /&gt;&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;I&#39;m going to cheat a little bit. Taking my own advice from my post, &quot;&lt;a href=&quot;http://www.nikhilgopal.com/2011/05/bioinformatics-programming-like-experts.html&quot;&gt;Bioinformatics Programming Like Experts&lt;/a&gt;,&quot; I&#39;ve found it much simpler to answer my next few questions using R. R has a number of complicated statistical tests built-in -- performing them on data is trivial.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;b&gt;&lt;u&gt;What I&#39;ve Done: Principal Component Analysis:&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;b&gt;&lt;u&gt;&lt;br /&gt;&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;I&#39;ve performed principal component analysis on my family&#39;s 23andMe data. In a nutshell, principal component analysis transforms multi-dimensional data into a number of components which reflect the amount of variance in each dimension. Thus, the first principal component corresponds to the dimension which accounts for most of the variation in a dataset and the last principal component &lt;/span&gt;&lt;span&gt;corresponds to the dimension which&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;accounts for the least variation in a dataset. The process of obtaining these numbers is very involved. &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;b&gt;&lt;u&gt;What Are We Looking At?:&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;b&gt;&lt;u&gt;&lt;br /&gt;&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;To get to the punchline and share what I&#39;ve posted in simple terms, we can plot &quot;principal component 1&quot; values against &quot;principal component 2&quot; values and the similar data points will &quot;cluster.&quot;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;
+&lt;div&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-D7Jxx4rYBzs/TdHjjrgsv8I/AAAAAAAAABw/6sl8bmM5oWA/s1600/PCA.png&quot; imageanchor=&quot;1&quot;&gt;&lt;span&gt;&lt;img border=&quot;0&quot; src=&quot;http://nikhilgopal.com/assets/PCA.png&quot; /&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Since I didn&#39;t include a legend in the image above, here is who each data point corresponds to (and rough coordinates for folks who can&#39;t see color too well):&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Red = Me (-700, 1000)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Purple = Sister (-550, 100)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Pink = Mom (-1750, -1000)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Green = Dad (1300, 1000)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Blue = Grandfather (1700, -1500)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;span&gt;&lt;b&gt;&lt;u&gt;Brief Explanation of the Image:&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;b&gt;&lt;u&gt;&lt;br /&gt;&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;My sister and I are roughly half of my mother and father. So, our data points straddle between the mom and dad data points. Based on the location of the grandpa data point, its obvious whether grandpa is paternal or maternal.&lt;/span&gt;&lt;/div&gt;
+&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 May 2011 23:53:00 -0700</pubDate>
+        <link>http://nikhilgopal.com/23andme/bioinformatics/2011/05/20/how-to-mine-23andme-data-part-3.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/23andme/bioinformatics/2011/05/20/how-to-mine-23andme-data-part-3.html</guid>
+        
+        
+        <category>23andMe</category>
+        
+        <category>bioinformatics</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Mine 23andMe Raw Data with Python: Part 2</title>
+        <description>&lt;p&gt;&lt;span&gt;&lt;b&gt;&lt;u&gt;&lt;br /&gt;&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;b&gt;&lt;u&gt;Creating A Family Tree With 23andMe Raw Data:&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;If you missed part one, here is the &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://www.nikhilgopal.com/2011/02/how-to-mine-23andme-raw-data-with.html&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;span&gt;. It&#39;s probably a good idea to peruse that post before moving onto this one. In this post I am going to see if I can create a family tree using the same 23andMe raw datasets I used in my last post.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Again, the module is freely available for download on &lt;a href=&quot;https://github.com/ngopal/23andMe&quot;&gt;github&lt;/a&gt;.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;u&gt;&lt;b&gt;A Note About The Algorithm:&lt;/b&gt;&lt;/u&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Computer Scientists call this hierarchical clustering. &lt;/span&gt;&lt;span&gt;Biologists know this as creating a phylogenetic tree. &lt;/span&gt;&lt;span&gt;These are essentially the same thing. However, I am going to simplify and refine the algorithm to suit my needs. It may even be apt to call this a &quot;quick and dirty,&quot; or &quot;pseudo&quot; implementation. Perhaps I will program a full implementation in the future.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;b&gt;&lt;u&gt;Setting Up Metrics And Controls:&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;In my last post, I used % identity between individuals to determine how closely related one person is to another. Although it is a rather casual measure of similarity, I am going to continue using this metric because it is easy to implement. I encourage you to create and implement your own metrics as this really helps you get a better understanding of your data.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Since this is the second time I&#39;ve used this metric, I went ahead and created a function for it. Continuing from the coding example in my last post:&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&amp;gt;&amp;gt; Datasets.identity()&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&amp;gt;&amp;gt; len(Datasets.identity(Datasets.intersectionData[&#39;Nikhil.txt&#39;],Datasets.intersectionData[&#39;Person3.txt&#39;]))&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&amp;gt;&amp;gt; 267194&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;I&#39;ve also added a function to find the genotypes that are not both identical, but only share one identical SNP.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&amp;gt;&amp;gt; Datasets.halfIdentity()&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;/span&gt;
+&lt;div&gt;&lt;span&gt;&lt;span&gt;&amp;gt;&amp;gt; len(Datasets.halfIdentity(Datasets.intersectionData[&#39;Nikhil.txt&#39;],Datasets.intersectionData[&#39;Person3.txt&#39;]))&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;span&gt;&amp;gt;&amp;gt; 394401&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;span&gt;Just to be clear, Datasets.intersectionData is a dictionary identical to Datasets.Data. The difference is that Datasets.intersectionData only contains data for the SNPs in common between all of the files (the same SNPs contained in the Datasets.Intersection list).&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span&gt; &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Since I am creating a tree, it is probably a good idea to use a few control data -- these controls should be on the outermost branches since they will be the least related to my folks and I. I&#39;ve decided to use two -- &lt;a href=&quot;http://www.snpedia.com/index.php/23andme&quot;&gt;Mikolaj Habryn&lt;/a&gt; (available on  SNPedia) and &lt;a href=&quot;https://github.com/msporny/dna&quot;&gt;Manu Sporny&lt;/a&gt; (yes, the guy who published his 23andMe data on github). The SNPedia link contains a few more sample datasets (and there are several more scattered across the internet). I chose to use Mikolaj&#39;s published data because it has been said that he was the first person to make his 23andMe raw data publicly available. I&#39;d like to ensure handling &quot;old&quot; raw data won&#39;t be a problem.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;b&gt;&lt;u&gt;Building The Tree:&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;I&#39;ve added the &lt;i&gt;phylogeny&lt;/i&gt; function to my &lt;i&gt;ParseToDict&lt;/i&gt; class.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&amp;gt;&amp;gt; Datasets.phylogeny()&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;The output attempts to simulate a phylogenetic tree. The tree is created by comparing each of the datasets to each other  and counting the number of identical genotypes that are shared between them. These results are organized and printed to a list (as shown below).&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&amp;gt;&amp;gt; [[[[[&#39;Person2.txt&#39;, &#39;Person1.txt&#39;], &#39;Nikhil.txt&#39;], &#39;Person3.txt&#39;], &#39;ManuSporny.txt&#39;], &#39;MikolajHabryn.txt&#39;]&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;The closer the files are coupled together, the higher level of similarity between them. The reason I call this a quick and dirty implementation is that similarity is calculated with respect to the two most similar raw data inputs. Person1 and Person2 are most closely related. I am second most closely related (to Person1 and Person2). Person3 is third most closely related (to Person1, Person2, and I). I&#39;m sure you get the idea. Keeping this in mind, the tree looks exactly as I expect it to.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;b&gt;&lt;u&gt;Cool! What&#39;s Next?:&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Now we can ask an interesting question. Can we plot the phylogenetic tree with the person&#39;s genotype &quot;tupled&quot; with their name -- perhaps revealing a pattern of inheritance?&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;To do this I&#39;ve added an optional argument for the &lt;i&gt;phylogeny&lt;/i&gt; function, &lt;i&gt;rsid&lt;/i&gt;. I feel like randomly choosing &#39;&lt;/span&gt;&lt;span&gt;rs6904200&#39; for analysis today.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&amp;gt;&amp;gt; Datasets.phylogeny(&#39;rs6904200&#39;)&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&amp;gt;&amp;gt; [[[[[(&#39;Person2.txt&#39;, &#39;AG&#39;), (&#39;Person1.txt&#39;, &#39;AG&#39;)], (&#39;Nikhil.txt&#39;, &#39;AG&#39;)], (&#39;Person3.txt&#39;, &#39;AG&#39;)], (&#39;ManuSporny.txt&#39;, &#39;GG&#39;)], (&#39;MikolajHabryn.txt&#39;, &#39;AA&#39;)]&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;It seems all of my family members and I have exactly the same genotype for this SNP (heterozygous &#39;AG&#39;). The controls are homozygous for &#39;GG&#39; and &#39;AA&#39;. Thus far, the pattern of inheritance for this SNP merely illustrates the fact that the controls are not part of my family and that everyone in my family share the same genotype for this SNP. &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;u&gt;&lt;b&gt;Not So Fast...:&lt;/b&gt;&lt;/u&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Please remember that a shared genotype between individuals does not guarantee that the individuals are related -- especially when only viewing one SNP!&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;To illustrate why, let&#39;s look at one of the SNPs I mentioned in my last post, &lt;i&gt;rs3754777&lt;/i&gt;.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&amp;gt;&amp;gt; Datasets.phylogeny(&#39;&lt;/span&gt;&lt;span&gt;rs3754777&lt;/span&gt;&lt;span&gt;&#39;)&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&amp;gt;&amp;gt; [[[[[(&#39;Person2.txt&#39;, &#39;CT&#39;), (&#39;Person1.txt&#39;, &#39;CT&#39;)], (&#39;Nikhil.txt&#39;, &#39;CC&#39;)], (&#39;Person3.txt&#39;, &#39;CC&#39;)], (&#39;ManuSporny.txt&#39;, &#39;CT&#39;)], (&#39;MikolajHabryn.txt&#39;, &#39;CC&#39;)]&lt;/span&gt;
+&lt;div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;Notice how although I am closely related to Person1, Person2, and Person3, we have a variety of genotypes shared between us. In fact, the Mikolaj has the same genotype as Person3 and I even though he has no relation to us. This function may help shed some light on which genotype came from where, but the context really needs to be taken into consideration. &lt;/span&gt;&lt;span&gt;The point here is to be careful not to trick yourself.&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;u&gt;&lt;b&gt;JSON - The Other New Feature:&lt;/b&gt;&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;u&gt;&lt;br /&gt;&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;I recently added in functionality to convert 23andMe raw data to JSON format. The input method is exactly the same, but a 23andMe.json file will appear in the current working directory. The implementation isn&#39;t fancy. It&#39;s really just a convenient wrapper over the built-in JSON module.&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&amp;gt;&amp;gt; import 23andMe as Me&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&amp;gt;&amp;gt; files = [&#39;Nikhil.txt&#39;, &#39;Person1.txt&#39;,&#39;Person2.txt&#39;,&#39;Person3.txt&#39;,&#39;ManuSporny.txt&#39;,&#39;MikolajHabryn.txt&#39;]&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&amp;gt;&amp;gt; Me.ParseToJSON(files)&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;u&gt;&lt;b&gt;Where Can I Find SNPs to Analyze?:&lt;/b&gt;&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;u&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;A few readers asked me this question after my first post. There are many sources available and I&#39;m sure someone in the bioinformatics/genomics community would have made great a post about this subject. However, to get started I would suggest three sources:&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;&lt;a href=&quot;http://www.genome.gov/gwastudies/&quot;&gt;GWAS Catalog&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;&lt;a href=&quot;http://www.snpedia.com/index.php/SNPedia&quot;&gt;SNPedia&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;&lt;a href=&quot;http://www.diygenomics.org/&quot;&gt;DIY Genomics&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;Really, even one of these sources will provide more than enough SNPs to start playing with.&lt;/span&gt;&lt;/div&gt;
+&lt;/p&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Mar 2011 05:12:00 -0700</pubDate>
+        <link>http://nikhilgopal.com/23andme/bioinformatics/2011/03/16/how-to-mine-23andme-raw-data-with-python-part-2.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/23andme/bioinformatics/2011/03/16/how-to-mine-23andme-raw-data-with-python-part-2.html</guid>
+        
+        
+        <category>23andMe</category>
+        
+        <category>bioinformatics</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Mine 23andMe Raw Data with Python: Part 1</title>
+        <description>&lt;p&gt;&lt;span&gt;&lt;u&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/u&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;u&gt;&lt;b&gt;Background:&lt;/b&gt;&lt;/u&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;u&gt;&lt;br /&gt;&lt;/u&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Last Christmas, my company offered a substantial discount on 23andMe kits. Since I had already gotten myself sequenced about a year earlier and found the data interesting, I decided to purchase kits for my family. Their data have recently been posted and I collected their raw data files.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;I enjoy looking at the metrics 23andMe provides, but I am curious as to what I would find if I mined the data myself. I&#39;ve spent maybe an hour or so everyday for the past week exploring the data of my family members.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;u&gt;&lt;b&gt;Getting Started:&lt;/b&gt;&lt;/u&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;I&#39;ve uploaded my 23andMe python module to github so that folks can download it and play with their own data -- trust me it&#39;s interesting!&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;a href=&quot;https://github.com/ngopal/23andMe&quot;&gt;https://github.com/ngopal/23andMe&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;The classes and functions in the module can easily be used in scripts, but I built it to be used interactively in a python interpreter.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;If you have data to play with pull the repository down and follow along:&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&amp;gt;&amp;gt; import 23andMe as Me&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&amp;gt;&amp;gt; files = [&#39;Nikhil.txt&#39;, &#39;Person1.txt&#39;, &#39;Person2.txt&#39;]&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&amp;gt;&amp;gt; Dataset = Me.ParseToDict(files)&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;The code above should be straight-forward. The &lt;i&gt;import&lt;/i&gt; statement imports my module into the environment. The &lt;i&gt;files&lt;/i&gt; data structure is a list with the name/location of the raw data files. The &lt;i&gt;Dataset&lt;/i&gt; data structure is basically an initialized class.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;If you look at the source code, you may notice another class called &lt;i&gt;ParseToDB&lt;/i&gt;. Initially, I loaded each raw data file into a sqlite database as a table. However, python seems to have some sort of bottleneck issue with the sqlite3 module -- the query time for a simple join command is absolutely unbearable. Thus, I reverted back to using python dictionaries. However, I left the functionality in the script with the hope that someone will find it handy.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;I was genotyped on 23andMe&#39;s V2 chip where as my family was genotyped with the new V3 chip. Consequently, each member of my family ends up with 73% more data than me (quickly estimated via raw data file sizes). To compare myself to each member, I need to make sure I am comparing a SNP that everyone in the comparison set has in common. Enter the intersection function.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&amp;gt;&amp;gt; Dataset.Intersection&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;This returns a list of SNPs that we all have in common. In my case, this is on the order 540,000 SNPs. My raw data file is the limiting factor as everyone else has close to a million genotyped SNPs in their raw data files.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;u&gt;&lt;b&gt;Let&#39;s Start Playing:&lt;/b&gt;&lt;/u&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;To start scratching the surface, I performed a  quick search for identical genotypes. I came up with these results:&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Person1 and I have 67.5% identical genotypes.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Person1 and Person2 have 67.8% identical genotypes.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Person2 and I have 60.8% identical genotypes.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Keep in mind that these numbers are derived from whatever SNP data I&#39;ve extracted.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;23andMe reports 84% for person1 and 78% for person2 in terms of &quot;percent similarity&quot; (each being compared to me).&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Since I am playing with a relatively small number of files here (three with myself included), my options are limited. A good, large dataset can go a long way.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;u&gt;&lt;b&gt;Moving Along:&lt;/b&gt;&lt;/u&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;There are a number of published SNP association studies available via NCBI and NHGRI. Let&#39;s pick a SNP and see what my analysis says and compare that to my 23andMe report.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;How about hypertension? There is a study published &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2965757/?tool=pubmed&quot;&gt;here&lt;/a&gt; by Padmanabhan et al. It was published October 28, 2010 in the journal &lt;u&gt;PLoS Genetics&lt;/u&gt;.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;I&#39;ve sifted through the papers and extracted the RSids, the associated nucleotide base, and the p-values for the trait above.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Hypertension&lt;/span&gt;&lt;br /&gt;&lt;span&gt;RSid: rs13333226&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Base: A&lt;/span&gt;&lt;br /&gt;&lt;span&gt;P-value: 4x10^-11&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Before I go any further, a p-value is basically a confidence value. The lower this number, the better. It essentially reflects the probability we would reach this same conclusion by chance. 4x10^-11 is a very small number -- so we can be confident about this association.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;I used the searchSNP function in my module to go through all of the loaded files and print data to screen if it is available:&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&amp;gt;&amp;gt; Datasets.searchSNP(&#39;rs13333226&#39;)&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;This is the output (a list of tuples):&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;[(&#39;Nikhil.txt&#39;, &#39;GG&#39;), (&#39;Person1.txt&#39;, &#39;GG&#39;), (&#39;Person2.txt&#39;, &#39;GG&#39;)]&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;We are all homozygous G for this SNP and none of us seem to be predisposed to hypertension. The &#39;A&#39; base is the base that would predispose us.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;23andMe does report traits for hypertension (high blood pressure). Thankfully, they also list the studies they used to make their conclusions. &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;23andMe looked at SNPs rs3754777 and rs5370. I&#39;m going to ignore rs5370 at the moment because it has to do with hypertension &lt;i&gt;in physically unfit individuals&lt;/i&gt;. The SNP I just pushed through python does not take this into account...&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;However, I am going to consider  rs3754777 because it has to do with a study on hypertension in general. Please note that it is a different SNP from a different study. According to my 23andMe report: &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;I am &#39;CC&#39; which basically means, &quot;Subjects had no increase in blood pressure.&quot; &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Person1 and Person2 are &#39;CT&#39; which means, &quot;Subjects have an average increase of about 2mm Hg SBP and 1mm Hg DBP.&quot;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;I&#39;m 2/2 in finding associate evidence that I am not genetically predisposed to hypertension. However, the other two family members seem to be 1/2.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Wait a second. What does this mean? Who should I trust?&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;u&gt;&lt;b&gt;About Confidence:&lt;/b&gt;&lt;/u&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;23andMe uses a &quot;4-star&quot; scale to report their confidence. These stars correspond to how many independent experiments with large sample sizes have been conducted and resulted in similar findings. 4-stars is the highest score.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;The 23andMe hypertension report is rated at 3-stars (&quot;P&lt;/span&gt;&lt;span&gt;&lt;span&gt;reliminary Research&lt;/span&gt;. More than 750 people with the condition were studied, but the findings still need to be confirmed by the scientific community in an independent study of similar size.&lt;/span&gt;&lt;span&gt;&quot;).&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;The study I chose had sample size of &lt;span&gt;1,621 Swedish cases and 1,699 Swedish controls. This would put the SNP I evaluated at about their highest confidence level (barring the part of it being confirmed in an independent study).&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;By these standards, I think I can trust my analyses and say that neither I, nor the two other family members analyzed, are genetically predisposed to hypertension. However, I would be much more confident in my evaluation if an independent study is conducted of rs13333226 and reports similar findings. &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Hopefully, I will be able to do some more interesting analytics next week.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Feb 2011 00:34:00 -0800</pubDate>
+        <link>http://nikhilgopal.com/23andme/bioinformatics/2011/02/09/how-to-mine-23andme-raw-data-with-python-part-1.html</link>
+        <guid isPermaLink="true">http://nikhilgopal.com/23andme/bioinformatics/2011/02/09/how-to-mine-23andme-raw-data-with-python-part-1.html</guid>
+        
+        
+        <category>23andMe</category>
+        
+        <category>bioinformatics</category>
         
       </item>
     
