@@ -11,3 +11,7 @@ github_username:  ngopal
 
 # Build settings
 markdown: kramdown
+future: true
+
+plugins:
+  - jekyll-redirect-from
